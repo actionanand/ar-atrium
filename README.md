@@ -147,13 +147,26 @@ The reference V4's prohibition on local Android overrides is superseded by this 
 
 Routes: `/lock`, `/`, `/explore`, `/app/:id`, `/study`, `/playground`, `/libraries`, `/about`. All collection routes are guarded. The UI supports search, category/technology filters, featured projects, multiple destinations, ordered study chapters, single-spa variant selection, theme persistence and project notes.
 
-GSAP ScrollTrigger provides reversible scroll-linked architectural and device showcase motion, without pinning or scroll trapping. Skip Intro moves and focuses the directory heading. Reduced-motion preference removes the animations. Route navigation moves focus to the main region; mobile navigation remains horizontally scrollable.
+GSAP provides a staggered hero entrance, architectural-layer reveal, reversible scroll depth, intro reveal and showcase/section entrances, without pinning or scroll trapping. Mobile uses a separate full-opacity architectural composition below the copy and a keyboard-accessible scroll-snap showcase. Skip Intro moves and focuses the directory heading. Reduced-motion preference presents all content statically, including when the preference changes during a visit. Owned GSAP contexts are reverted on navigation; layout, image and font changes refresh ScrollTrigger measurements.
+
+Below 850px, the compact header opens a modal navigation drawer with active-route styling, a CDK focus trap, Escape/backdrop/close dismissal and return focus. Desktop navigation remains inline. The mobile lock screen puts compact branding above the unlock form.
 
 CDK Overlay provides a delayed desktop hover preview, an explicit tap/click dialog, focus trapping for dialogs, Escape/close/backdrop dismissal and return focus. Only an opened preview loads its optional screenshot. Configure `preview.imageUrl` with a verified screenshot URL; missing screenshots use a clearly labeled emblem fallback. No external website loads automatically. Optional iframe URLs can be declared only with explicit `allowIframe: true`, but iframe rendering is intentionally not enabled until individual websites' embedding policies are reviewed.
 
 **Remaining visual assets:** curated screenshots for project previews and real application screen captures/device composites for the cinematic sequence. Current device panels are explicitly illustrative, not purported product screenshots. The architectural entrance and emblem are implemented without copying Kiwi's branded graphics.
 
 ## Validation and tests
+
+The local Playwright Chromium suite covers 320×568, 360×800, 375×812, 390×844, 430×932, 768×1024 and 1440×900, both themes and both motion preferences. It records actual transforms and opacity changes, exercises the drawer and previews, checks overflow, captures each major view and monitors page errors and network failures. A lifecycle test checks live motion preferences, breakpoint changes, carousel keyboard scrolling and route/logout cleanup.
+
+```sh
+npx playwright install chromium
+# On Linux, Chromium may also need: npx playwright install-deps chromium
+npm run typecheck:browser
+npm run test:browser
+```
+
+On Windows, the suite uses installed Chrome through Playwright's Chromium engine; Linux uses bundled Chromium. The config starts the local development server automatically. To use an already running server, set `PLAYWRIGHT_EXTERNAL_SERVER=1`. Run one suite at a time so Playwright's trace cleanup cannot collide. Screenshots and per-viewport measurements are under `.cache/mobile-audit/`; the JSON test report is `.cache/playwright-results.json`. These are local artifacts, not catalogue data or deployment assets. No feature-branch Actions workflow runs these checks.
 
 ```sh
 npm run catalog:validate

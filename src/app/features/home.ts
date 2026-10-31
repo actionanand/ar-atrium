@@ -27,16 +27,18 @@ import { ProjectCardComponent } from '../shared/project-card';
           >
         </div>
       </div>
-      <div class="hero-architecture" aria-hidden="true">
-        <div class="arch arch-outer"></div>
-        <div class="arch arch-middle"></div>
-        <div class="arch arch-inner"></div>
-        <div class="emblem-plinth">
-          <img ngSrc="ar_emblem.png" width="168" height="168" alt="" priority /><span
-            >AR / ATRIUM</span
-          >
+      <div class="hero-art-stage" aria-hidden="true">
+        <div class="hero-architecture">
+          <div class="arch arch-outer"></div>
+          <div class="arch arch-middle"></div>
+          <div class="arch arch-inner"></div>
+          <div class="emblem-plinth">
+            <img ngSrc="ar_emblem.png" width="168" height="168" alt="" priority /><span
+              >AR / ATRIUM</span
+            >
+          </div>
+          <span class="arch-caption">A SPACE FOR POSSIBILITY</span>
         </div>
-        <span class="arch-caption">A SPACE FOR POSSIBILITY</span>
       </div>
       <div class="hero-bottom">
         <span
@@ -73,7 +75,12 @@ import { ProjectCardComponent } from '../shared/project-card';
           </div>
           <p>Small details. Real purposes.<br />Explore the work behind each creation.</p>
         </div>
-        <div class="device-stage">
+        <div
+          class="device-stage"
+          role="region"
+          aria-label="Featured project showcases"
+          tabindex="0"
+        >
           @for (project of catalog.featured().slice(0, 3); track project.id; let i = $index) {
             <a
               class="device-frame"
@@ -151,56 +158,134 @@ export class HomeComponent {
       cleanup?.();
     });
     afterNextRender(async () => {
-      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-      const [{ gsap }, { ScrollTrigger }] = await Promise.all([
-        import('gsap'),
-        import('gsap/ScrollTrigger'),
-      ]);
-      if (disposed) return;
-      gsap.registerPlugin(ScrollTrigger);
-      const media = gsap.matchMedia();
-      media.add('(prefers-reduced-motion: no-preference)', () => {
-        const root = this.element.nativeElement;
-        const context = gsap.context(() => {
-          gsap.to('.hero-architecture', {
-            y: 120,
-            scale: 1.13,
-            ease: 'none',
-            scrollTrigger: {
-              trigger: root.querySelector('.hero'),
-              start: 'top top',
-              end: 'bottom top',
-              scrub: 1,
-            },
+      const root: HTMLElement = this.element.nativeElement;
+      try {
+        const [{ gsap }, { ScrollTrigger }] = await Promise.all([
+          import('gsap'),
+          import('gsap/ScrollTrigger'),
+        ]);
+        if (disposed) return;
+        gsap.registerPlugin(ScrollTrigger);
+        let refreshFrame = 0;
+        const refresh = () => {
+          if (disposed) return;
+          cancelAnimationFrame(refreshFrame);
+          refreshFrame = requestAnimationFrame(() => {
+            if (!disposed) ScrollTrigger.refresh();
           });
-          gsap.to('.arch-middle', {
-            y: -55,
-            ease: 'none',
-            scrollTrigger: {
-              trigger: root.querySelector('.hero'),
-              start: 'top top',
-              end: 'bottom top',
-              scrub: 1,
-            },
-          });
-          gsap.from('.device-frame', {
-            y: 70,
-            rotate: (i: number) => (i - 1) * 6,
-            stagger: 0.1,
-            ease: 'none',
-            scrollTrigger: {
-              trigger: root.querySelector('.device-stage'),
-              start: 'top 95%',
-              end: 'center center',
-              scrub: 1,
-            },
-          });
-        }, root);
-        return () => context.revert();
-      });
-      cleanup = () => media.revert();
+        };
+        const media = gsap.matchMedia();
+        media.add(
+          {
+            always: '(min-width: 0px)',
+            motion: '(prefers-reduced-motion: no-preference)',
+            mobile: '(max-width: 850px)',
+          },
+          (state) => {
+            const motion = state.conditions?.['motion'];
+            const mobile = state.conditions?.['mobile'];
+            root.dataset['motion'] = motion ? 'active' : 'reduced';
+            root.dataset['intro'] = motion ? 'entering' : 'complete';
+            if (!motion) return;
+            const context = gsap.context(() => {
+              gsap
+                .timeline({
+                  defaults: { ease: 'power3.out' },
+                  onComplete: () => {
+                    root.dataset['intro'] = 'complete';
+                  },
+                })
+                .from('.hero-copy > *', { y: 26, opacity: 0, duration: 0.8, stagger: 0.14 }, 0)
+                .from(
+                  '.hero-art-stage',
+                  { y: mobile ? 18 : 50, opacity: 0, scale: 0.9, duration: 1.1 },
+                  0.12,
+                )
+                .from('.arch', { scale: 0.85, opacity: 0, duration: 0.9, stagger: 0.1 }, 0.2);
+              gsap.to('.hero-architecture', {
+                y: mobile ? -28 : 100,
+                scale: mobile ? 1.06 : 1.16,
+                ease: 'none',
+                scrollTrigger: {
+                  trigger: root.querySelector('.hero'),
+                  start: 'top top',
+                  end: 'bottom top',
+                  scrub: 0.7,
+                },
+              });
+              gsap.to('.arch-middle', {
+                y: mobile ? -16 : -45,
+                ease: 'none',
+                scrollTrigger: {
+                  trigger: root.querySelector('.hero'),
+                  start: 'top top',
+                  end: 'bottom top',
+                  scrub: 0.7,
+                },
+              });
+              gsap.from('.intro-section > *', {
+                y: 36,
+                opacity: 0,
+                duration: 0.85,
+                stagger: 0.12,
+                scrollTrigger: {
+                  trigger: root.querySelector('.intro-section'),
+                  start: 'top 85%',
+                  once: true,
+                },
+              });
+              gsap.utils.toArray<HTMLElement>('.device-frame', root).forEach((frame, index) => {
+                gsap.from(frame, {
+                  y: mobile ? 32 : 64,
+                  opacity: 0,
+                  duration: 0.85,
+                  delay: index * 0.12,
+                  ease: 'power2.out',
+                  scrollTrigger: { trigger: frame, start: 'top 92%', once: true },
+                });
+              });
+              for (const selector of [
+                '.showcase-scene .section-heading',
+                '.featured-section .section-heading',
+                '.collection-paths .section-heading',
+              ]) {
+                gsap.from(selector, {
+                  y: 28,
+                  opacity: 0,
+                  duration: 0.8,
+                  scrollTrigger: {
+                    trigger: root.querySelector(selector),
+                    start: 'top 90%',
+                    once: true,
+                  },
+                });
+              }
+            }, root);
+            refresh();
+            return () => context.revert();
+          },
+        );
+        const observer = new ResizeObserver(refresh);
+        observer.observe(root);
+        const images = root.querySelectorAll('img');
+        images.forEach((image) => image.addEventListener('load', refresh));
+        void document.fonts.ready.then(refresh);
+        window.addEventListener('orientationchange', refresh);
+        cleanup = () => {
+          media.revert();
+          observer.disconnect();
+          cancelAnimationFrame(refreshFrame);
+          images.forEach((image) => image.removeEventListener('load', refresh));
+          window.removeEventListener('orientationchange', refresh);
+        };
+      } catch (error) {
+        cleanup?.();
+        root.dataset['motion'] = 'unavailable';
+        console.error('Landing animation could not initialize', error);
+      }
     });
   }
+
   skipIntro(event: Event): void {
     event.preventDefault();
     this.element.nativeElement.querySelector('#directory')?.scrollIntoView({

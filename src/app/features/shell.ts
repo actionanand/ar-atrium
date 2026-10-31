@@ -6,10 +6,17 @@ import { filter } from 'rxjs';
 import { CatalogService } from '../core/catalog.service';
 import { AuthService } from '../core/auth.service';
 import { ThemeService } from '../core/theme.service';
+import { MobileNavigationComponent } from '../shared/mobile-navigation';
 
 @Component({
   selector: 'app-shell',
-  imports: [NgOptimizedImage, RouterLink, RouterLinkActive, RouterOutlet],
+  imports: [
+    NgOptimizedImage,
+    RouterLink,
+    RouterLinkActive,
+    RouterOutlet,
+    MobileNavigationComponent,
+  ],
   template: `
     <a class="skip-link" href="#main-content">Skip to content</a>
     <header class="site-header">
@@ -19,7 +26,7 @@ import { ThemeService } from '../core/theme.service';
             >AR ATRIUM</span
           ></a
         >
-        <nav aria-label="Main navigation">
+        <nav class="desktop-navigation" aria-label="Main navigation">
           @for (group of catalog.groups(); track group.id) {
             <a [routerLink]="group.route" routerLinkActive="active" ariaCurrentWhenActive="page">{{
               group.label
@@ -36,12 +43,25 @@ import { ThemeService } from '../core/theme.service';
               theme.dark() ? 'light_mode' : 'dark_mode'
             }}</span
             ><span class="icon-fallback">{{ theme.dark() ? 'Light' : 'Dark' }}</span></button
-          ><button type="button" (click)="lock()">
+          ><button class="header-lock" type="button" (click)="lock()">
             Lock <span class="material-symbols-rounded" aria-hidden="true">lock</span>
+          </button>
+          <button
+            #menuButton
+            class="menu-trigger"
+            type="button"
+            aria-label="Open navigation"
+            aria-controls="mobile-navigation"
+            [attr.aria-expanded]="navigation.opened()"
+            (click)="navigation.open(menuButton)"
+          >
+            <span class="material-symbols-rounded" aria-hidden="true">menu</span
+            ><span class="icon-fallback">Menu</span>
           </button>
         </div>
       </div>
     </header>
+    <app-mobile-navigation #navigation [groups]="catalog.groups()" (lockRequested)="lock()" />
     <main id="main-content" tabindex="-1">
       @if (catalog.loading()) {
         <div class="state-panel" role="status">Opening the collection…</div>
