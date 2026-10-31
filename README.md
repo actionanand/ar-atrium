@@ -210,3 +210,7 @@ Projects without a known hosted URL: Wiki, AR Portfolio, WiFi Chat, Folder Flow,
 Six repository references return 404 through the GitHub connector and remain unresolved: `wiki`, `ar-tamil-jathagam`, `ar-portfolio`, `ar-portfolio-legacy-1`, `resume-builder`, and `local-tell` (all under `actionanand`). They may be private, renamed or unavailable. Their original relationships and known external destinations remain. Other tentative descriptions/classifications are listed by project ID under `metadataReview` in the generated report.
 
 The optional `node tools/check-links.mts` command records HTTP observations in `public/data/generated/link-health.json`. The migration check found 69 of 70 hosted destinations responding successfully and all nine npm packages available via npm's registry. The retained Birthday Buddy `/tabs/home` deep link returned HTTP 404; npm's website rejected automated HEAD requests with HTTP 403, so package existence was checked separately against its registry. These observations do not remove or rewrite source links.
+
+## Motion preference
+
+Choose **System**, **On** or **Off** in the lock screen or site footer. System is the default and follows the browser's reduced-motion preference. On explicitly enables decorative web motion even when the device requests reduced motion. Off keeps the interface static. The choice is stored locally and can be changed without reloading. See [motion audit](documentation/motion-policy-audit.md) for the implementation, animation inventory and test matrix.
