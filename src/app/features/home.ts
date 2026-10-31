@@ -1,4 +1,13 @@
-import { afterNextRender, Component, DestroyRef, ElementRef, inject } from '@angular/core';
+import { MotionService } from '../core/motion.service';
+import {
+  afterNextRender,
+  Component,
+  DestroyRef,
+  ElementRef,
+  effect,
+  Injector,
+  inject,
+} from '@angular/core';
 import { NgOptimizedImage } from '@angular/common';
 import { RouterLink } from '@angular/router';
 import { CatalogService } from '../core/catalog.service';
@@ -150,6 +159,8 @@ import { ProjectCardComponent } from '../shared/project-card';
 export class HomeComponent {
   protected readonly catalog = inject(CatalogService);
   private readonly element = inject(ElementRef<HTMLElement>);
+  private readonly motion = inject(MotionService);
+  private readonly injector = inject(Injector);
   constructor() {
     let disposed = false;
     let cleanup: (() => void) | undefined;
@@ -174,96 +185,101 @@ export class HomeComponent {
             if (!disposed) ScrollTrigger.refresh();
           });
         };
-        const media = gsap.matchMedia();
-        media.add(
-          {
-            always: '(min-width: 0px)',
-            motion: '(prefers-reduced-motion: no-preference)',
-            mobile: '(max-width: 850px)',
+        const policyEffect = effect(
+          (onCleanup) => {
+            const motion = this.motion.animate();
+            const media = gsap.matchMedia();
+            onCleanup(() => media.revert());
+            media.add(
+              {
+                always: '(min-width: 0px)',
+                mobile: '(max-width: 850px)',
+              },
+              (state) => {
+                const mobile = state.conditions?.['mobile'];
+                root.dataset['motion'] = motion ? 'active' : 'reduced';
+                root.dataset['intro'] = motion ? 'entering' : 'complete';
+                if (!motion) return;
+                const context = gsap.context(() => {
+                  gsap
+                    .timeline({
+                      defaults: { ease: 'power3.out' },
+                      onComplete: () => {
+                        root.dataset['intro'] = 'complete';
+                      },
+                    })
+                    .from('.hero-copy > *', { y: 26, opacity: 0, duration: 0.8, stagger: 0.14 }, 0)
+                    .from(
+                      '.hero-art-stage',
+                      { y: mobile ? 18 : 50, opacity: 0, scale: 0.9, duration: 1.1 },
+                      0.12,
+                    )
+                    .from('.arch', { scale: 0.85, opacity: 0, duration: 0.9, stagger: 0.1 }, 0.2);
+                  gsap.to('.hero-architecture', {
+                    y: mobile ? -28 : 100,
+                    scale: mobile ? 1.06 : 1.16,
+                    ease: 'none',
+                    scrollTrigger: {
+                      trigger: root.querySelector('.hero'),
+                      start: 'top top',
+                      end: 'bottom top',
+                      scrub: 0.7,
+                    },
+                  });
+                  gsap.to('.arch-middle', {
+                    y: mobile ? -16 : -45,
+                    ease: 'none',
+                    scrollTrigger: {
+                      trigger: root.querySelector('.hero'),
+                      start: 'top top',
+                      end: 'bottom top',
+                      scrub: 0.7,
+                    },
+                  });
+                  gsap.from('.intro-section > *', {
+                    y: 36,
+                    opacity: 0,
+                    duration: 0.85,
+                    stagger: 0.12,
+                    scrollTrigger: {
+                      trigger: root.querySelector('.intro-section'),
+                      start: 'top 85%',
+                      once: true,
+                    },
+                  });
+                  gsap.utils.toArray<HTMLElement>('.device-frame', root).forEach((frame, index) => {
+                    gsap.from(frame, {
+                      y: mobile ? 32 : 64,
+                      opacity: 0,
+                      duration: 0.85,
+                      delay: index * 0.12,
+                      ease: 'power2.out',
+                      scrollTrigger: { trigger: frame, start: 'top 92%', once: true },
+                    });
+                  });
+                  for (const selector of [
+                    '.showcase-scene .section-heading',
+                    '.featured-section .section-heading',
+                    '.collection-paths .section-heading',
+                  ]) {
+                    gsap.from(selector, {
+                      y: 28,
+                      opacity: 0,
+                      duration: 0.8,
+                      scrollTrigger: {
+                        trigger: root.querySelector(selector),
+                        start: 'top 90%',
+                        once: true,
+                      },
+                    });
+                  }
+                }, root);
+                refresh();
+                return () => context.revert();
+              },
+            );
           },
-          (state) => {
-            const motion = state.conditions?.['motion'];
-            const mobile = state.conditions?.['mobile'];
-            root.dataset['motion'] = motion ? 'active' : 'reduced';
-            root.dataset['intro'] = motion ? 'entering' : 'complete';
-            if (!motion) return;
-            const context = gsap.context(() => {
-              gsap
-                .timeline({
-                  defaults: { ease: 'power3.out' },
-                  onComplete: () => {
-                    root.dataset['intro'] = 'complete';
-                  },
-                })
-                .from('.hero-copy > *', { y: 26, opacity: 0, duration: 0.8, stagger: 0.14 }, 0)
-                .from(
-                  '.hero-art-stage',
-                  { y: mobile ? 18 : 50, opacity: 0, scale: 0.9, duration: 1.1 },
-                  0.12,
-                )
-                .from('.arch', { scale: 0.85, opacity: 0, duration: 0.9, stagger: 0.1 }, 0.2);
-              gsap.to('.hero-architecture', {
-                y: mobile ? -28 : 100,
-                scale: mobile ? 1.06 : 1.16,
-                ease: 'none',
-                scrollTrigger: {
-                  trigger: root.querySelector('.hero'),
-                  start: 'top top',
-                  end: 'bottom top',
-                  scrub: 0.7,
-                },
-              });
-              gsap.to('.arch-middle', {
-                y: mobile ? -16 : -45,
-                ease: 'none',
-                scrollTrigger: {
-                  trigger: root.querySelector('.hero'),
-                  start: 'top top',
-                  end: 'bottom top',
-                  scrub: 0.7,
-                },
-              });
-              gsap.from('.intro-section > *', {
-                y: 36,
-                opacity: 0,
-                duration: 0.85,
-                stagger: 0.12,
-                scrollTrigger: {
-                  trigger: root.querySelector('.intro-section'),
-                  start: 'top 85%',
-                  once: true,
-                },
-              });
-              gsap.utils.toArray<HTMLElement>('.device-frame', root).forEach((frame, index) => {
-                gsap.from(frame, {
-                  y: mobile ? 32 : 64,
-                  opacity: 0,
-                  duration: 0.85,
-                  delay: index * 0.12,
-                  ease: 'power2.out',
-                  scrollTrigger: { trigger: frame, start: 'top 92%', once: true },
-                });
-              });
-              for (const selector of [
-                '.showcase-scene .section-heading',
-                '.featured-section .section-heading',
-                '.collection-paths .section-heading',
-              ]) {
-                gsap.from(selector, {
-                  y: 28,
-                  opacity: 0,
-                  duration: 0.8,
-                  scrollTrigger: {
-                    trigger: root.querySelector(selector),
-                    start: 'top 90%',
-                    once: true,
-                  },
-                });
-              }
-            }, root);
-            refresh();
-            return () => context.revert();
-          },
+          { injector: this.injector },
         );
         const observer = new ResizeObserver(refresh);
         observer.observe(root);
@@ -272,7 +288,7 @@ export class HomeComponent {
         void document.fonts.ready.then(refresh);
         window.addEventListener('orientationchange', refresh);
         cleanup = () => {
-          media.revert();
+          policyEffect.destroy();
           observer.disconnect();
           cancelAnimationFrame(refreshFrame);
           images.forEach((image) => image.removeEventListener('load', refresh));
@@ -289,9 +305,7 @@ export class HomeComponent {
   skipIntro(event: Event): void {
     event.preventDefault();
     this.element.nativeElement.querySelector('#directory')?.scrollIntoView({
-      behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches
-        ? 'instant'
-        : 'smooth',
+      behavior: !this.motion.animate() ? 'instant' : 'smooth',
     });
     (this.element.nativeElement.querySelector('#featured-heading') as HTMLElement | null)?.focus({
       preventScroll: true,

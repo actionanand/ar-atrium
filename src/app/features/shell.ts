@@ -1,3 +1,4 @@
+import { MotionPreferenceComponent } from '../shared/motion-preference';
 import { Component, inject, DestroyRef } from '@angular/core';
 import { NgOptimizedImage, DOCUMENT } from '@angular/common';
 import { NavigationEnd, Router, RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
@@ -16,6 +17,7 @@ import { MobileNavigationComponent } from '../shared/mobile-navigation';
     RouterLinkActive,
     RouterOutlet,
     MobileNavigationComponent,
+    MotionPreferenceComponent,
   ],
   template: `
     <a class="skip-link" href="#main-content">Skip to content</a>
@@ -78,6 +80,7 @@ import { MobileNavigationComponent } from '../shared/mobile-navigation';
       }
     </main>
     <footer class="site-footer">
+      <app-motion-preference />
       <a class="brand" routerLink="/"
         ><img ngSrc="ar_emblem.png" width="32" height="32" alt="" /><span>AR ATRIUM</span></a
       >
