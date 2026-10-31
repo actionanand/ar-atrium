@@ -182,7 +182,7 @@ The committed production environment contains `PASSWORD_HASH_PLACEHOLDER`. The b
 
 `build:gh` uses `/ar-atrium/`. `npm run copy-error-page` copies the built index into `404.html` for SPA route fallback. The catalogue and emblem URLs resolve relative to Angular's base URL, so deep links use the repository prefix correctly.
 
-`.github/workflows/gh-pages.yml` deploys only after a push to `main-github`. It uses `.nvmrc`, `npm ci`, catalogue validation/sync, lint, catalogue/configuration and Angular tests, formatting, secret injection, production build and SPA fallback, then deploys `dist/ar-atrium/browser` to `gh-pages` with Jekyll disabled. A separate pull-request/feature-branch validation workflow builds with a non-deploying test hash and has no deployment step.
+`.github/workflows/gh-pages.yml` runs only after a push to `main-github`. It uses `.nvmrc`, `npm ci`, catalogue validation/sync, lint, catalogue/configuration and Angular tests, formatting, secret injection, production build and SPA fallback, then deploys `dist/ar-atrium/browser` to `gh-pages` with Jekyll disabled. There are no feature-branch, pull-request or manual workflow triggers. All validation, linting, tests and builds on feature branches run locally until changes are merged into `main-github`.
 
 Manual repository setup: configure the Actions secret `PASSWORD_HASH`; allow the deployment workflow's `GITHUB_TOKEN` to write contents; set Pages to serve the `gh-pages` branch root. No push, merge or deployment is performed by this local implementation.
 

@@ -1,12 +1,20 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { readFile } from 'node:fs/promises';
+import { readFile, readdir } from 'node:fs/promises';
 import { createRequire } from 'node:module';
 const require = createRequire(import.meta.url);
 const { injectProductionHash } = require('../scripts/inject-env.js') as {
   injectProductionHash: (source: string, hash?: string) => string;
 };
 const source = await readFile('src/environments/environment.ts', 'utf8');
+
+test('Actions run only on pushes to main-github; feature validation stays local', async () => {
+  const workflows = (await readdir('.github/workflows')).filter((name) => /\.ya?ml$/.test(name));
+  assert.deepEqual(workflows, ['gh-pages.yml']);
+  const workflow = await readFile('.github/workflows/gh-pages.yml', 'utf8');
+  assert.match(workflow, /^on:\r?\n  push:\r?\n    branches: \[main-github\]\r?\npermissions:/m);
+  assert.doesNotMatch(workflow, /pull_request|workflow_dispatch|feature\//);
+});
 test('production config retains placeholder; missing/invalid secrets fail without disclosure', () => {
   assert.match(source, /production: true/);
   assert.match(source, /PASSWORD_HASH_PLACEHOLDER/);

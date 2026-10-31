@@ -80,7 +80,6 @@ Configure the PASSWORD_HASH Actions secret with a 40-character hexadecimal SHA-1
 
 ## Added implementation files
 
-- `.github/workflows/ci.yml`
 - `catalog/research/additions.json`
 - `catalog/research/pdf-features-poc.json`
 - `catalog/research/seed-inventory.json`
