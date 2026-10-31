@@ -1,0 +1,24 @@
+{
+  "id": "ng-pdf-rough-work",
+  "name": "Angular PDF Experiments",
+  "description": "Angular 15 PDF rendering experiments using PDF tooling. No published npm package has been confirmed.",
+  "category": "developer-tools",
+  "featured": false,
+  "visible": true,
+  "needsReview": false,
+  "repositories": [
+    {
+      "ref": "actionanand/ng-pdf-rough-work",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [],
+  "schemaVersion": 1,
+  "overrides": {},
+  "projectType": "playground",
+  "order": 29,
+  "technologies": ["angular"],
+  "facets": ["playground", "pdf-experiment"],
+  "classificationReview": false
+}

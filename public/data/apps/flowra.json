@@ -1,0 +1,25 @@
+{
+  "id": "flowra",
+  "name": "Flowra",
+  "description": "A private, offline-first period and cycle tracker with on-device insights.",
+  "category": "wellness",
+  "featured": true,
+  "visible": true,
+  "needsReview": false,
+  "repositories": [
+    {
+      "ref": "actionanand/flowra",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [],
+  "schemaVersion": 1,
+  "policyHub": {
+    "appId": "flowra"
+  },
+  "overrides": {},
+  "projectType": "application",
+  "order": 35,
+  "technologies": []
+}

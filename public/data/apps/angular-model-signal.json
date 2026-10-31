@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "angular-model-signal",
+  "name": "Angular Model Signal",
+  "description": "Angular model input signal (model signal)",
+  "category": "developer-tools",
+  "projectType": "playground",
+  "visible": true,
+  "featured": false,
+  "needsReview": false,
+  "classificationReview": false,
+  "order": 54,
+  "repositories": [
+    {
+      "ref": "actionanand/angular-model-signal",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [
+    "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+  ],
+  "overrides": {},
+  "technologies": ["angular"]
+}

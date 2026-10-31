@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "allowImportingTsExtensions": true,
+    "target": "es2023",
+    "types": ["node"]
+  },
+  "include": ["tools/*.mts", "src/app/core/catalog.models.ts"]
+}

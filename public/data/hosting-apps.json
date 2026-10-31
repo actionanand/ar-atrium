@@ -1,0 +1,720 @@
+{
+  "schemaVersion": 1,
+  "projects": {
+    "card-nest": [
+      {
+        "kind": "web",
+        "label": "Web app",
+        "url": "https://actionanand.github.io/card-nest/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "policy-hub": [
+      {
+        "kind": "web",
+        "label": "Web app",
+        "url": "https://actionanand.github.io/policy-hub/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "office-orbit": [
+      {
+        "kind": "web",
+        "label": "Web app",
+        "url": "https://actionanand.github.io/office-orbit/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "wiki": [],
+    "metro-pocket": [
+      {
+        "kind": "web",
+        "label": "Web app",
+        "url": "https://actionanand.github.io/metro-pocket/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "spendzo": [
+      {
+        "kind": "web",
+        "label": "Web app",
+        "url": "https://actionanand.github.io/spendzo/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "ping-metric": [
+      {
+        "kind": "web",
+        "label": "Web app",
+        "url": "https://actionanand.github.io/ping-metric/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "globee": [
+      {
+        "kind": "web",
+        "label": "Web app",
+        "url": "https://actionanand.github.io/globee/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "qurio": [
+      {
+        "kind": "web",
+        "label": "Web app",
+        "url": "https://actionanand.github.io/qurio/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "arblogz": [
+      {
+        "kind": "web",
+        "label": "Web app",
+        "url": "https://actionanand.github.io/arblogz/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      },
+      {
+        "kind": "web",
+        "label": "Cloudflare Pages",
+        "url": "https://arblogz.pages.dev/",
+        "source": "policy-hub-registry",
+        "verified": "not-live-checked",
+        "id": "website-2"
+      },
+      {
+        "kind": "web",
+        "label": "Website",
+        "url": "https://actionanand.github.io/arblogz/",
+        "source": "policy-hub-registry",
+        "verified": "not-live-checked",
+        "id": "website-3"
+      }
+    ],
+    "vault-nest": [
+      {
+        "kind": "web",
+        "label": "Web app",
+        "url": "https://actionanand.github.io/vault-nest/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "office-pulse": [
+      {
+        "kind": "web",
+        "label": "Web app",
+        "url": "https://actionanand.github.io/office-pulse/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "lingua-log": [
+      {
+        "kind": "web",
+        "label": "Web app",
+        "url": "https://actionanand.github.io/lingua-log/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "ar-tamil-jathagam": [
+      {
+        "kind": "web",
+        "label": "Web application (Cloudflare Pages)",
+        "url": "https://ar-tamil-jathagam.pages.dev/",
+        "source": "policy-hub-registry",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "birthday-buddy": [
+      {
+        "kind": "web",
+        "label": "Web app",
+        "url": "https://actionanand.github.io/birthday-buddy/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      },
+      {
+        "kind": "web",
+        "label": "Alternate web version",
+        "url": "https://actionanand.github.io/birthday-buddy/tabs/home",
+        "source": "policy-hub-registry",
+        "verified": "not-live-checked",
+        "id": "website-2"
+      }
+    ],
+    "expenzo": [
+      {
+        "kind": "web",
+        "label": "Web app",
+        "url": "https://actionanand.github.io/expenzo/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "who-called": [
+      {
+        "kind": "web",
+        "label": "Web app",
+        "url": "https://actionanand.github.io/who-called/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "converter": [
+      {
+        "kind": "web",
+        "label": "Web app",
+        "url": "https://actionanand.github.io/converter/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "recipe-atlas": [
+      {
+        "kind": "web",
+        "label": "Web app",
+        "url": "https://actionanand.github.io/recipe-atlas/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "ar-portfolio": [],
+    "svg-forge": [
+      {
+        "kind": "web",
+        "label": "Web app",
+        "url": "https://actionanand.github.io/svg-forge/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "lexora": [
+      {
+        "kind": "web",
+        "label": "Web app",
+        "url": "https://actionanand.github.io/lexora/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "wifi-chat": [],
+    "folder-flow": [],
+    "mozhi-type": [
+      {
+        "kind": "web",
+        "label": "Web app",
+        "url": "https://actionanand.github.io/mozhi-type/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "glyph-forge": [
+      {
+        "kind": "web",
+        "label": "Web app",
+        "url": "https://actionanand.github.io/glyph-forge/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "universal-calendar": [
+      {
+        "kind": "web",
+        "label": "Web app",
+        "url": "https://actionanand.github.io/universal-calendar/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "byteschool": [
+      {
+        "kind": "web",
+        "label": "Web app",
+        "url": "https://actionanand.github.io/byteschool/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "resume-builder": [],
+    "ng-pdf-rough-work": [
+      {
+        "kind": "web",
+        "label": "Web app",
+        "url": "https://actionanand.github.io/ng-pdf-rough-work/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "image-local-upload": [
+      {
+        "kind": "web",
+        "label": "Web app",
+        "url": "https://actionanand.github.io/image-local-upload/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "ar-popover": [],
+    "single-spa-showcase": [
+      {
+        "kind": "web",
+        "label": "Angular demo",
+        "url": "https://single-spa-angular.surge.sh",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      },
+      {
+        "kind": "web",
+        "label": "Polyglot demo",
+        "url": "https://ar-single-spa.onrender.com/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-2"
+      },
+      {
+        "id": "website-3",
+        "kind": "web",
+        "url": "https://ar-single-spa.surge.sh",
+        "label": "Polyglot on Surge",
+        "source": "https://github.com/actionanand/single-spa-demo-root-config/blob/main/README.md",
+        "verified": "readme-reference"
+      },
+      {
+        "id": "website-4",
+        "kind": "web",
+        "url": "https://single-spa-angular.onrender.com",
+        "label": "Angular on Render",
+        "source": "https://github.com/actionanand/single-spa-angular-root-config/blob/main/README.md",
+        "verified": "readme-reference"
+      },
+      {
+        "id": "website-5",
+        "kind": "web",
+        "url": "https://actionanand.github.io/single-spa-angular-root-config",
+        "label": "Angular on GitHub Pages",
+        "source": "https://github.com/actionanand/single-spa-angular-root-config/blob/main/README.md",
+        "verified": "readme-reference"
+      }
+    ],
+    "local-tell": [
+      {
+        "kind": "web",
+        "label": "LocalTell web companion",
+        "url": "https://actionanand.github.io/localtell-data/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "stillora": [
+      {
+        "kind": "web",
+        "label": "Web app",
+        "url": "https://actionanand.github.io/stillora/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "flowra": [
+      {
+        "kind": "web",
+        "label": "Web app",
+        "url": "https://actionanand.github.io/flowra/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "link-deck": [
+      {
+        "kind": "web",
+        "label": "Web app",
+        "url": "https://actionanand.github.io/link-deck/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "life-leaf": [
+      {
+        "kind": "web",
+        "label": "Web app",
+        "url": "https://actionanand.github.io/life-leaf/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "click2chat": [
+      {
+        "kind": "web",
+        "label": "Web app",
+        "url": "https://actionanand.github.io/click2chat/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "arflix": [
+      {
+        "kind": "web",
+        "label": "Web app",
+        "url": "https://actionanand.github.io/arflix/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      },
+      {
+        "kind": "web",
+        "label": "Alternate web version",
+        "url": "https://actionanand.github.io/ar-flix/",
+        "source": "policy-hub-registry",
+        "verified": "not-live-checked",
+        "id": "website-2"
+      }
+    ],
+    "personix": [
+      {
+        "kind": "web",
+        "label": "Web app",
+        "url": "https://actionanand.github.io/personix/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "scrollix": [
+      {
+        "kind": "web",
+        "label": "Web app",
+        "url": "https://actionanand.github.io/scrollix/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "artamizhsolai": [
+      {
+        "kind": "web",
+        "label": "Web app",
+        "url": "https://actionanand.github.io/artamizhsolai/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      },
+      {
+        "kind": "web",
+        "label": "Cloudflare Pages",
+        "url": "https://artamizhsolai.pages.dev/",
+        "source": "policy-hub-registry",
+        "verified": "not-live-checked",
+        "id": "website-2"
+      },
+      {
+        "kind": "web",
+        "label": "Website",
+        "url": "https://actionanand.github.io/artamizhsolai/",
+        "source": "policy-hub-registry",
+        "verified": "not-live-checked",
+        "id": "website-3"
+      }
+    ],
+    "care-chime": [],
+    "docker-learning-series": [],
+    "microfrontend-fundamentals": [],
+    "angular-playground": [
+      {
+        "kind": "web",
+        "label": "Hosted demo",
+        "url": "https://actionanand.github.io/angular-playground/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "angular-lib-demo": [
+      {
+        "kind": "web",
+        "label": "Hosted demo",
+        "url": "https://actionanand.github.io/angular-lib-demo/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "ng-my-libraries": [
+      {
+        "kind": "web",
+        "label": "Hosted demo",
+        "url": "https://actionanand.github.io/ng-my-libraries/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "ng-rough-work": [
+      {
+        "kind": "web",
+        "label": "Hosted demo",
+        "url": "https://actionanand.github.io/ng-rough-work/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "angular-22": [
+      {
+        "kind": "web",
+        "label": "Hosted demo",
+        "url": "https://actionanand.github.io/angular-22/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "angular-change-detection": [
+      {
+        "kind": "web",
+        "label": "Hosted demo",
+        "url": "https://actionanand.github.io/angular-change-detection/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "angular-deferrable": [
+      {
+        "kind": "web",
+        "label": "Hosted demo",
+        "url": "https://actionanand.github.io/angular-deferrable/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "angular-infinite-scroll": [
+      {
+        "kind": "web",
+        "label": "Hosted demo",
+        "url": "https://actionanand.github.io/angular-infinite-scroll/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "angular-model-signal": [
+      {
+        "kind": "web",
+        "label": "Hosted demo",
+        "url": "https://actionanand.github.io/angular-model-signal/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "angular-graphql-lab": [
+      {
+        "kind": "web",
+        "label": "Hosted demo",
+        "url": "https://actionanand.github.io/angular-graphql-lab/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "ng-template-depth": [
+      {
+        "kind": "web",
+        "label": "Hosted demo",
+        "url": "https://actionanand.github.io/ng-template-depth/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "directive-deep-dive": [
+      {
+        "kind": "web",
+        "label": "Hosted demo",
+        "url": "https://actionanand.github.io/directive-deep-dive/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "pipe-deep-dive": [
+      {
+        "kind": "web",
+        "label": "Hosted demo",
+        "url": "https://actionanand.github.io/pipe-deep-dive/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "ng-service-deep-dive": [
+      {
+        "kind": "web",
+        "label": "Hosted demo",
+        "url": "https://actionanand.github.io/ng-service-deep-dive/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "ng-lifecycle": [
+      {
+        "kind": "web",
+        "label": "Hosted demo",
+        "url": "https://actionanand.github.io/ng-lifecycle/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "ng-dropdown-ngtemplateoutlets": [
+      {
+        "kind": "web",
+        "label": "Hosted demo",
+        "url": "https://actionanand.github.io/ng-dropdown-ngTemplateOutlets/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "ng-feature-pagination": [
+      {
+        "kind": "web",
+        "label": "Hosted demo",
+        "url": "https://actionanand.github.io/ng-feature-pagination/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "ng14-standalone-demo": [
+      {
+        "kind": "web",
+        "label": "Hosted demo",
+        "url": "https://actionanand.github.io/ng14-standalone-demo/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "ng16-signal-milestone-release": [
+      {
+        "kind": "web",
+        "label": "Hosted demo",
+        "url": "https://actionanand.github.io/ng16-signal-milestone-release/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "ngrx-module-based": [
+      {
+        "kind": "web",
+        "label": "Hosted demo",
+        "url": "https://actionanand.github.io/ngrx-module-based/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "ngrx-standalone": [
+      {
+        "kind": "web",
+        "label": "Hosted demo",
+        "url": "https://actionanand.github.io/ngrx-standalone/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "ng-dev-testing": [
+      {
+        "kind": "web",
+        "label": "Hosted demo",
+        "url": "https://actionanand.github.io/ng-dev-testing/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "angular-testing": [],
+    "angular-testing-2": [],
+    "angular-tetsing-1": [],
+    "angular-study": [
+      {
+        "kind": "web",
+        "label": "Hosted demo",
+        "url": "https://actionanand.github.io/Angular-study/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "angular-study-services": [],
+    "angular-study-pipes": [],
+    "angular-study-http": [],
+    "angular-study-routing": [
+      {
+        "kind": "web",
+        "label": "Hosted demo",
+        "url": "https://actionanand.github.io/Angular-study-routing/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked",
+        "id": "website-1"
+      }
+    ],
+    "pdf-features-poc": [
+      {
+        "id": "website-1",
+        "kind": "web",
+        "label": "Hosted PDF experiment",
+        "url": "https://actionanand.github.io/pdf-features-poc/",
+        "source": "github-repository-homepage",
+        "verified": "not-live-checked"
+      }
+    ]
+  }
+}

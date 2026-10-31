@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "angular-playground",
+  "name": "Angular Playground",
+  "description": "It focuses on Angular Material tables and their customizations",
+  "category": "developer-tools",
+  "projectType": "playground",
+  "visible": true,
+  "featured": false,
+  "needsReview": false,
+  "classificationReview": false,
+  "order": 46,
+  "repositories": [
+    {
+      "ref": "actionanand/angular-playground",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [
+    "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+  ],
+  "overrides": {},
+  "technologies": ["angular"]
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "pipe-deep-dive",
+  "name": "Pipe Deep Dive",
+  "description": "Angular practice app (Pipes) - Angular 18",
+  "category": "developer-tools",
+  "projectType": "playground",
+  "visible": true,
+  "featured": false,
+  "needsReview": false,
+  "classificationReview": false,
+  "order": 58,
+  "repositories": [
+    {
+      "ref": "actionanand/pipe-deep-dive",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [
+    "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+  ],
+  "overrides": {},
+  "technologies": ["angular"]
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "angular-testing-2",
+  "name": "Angular Testing 2",
+  "description": "This is an example app for angular unit testing",
+  "category": "developer-tools",
+  "projectType": "study",
+  "visible": true,
+  "featured": false,
+  "needsReview": false,
+  "classificationReview": false,
+  "order": 69,
+  "repositories": [
+    {
+      "ref": "actionanand/angular-testing-2",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [
+    "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+  ],
+  "overrides": {},
+  "technologies": ["angular"]
+}

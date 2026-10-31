@@ -1,0 +1,23 @@
+{
+  "id": "byteschool",
+  "name": "ByteSchool",
+  "description": "ByteSchool - Learn programming with interactive tutorials for CoffeeScript, Python, and more",
+  "category": "education",
+  "featured": false,
+  "visible": true,
+  "needsReview": false,
+  "repositories": [
+    {
+      "ref": "actionanand/byteschool",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [],
+  "schemaVersion": 1,
+  "overrides": {},
+  "projectType": "study",
+  "classificationReview": true,
+  "order": 27,
+  "technologies": []
+}

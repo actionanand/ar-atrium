@@ -1,0 +1,25 @@
+{
+  "id": "click2chat",
+  "name": "Click2Chat",
+  "description": "Start WhatsApp chats without saving numbers to your contacts.",
+  "category": "utilities",
+  "featured": false,
+  "visible": true,
+  "needsReview": true,
+  "repositories": [
+    {
+      "ref": "actionanand/click2chat",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [],
+  "schemaVersion": 1,
+  "policyHub": {
+    "appId": "click2chat"
+  },
+  "overrides": {},
+  "projectType": "application",
+  "order": 38,
+  "technologies": []
+}

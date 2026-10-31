@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "ng14-standalone-demo",
+  "name": "Ng14 Standalone Demo",
+  "description": "This is a demo app for illustrating standalone components(without modules)",
+  "category": "developer-tools",
+  "projectType": "playground",
+  "visible": true,
+  "featured": false,
+  "needsReview": false,
+  "classificationReview": false,
+  "order": 63,
+  "repositories": [
+    {
+      "ref": "actionanand/ng14-standalone-demo",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [
+    "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+  ],
+  "overrides": {},
+  "technologies": ["angular"]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "wiki",
+  "name": "Wiki",
+  "description": "Project description needs confirmation.",
+  "category": "knowledge",
+  "featured": false,
+  "visible": true,
+  "needsReview": true,
+  "repositories": [
+    {
+      "ref": "actionanand/wiki",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": ["GitHub repository metadata not accessible; confirm visibility and correct URL."],
+  "schemaVersion": 1,
+  "overrides": {},
+  "projectType": "application",
+  "order": 3,
+  "technologies": []
+}

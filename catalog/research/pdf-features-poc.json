@@ -1,0 +1,11 @@
+{
+  "id": "actionanand/pdf-features-poc",
+  "url": "https://github.com/actionanand/pdf-features-poc",
+  "description": "PDF rough work",
+  "homepage": "https://actionanand.github.io/pdf-features-poc/",
+  "access": "public-metadata-verified",
+  "defaultBranch": "main",
+  "checkedOn": "2026-10-31",
+  "readmeUrl": "https://github.com/actionanand/pdf-features-poc/blob/main/README.md",
+  "expectedProjectType": "playground"
+}

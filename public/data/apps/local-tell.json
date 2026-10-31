@@ -1,0 +1,32 @@
+{
+  "id": "local-tell",
+  "name": "LocalTell",
+  "description": "Offline approximate-area lookup from your serving cellular network.",
+  "category": "travel",
+  "featured": true,
+  "visible": true,
+  "needsReview": true,
+  "repositories": [
+    {
+      "ref": "actionanand/local-tell",
+      "role": "primary"
+    },
+    {
+      "ref": "actionanand/localtell-data",
+      "role": "data-and-web-companion"
+    }
+  ],
+  "links": [],
+  "notes": [
+    "GitHub repository metadata not accessible; confirm visibility and correct URL.",
+    "LocalTell client and localtell-data are intentionally grouped as one application."
+  ],
+  "schemaVersion": 1,
+  "policyHub": {
+    "appId": "local-tell"
+  },
+  "overrides": {},
+  "projectType": "application",
+  "order": 33,
+  "technologies": []
+}

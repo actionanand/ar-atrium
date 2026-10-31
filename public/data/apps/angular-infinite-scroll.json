@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "angular-infinite-scroll",
+  "name": "Angular Infinite Scroll",
+  "description": "Angular infinite scroll example",
+  "category": "developer-tools",
+  "projectType": "playground",
+  "visible": true,
+  "featured": false,
+  "needsReview": false,
+  "classificationReview": false,
+  "order": 53,
+  "repositories": [
+    {
+      "ref": "actionanand/angular-infinite-scroll",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [
+    "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+  ],
+  "overrides": {},
+  "technologies": ["angular"]
+}

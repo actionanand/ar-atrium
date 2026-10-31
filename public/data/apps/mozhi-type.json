@@ -1,0 +1,22 @@
+{
+  "id": "mozhi-type",
+  "name": "Mozhi Type",
+  "description": "Angular-based Tamil transliteration app that converts English phonetic typing into Unicode Tamil text in real time.",
+  "category": "language",
+  "featured": false,
+  "visible": true,
+  "needsReview": false,
+  "repositories": [
+    {
+      "ref": "actionanand/mozhi-type",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [],
+  "schemaVersion": 1,
+  "overrides": {},
+  "projectType": "tool",
+  "order": 24,
+  "technologies": []
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "ng-dropdown-ngtemplateoutlets",
+  "name": "Ng Dropdown NgTemplateOutlets",
+  "description": "Customization of dropdown using ngTemplateOutlets",
+  "category": "developer-tools",
+  "projectType": "playground",
+  "visible": true,
+  "featured": false,
+  "needsReview": false,
+  "classificationReview": false,
+  "order": 61,
+  "repositories": [
+    {
+      "ref": "actionanand/ng-dropdown-ngTemplateOutlets",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [
+    "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+  ],
+  "overrides": {},
+  "technologies": ["angular"]
+}

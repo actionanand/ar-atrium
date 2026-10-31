@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "angular-study-routing",
+  "name": "Angular Study Routing",
+  "description": "Angular practice app (Routing, Forms - reactives and template, guard)",
+  "category": "developer-tools",
+  "projectType": "study",
+  "visible": true,
+  "featured": false,
+  "needsReview": false,
+  "classificationReview": false,
+  "order": 75,
+  "repositories": [
+    {
+      "ref": "actionanand/Angular-study-routing",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [
+    "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+  ],
+  "overrides": {},
+  "technologies": ["angular"]
+}

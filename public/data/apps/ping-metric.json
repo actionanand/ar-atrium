@@ -1,0 +1,22 @@
+{
+  "id": "ping-metric",
+  "name": "PingMetric",
+  "description": "A lightweight internet performance tester for measuring download speed, upload speed, ping, latency, and jitter — directly from your browser.",
+  "category": "utilities",
+  "featured": true,
+  "visible": true,
+  "needsReview": false,
+  "repositories": [
+    {
+      "ref": "actionanand/ping-metric",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [],
+  "schemaVersion": 1,
+  "overrides": {},
+  "projectType": "tool",
+  "order": 6,
+  "technologies": []
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "angular-study-pipes",
+  "name": "Angular Study Pipes",
+  "description": "Angular practice app (Pipes)",
+  "category": "developer-tools",
+  "projectType": "study",
+  "visible": true,
+  "featured": false,
+  "needsReview": false,
+  "classificationReview": false,
+  "order": 73,
+  "repositories": [
+    {
+      "ref": "actionanand/Angular-study-Pipes",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [
+    "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+  ],
+  "overrides": {},
+  "technologies": ["angular"]
+}

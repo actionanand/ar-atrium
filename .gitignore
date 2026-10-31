@@ -44,3 +44,12 @@ __screenshots__/
 # System files
 .DS_Store
 Thumbs.db
+
+# Local research inputs and Python bytecode are never application assets.
+/.cache/
+__pycache__/
+*.pyc
+/public/__audit*
+.cache
+/reference/
+/.angular/cache/

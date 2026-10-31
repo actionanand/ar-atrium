@@ -1,0 +1,22 @@
+{
+  "id": "policy-hub",
+  "name": "Policy Hub",
+  "description": "A centralized hub for privacy policies, terms, support, and legal information for all my Android applications.",
+  "category": "platform",
+  "featured": false,
+  "visible": true,
+  "needsReview": false,
+  "repositories": [
+    {
+      "ref": "actionanand/policy-hub",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [],
+  "schemaVersion": 1,
+  "overrides": {},
+  "projectType": "tool",
+  "order": 1,
+  "technologies": []
+}

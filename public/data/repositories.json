@@ -1,0 +1,1028 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-31",
+  "repositories": {
+    "actionanand/ar-popover": {
+      "id": "actionanand/ar-popover",
+      "url": "https://github.com/actionanand/ar-popover",
+      "access": "public-metadata-verified",
+      "description": "Angular CDK Popover, no default style, examples using @angular/material",
+      "homepage": null,
+      "defaultBranch": "master",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/ar-portfolio": {
+      "id": "actionanand/ar-portfolio",
+      "url": "https://github.com/actionanand/ar-portfolio",
+      "access": "not-accessible-at-check",
+      "description": null,
+      "homepage": null,
+      "defaultBranch": null,
+      "checkedOn": "2026-10-31",
+      "note": "GitHub returned 404 via authenticated connector; could be private, renamed, or unavailable."
+    },
+    "actionanand/ar-portfolio-legacy-1": {
+      "id": "actionanand/ar-portfolio-legacy-1",
+      "url": "https://github.com/actionanand/ar-portfolio-legacy-1",
+      "access": "not-accessible-at-check",
+      "description": null,
+      "homepage": null,
+      "defaultBranch": null,
+      "checkedOn": "2026-10-31",
+      "note": "GitHub returned 404 via authenticated connector; could be private, renamed, or unavailable."
+    },
+    "actionanand/ar-tamil-jathagam": {
+      "id": "actionanand/ar-tamil-jathagam",
+      "url": "https://github.com/actionanand/ar-tamil-jathagam",
+      "access": "not-accessible-at-check",
+      "description": null,
+      "homepage": null,
+      "defaultBranch": null,
+      "checkedOn": "2026-10-31",
+      "note": "GitHub returned 404 via authenticated connector; could be private, renamed, or unavailable."
+    },
+    "actionanand/arblogz": {
+      "id": "actionanand/arblogz",
+      "url": "https://github.com/actionanand/arblogz",
+      "access": "public-metadata-verified",
+      "description": "My corner of the internet for everything beyond code - life, learning & discoveries 💡",
+      "homepage": "https://actionanand.github.io/arblogz/",
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/arflix": {
+      "id": "actionanand/arflix",
+      "url": "https://github.com/actionanand/arflix",
+      "access": "public-metadata-verified",
+      "description": "A modern movie search application to discover films by name, browse posters, and view detailed metadata powered by the TMDb API",
+      "homepage": "https://actionanand.github.io/arflix/",
+      "defaultBranch": "master",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/artamizhsolai": {
+      "id": "actionanand/artamizhsolai",
+      "url": "https://github.com/actionanand/artamizhsolai",
+      "access": "public-metadata-verified",
+      "description": "This project is developed using Analog JS (Angular) and serves as a blog platform focused on Tamil users and Tamil literature.",
+      "homepage": "https://actionanand.github.io/artamizhsolai/",
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/birthday-buddy": {
+      "id": "actionanand/birthday-buddy",
+      "url": "https://github.com/actionanand/birthday-buddy",
+      "access": "public-metadata-verified",
+      "description": "Track birthdays, anniversaries, and important dates with reliable reminders.",
+      "homepage": "https://actionanand.github.io/birthday-buddy/",
+      "defaultBranch": "master",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/byteschool": {
+      "id": "actionanand/byteschool",
+      "url": "https://github.com/actionanand/byteschool",
+      "access": "public-metadata-verified",
+      "description": "ByteSchool - Learn programming with interactive tutorials for CoffeeScript, Python, and more",
+      "homepage": "https://actionanand.github.io/byteschool/",
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/card-nest": {
+      "id": "actionanand/card-nest",
+      "url": "https://github.com/actionanand/card-nest",
+      "access": "public-metadata-verified",
+      "description": "An offline-first Android app built with Angular and Capacitor to securely manage credit cards, statement cycles, EMIs, payments, budgets, recurring transactions, reminders, and encrypted local backups.",
+      "homepage": "https://actionanand.github.io/card-nest/",
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/care-chime": {
+      "id": "actionanand/care-chime",
+      "url": "https://github.com/actionanand/care-chime",
+      "access": "public-metadata-verified",
+      "description": "Care Chime is a privacy-first Android app for smart medicine and water reminders, real-time dose tracking, family health profiles, vaccination records, medical history, and encrypted backups.",
+      "homepage": null,
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/click2chat": {
+      "id": "actionanand/click2chat",
+      "url": "https://github.com/actionanand/click2chat",
+      "access": "public-metadata-verified",
+      "description": "Quick WhatsApp chats without saving number at mobile",
+      "homepage": "https://actionanand.github.io/click2chat/",
+      "defaultBranch": "master",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/converter": {
+      "id": "actionanand/converter",
+      "url": "https://github.com/actionanand/converter",
+      "access": "public-metadata-verified",
+      "description": "It has basic converters like base64, sha1, etc",
+      "homepage": "https://actionanand.github.io/converter/",
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/expenzo": {
+      "id": "actionanand/expenzo",
+      "url": "https://github.com/actionanand/expenzo",
+      "access": "public-metadata-verified",
+      "description": "Expense Tracker with Monthly Sheet Rotation",
+      "homepage": "https://actionanand.github.io/expenzo/",
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/flowra": {
+      "id": "actionanand/flowra",
+      "url": "https://github.com/actionanand/flowra",
+      "access": "public-metadata-verified",
+      "description": "Private period tracker with cycle predictions, symptoms, moods and insights.",
+      "homepage": "https://actionanand.github.io/flowra/",
+      "defaultBranch": "master",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/folder-flow": {
+      "id": "actionanand/folder-flow",
+      "url": "https://github.com/actionanand/folder-flow",
+      "access": "public-metadata-verified",
+      "description": "WiFi & FTP file sharing app — share files between devices on your local network",
+      "homepage": null,
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/globee": {
+      "id": "actionanand/globee",
+      "url": "https://github.com/actionanand/globee",
+      "access": "public-metadata-verified",
+      "description": "Interactive geography learning app for kids to explore countries, continents, oceans, Indian states & UTs, capitals, languages, and more.",
+      "homepage": "https://actionanand.github.io/globee/",
+      "defaultBranch": "master",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/glyph-forge": {
+      "id": "actionanand/glyph-forge",
+      "url": "https://github.com/actionanand/glyph-forge",
+      "access": "public-metadata-verified",
+      "description": "Load, inspect, and style TTF, OTF, WOFF, and WOFF2 fonts.",
+      "homepage": "https://actionanand.github.io/glyph-forge/",
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/image-local-upload": {
+      "id": "actionanand/image-local-upload",
+      "url": "https://github.com/actionanand/image-local-upload",
+      "access": "public-metadata-verified",
+      "description": "it's about converting image into base64 and serving via local blob url",
+      "homepage": "https://actionanand.github.io/image-local-upload/",
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/lexora": {
+      "id": "actionanand/lexora",
+      "url": "https://github.com/actionanand/lexora",
+      "access": "public-metadata-verified",
+      "description": "Lexora multilingual language-learning documentation website.",
+      "homepage": "https://actionanand.github.io/lexora/",
+      "defaultBranch": "master",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/life-leaf": {
+      "id": "actionanand/life-leaf",
+      "url": "https://github.com/actionanand/life-leaf",
+      "access": "public-metadata-verified",
+      "description": "A private diary to capture your thoughts, memories, moods, and everyday moments.",
+      "homepage": "https://actionanand.github.io/life-leaf/",
+      "defaultBranch": "master",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/lingua-log": {
+      "id": "actionanand/lingua-log",
+      "url": "https://github.com/actionanand/lingua-log",
+      "access": "public-metadata-verified",
+      "description": "A multilingual Angular app for recording day-to-day sentences, translations, meanings, and explanations across different languages.",
+      "homepage": "https://actionanand.github.io/lingua-log/",
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/link-deck": {
+      "id": "actionanand/link-deck",
+      "url": "https://github.com/actionanand/link-deck",
+      "access": "public-metadata-verified",
+      "description": "Offline bookmark manager with multiple profiles, folders, powerful search, and browser-compatible exports.",
+      "homepage": "https://actionanand.github.io/link-deck/",
+      "defaultBranch": "master",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/local-tell": {
+      "id": "actionanand/local-tell",
+      "url": "https://github.com/actionanand/local-tell",
+      "access": "not-accessible-at-check",
+      "description": null,
+      "homepage": null,
+      "defaultBranch": null,
+      "checkedOn": "2026-10-31",
+      "note": "GitHub returned 404 via authenticated connector; could be private, renamed, or unavailable."
+    },
+    "actionanand/metro-pocket": {
+      "id": "actionanand/metro-pocket",
+      "url": "https://github.com/actionanand/metro-pocket",
+      "access": "public-metadata-verified",
+      "description": "MetroPocket is an offline-first Web & Android app for finding metro routes, stations, interchanges, travel times, and TV/DTH/cable channel numbers across India.",
+      "homepage": "https://actionanand.github.io/metro-pocket/",
+      "defaultBranch": "master",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/mozhi-type": {
+      "id": "actionanand/mozhi-type",
+      "url": "https://github.com/actionanand/mozhi-type",
+      "access": "public-metadata-verified",
+      "description": "Angular-based Tamil transliteration app that converts English phonetic typing into Unicode Tamil text in real time.",
+      "homepage": "https://actionanand.github.io/mozhi-type/",
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/ng-pdf-rough-work": {
+      "id": "actionanand/ng-pdf-rough-work",
+      "url": "https://github.com/actionanand/ng-pdf-rough-work",
+      "access": "public-metadata-verified",
+      "description": "angular rough work for pdf using pipe service factory, etc",
+      "homepage": "https://actionanand.github.io/ng-pdf-rough-work/",
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31",
+      "expectedProjectType": "playground"
+    },
+    "actionanand/office-orbit": {
+      "id": "actionanand/office-orbit",
+      "url": "https://github.com/actionanand/office-orbit",
+      "access": "public-metadata-verified",
+      "description": "Office Orbit — a personal workspace for tracking JIRAs, sprints, daily work, releases, feedback, and career highlights.",
+      "homepage": "https://actionanand.github.io/office-orbit/",
+      "defaultBranch": "master",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/office-pulse": {
+      "id": "actionanand/office-pulse",
+      "url": "https://github.com/actionanand/office-pulse",
+      "access": "public-metadata-verified",
+      "description": null,
+      "homepage": "https://actionanand.github.io/office-pulse/",
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/personix": {
+      "id": "actionanand/personix",
+      "url": "https://github.com/actionanand/personix",
+      "access": "public-metadata-verified",
+      "description": "Your private offline hub for saved content, personal information, medical records, notes, checklists, vehicles, and secure backups.",
+      "homepage": "https://actionanand.github.io/personix/",
+      "defaultBranch": "master",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/ping-metric": {
+      "id": "actionanand/ping-metric",
+      "url": "https://github.com/actionanand/ping-metric",
+      "access": "public-metadata-verified",
+      "description": "A lightweight internet performance tester for measuring download speed, upload speed, ping, latency, and jitter — directly from your browser.",
+      "homepage": "https://actionanand.github.io/ping-metric/",
+      "defaultBranch": "master",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/policy-hub": {
+      "id": "actionanand/policy-hub",
+      "url": "https://github.com/actionanand/policy-hub",
+      "access": "public-metadata-verified",
+      "description": "A centralized hub for privacy policies, terms, support, and legal information for all my Android applications.",
+      "homepage": "https://actionanand.github.io/policy-hub/",
+      "defaultBranch": "master",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/qurio": {
+      "id": "actionanand/qurio",
+      "url": "https://github.com/actionanand/qurio",
+      "access": "public-metadata-verified",
+      "description": "Qurio is a modern learning app with class-wise study notes, timed quizzes, instant answer explanations, and progress tracking across multiple subjects",
+      "homepage": "https://actionanand.github.io/qurio/",
+      "defaultBranch": "master",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/recipe-atlas": {
+      "id": "actionanand/recipe-atlas",
+      "url": "https://github.com/actionanand/recipe-atlas",
+      "access": "public-metadata-verified",
+      "description": "A multilingual recipe and cooking knowledge base built with Eleventy, Markdown, and static site generation.",
+      "homepage": "https://actionanand.github.io/recipe-atlas/",
+      "defaultBranch": "master",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/resume-builder": {
+      "id": "actionanand/resume-builder",
+      "url": "https://github.com/actionanand/resume-builder",
+      "access": "not-accessible-at-check",
+      "description": null,
+      "homepage": null,
+      "defaultBranch": null,
+      "checkedOn": "2026-10-31",
+      "note": "GitHub returned 404 via authenticated connector; could be private, renamed, or unavailable."
+    },
+    "actionanand/scrollix": {
+      "id": "actionanand/scrollix",
+      "url": "https://github.com/actionanand/scrollix",
+      "access": "public-metadata-verified",
+      "description": "An Angular app for displaying embedded videos and posts from YouTube, Instagram, Facebook, Dailymotion, and more in a unified scrolling feed.",
+      "homepage": "https://actionanand.github.io/scrollix/",
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/single-spa-angular-root-config": {
+      "id": "actionanand/single-spa-angular-root-config",
+      "url": "https://github.com/actionanand/single-spa-angular-root-config",
+      "access": "public-metadata-verified",
+      "description": "Single-Spa Angular root config app",
+      "homepage": "https://single-spa-angular.surge.sh",
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/single-spa-demo-root-config": {
+      "id": "actionanand/single-spa-demo-root-config",
+      "url": "https://github.com/actionanand/single-spa-demo-root-config",
+      "access": "public-metadata-verified",
+      "description": "This is the polyglot single-spa root-config app. This repo is used in conjunction with four other repos(angular, react, vue, and svelte) to build an app.",
+      "homepage": "https://ar-single-spa.onrender.com/",
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/spendzo": {
+      "id": "actionanand/spendzo",
+      "url": "https://github.com/actionanand/spendzo",
+      "access": "public-metadata-verified",
+      "description": "Offline-first budget planner and expense tracker with category limits, insights, and local backups.",
+      "homepage": "https://actionanand.github.io/spendzo/",
+      "defaultBranch": "master",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/stillora": {
+      "id": "actionanand/stillora",
+      "url": "https://github.com/actionanand/stillora",
+      "access": "public-metadata-verified",
+      "description": "An offline meditation app with calming nature sounds, ambient backgrounds, and a customizable timer.",
+      "homepage": "https://actionanand.github.io/stillora/",
+      "defaultBranch": "master",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/svg-forge": {
+      "id": "actionanand/svg-forge",
+      "url": "https://github.com/actionanand/svg-forge",
+      "access": "public-metadata-verified",
+      "description": "All-in-one SVG workspace for editing, optimizing, previewing, and exporting vector graphics.",
+      "homepage": "https://actionanand.github.io/svg-forge/",
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/universal-calendar": {
+      "id": "actionanand/universal-calendar",
+      "url": "https://github.com/actionanand/universal-calendar",
+      "access": "public-metadata-verified",
+      "description": "Angular 20.0.1 with AI Instructions.",
+      "homepage": "https://actionanand.github.io/universal-calendar/",
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/vault-nest": {
+      "id": "actionanand/vault-nest",
+      "url": "https://github.com/actionanand/vault-nest",
+      "access": "public-metadata-verified",
+      "description": "Offline-first password manager for securely storing passwords, notes, identities, secrets, and attachments with encrypted backups.",
+      "homepage": "https://actionanand.github.io/vault-nest/",
+      "defaultBranch": "master",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/who-called": {
+      "id": "actionanand/who-called",
+      "url": "https://github.com/actionanand/who-called",
+      "access": "public-metadata-verified",
+      "description": "Private offline contact manager with caller tagging, quick WhatsApp chats, notes, and secure backups.",
+      "homepage": "https://actionanand.github.io/who-called/",
+      "defaultBranch": "master",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/wifi-chat": {
+      "id": "actionanand/wifi-chat",
+      "url": "https://github.com/actionanand/wifi-chat",
+      "access": "public-metadata-verified",
+      "description": "Real-time chat app for devices on the same WiFi network",
+      "homepage": null,
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/wiki": {
+      "id": "actionanand/wiki",
+      "url": "https://github.com/actionanand/wiki",
+      "access": "not-accessible-at-check",
+      "description": null,
+      "homepage": null,
+      "defaultBranch": null,
+      "checkedOn": "2026-10-31",
+      "note": "GitHub returned 404 via authenticated connector; could be private, renamed, or unavailable."
+    },
+    "actionanand/localtell-data": {
+      "id": "actionanand/localtell-data",
+      "url": "https://github.com/actionanand/localtell-data",
+      "access": "public-metadata-verified",
+      "description": null,
+      "homepage": "https://actionanand.github.io/localtell-data/",
+      "defaultBranch": "master",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/docker_playground": {
+      "id": "actionanand/docker_playground",
+      "url": "https://github.com/actionanand/docker_playground",
+      "access": "public-metadata-verified",
+      "description": "Docker fundamentals: images, containers and commands.",
+      "homepage": null,
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/docker_data_volume": {
+      "id": "actionanand/docker_data_volume",
+      "url": "https://github.com/actionanand/docker_data_volume",
+      "access": "public-metadata-verified",
+      "description": "Docker data persistence, named volumes and bind mounts.",
+      "homepage": null,
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/docker_communication": {
+      "id": "actionanand/docker_communication",
+      "url": "https://github.com/actionanand/docker_communication",
+      "access": "public-metadata-verified",
+      "description": "Docker networking and container communication.",
+      "homepage": null,
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/docker_multi-container": {
+      "id": "actionanand/docker_multi-container",
+      "url": "https://github.com/actionanand/docker_multi-container",
+      "access": "public-metadata-verified",
+      "description": "Multi-container Docker applications and Docker Compose.",
+      "homepage": null,
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/angular_with_docker": {
+      "id": "actionanand/angular_with_docker",
+      "url": "https://github.com/actionanand/angular_with_docker",
+      "access": "public-metadata-verified",
+      "description": "Build an Angular project in Docker without installing the toolchain on the host.",
+      "homepage": null,
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/rails_with_docker": {
+      "id": "actionanand/rails_with_docker",
+      "url": "https://github.com/actionanand/rails_with_docker",
+      "access": "public-metadata-verified",
+      "description": null,
+      "homepage": null,
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/laravel_with_docker": {
+      "id": "actionanand/laravel_with_docker",
+      "url": "https://github.com/actionanand/laravel_with_docker",
+      "access": "public-metadata-verified",
+      "description": "Build a Laravel application with Docker without installing the toolchain on the host.",
+      "homepage": null,
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/single-spa-angular": {
+      "id": "actionanand/single-spa-angular",
+      "url": "https://github.com/actionanand/single-spa-angular",
+      "access": "public-metadata-verified",
+      "description": "Angular microfrontend application for the single-spa ecosystem.",
+      "homepage": null,
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/single-spa-react": {
+      "id": "actionanand/single-spa-react",
+      "url": "https://github.com/actionanand/single-spa-react",
+      "access": "public-metadata-verified",
+      "description": "React microfrontend application for the single-spa ecosystem.",
+      "homepage": null,
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/single-spa-vue": {
+      "id": "actionanand/single-spa-vue",
+      "url": "https://github.com/actionanand/single-spa-vue",
+      "access": "public-metadata-verified",
+      "description": "Vue microfrontend application for the single-spa ecosystem.",
+      "homepage": null,
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/single-spa-svelte": {
+      "id": "actionanand/single-spa-svelte",
+      "url": "https://github.com/actionanand/single-spa-svelte",
+      "access": "public-metadata-verified",
+      "description": "Svelte microfrontend application for the single-spa ecosystem.",
+      "homepage": null,
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/single-spa-nav": {
+      "id": "actionanand/single-spa-nav",
+      "url": "https://github.com/actionanand/single-spa-nav",
+      "access": "public-metadata-verified",
+      "description": "React navigation microfrontend for single-spa.",
+      "homepage": null,
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/single-spa-sidebar": {
+      "id": "actionanand/single-spa-sidebar",
+      "url": "https://github.com/actionanand/single-spa-sidebar",
+      "access": "public-metadata-verified",
+      "description": "Angular sidebar microfrontend for single-spa.",
+      "homepage": null,
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/single-spa-footer": {
+      "id": "actionanand/single-spa-footer",
+      "url": "https://github.com/actionanand/single-spa-footer",
+      "access": "public-metadata-verified",
+      "description": "React footer microfrontend for single-spa.",
+      "homepage": null,
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/single-spa-404": {
+      "id": "actionanand/single-spa-404",
+      "url": "https://github.com/actionanand/single-spa-404",
+      "access": "public-metadata-verified",
+      "description": "Fallback 404 microfrontend for single-spa.",
+      "homepage": null,
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/single-spa-vanilla-js": {
+      "id": "actionanand/single-spa-vanilla-js",
+      "url": "https://github.com/actionanand/single-spa-vanilla-js",
+      "access": "public-metadata-verified",
+      "description": "Vanilla JavaScript microfrontend for single-spa.",
+      "homepage": null,
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/single-spa-utility": {
+      "id": "actionanand/single-spa-utility",
+      "url": "https://github.com/actionanand/single-spa-utility",
+      "access": "public-metadata-verified",
+      "description": "Shared in-browser utility module for single-spa.",
+      "homepage": null,
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/angular-parcel-app": {
+      "id": "actionanand/angular-parcel-app",
+      "url": "https://github.com/actionanand/angular-parcel-app",
+      "access": "public-metadata-verified",
+      "description": "SSPA Angular parcel with standalone Angular 18",
+      "homepage": null,
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/react-parcel-app": {
+      "id": "actionanand/react-parcel-app",
+      "url": "https://github.com/actionanand/react-parcel-app",
+      "access": "public-metadata-verified",
+      "description": "Single-spa parcel using React 19",
+      "homepage": null,
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/microfrontend-fundamentals": {
+      "id": "actionanand/microfrontend-fundamentals",
+      "url": "https://github.com/actionanand/microfrontend-fundamentals",
+      "access": "public-metadata-verified",
+      "description": "Study notes and exercises for single-spa microfrontend fundamentals.",
+      "homepage": null,
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31"
+    },
+    "actionanand/angular-playground": {
+      "id": "actionanand/angular-playground",
+      "url": "https://github.com/actionanand/angular-playground",
+      "description": "It focuses on Angular Material tables and their customizations",
+      "homepage": "https://actionanand.github.io/angular-playground/",
+      "defaultBranch": "master",
+      "access": "public-metadata-verified",
+      "checkedOn": "2026-10-31",
+      "readmeUrl": "https://github.com/actionanand/angular-playground/blob/master/README.md",
+      "readmeHeading": "# Angular Playground",
+      "npmLinks": [],
+      "expectedProjectType": "playground"
+    },
+    "actionanand/angular-lib-demo": {
+      "id": "actionanand/angular-lib-demo",
+      "url": "https://github.com/actionanand/angular-lib-demo",
+      "description": "It's an angular workspace where simple angular app and angular library are used.",
+      "homepage": "https://actionanand.github.io/angular-lib-demo/",
+      "defaultBranch": "main",
+      "access": "public-metadata-verified",
+      "checkedOn": "2026-10-31",
+      "readmeUrl": "https://github.com/actionanand/angular-lib-demo/blob/main/README.md",
+      "readmeHeading": "# AngularLibDemo",
+      "npmLinks": [
+        "https://www.npmjs.com/package/@ng-ar/md-input",
+        "https://www.npmjs.com/package/@ng-ar/svg-icon",
+        "https://www.npmjs.com/package/@ng-ar/input",
+        "https://www.npmjs.com/package/@ng-ar/bg-svg"
+      ],
+      "expectedProjectType": "library"
+    },
+    "actionanand/ng-my-libraries": {
+      "id": "actionanand/ng-my-libraries",
+      "url": "https://github.com/actionanand/ng-my-libraries",
+      "description": "This repo has some of my basic angular libraries(npm publishable). It's using angular version 14.0.2. Some features like Function Types and Polymorphic Programming Without Class are used.",
+      "homepage": "https://actionanand.github.io/ng-my-libraries/",
+      "defaultBranch": "main",
+      "access": "public-metadata-verified",
+      "checkedOn": "2026-10-31",
+      "readmeUrl": "https://github.com/actionanand/ng-my-libraries/blob/main/README.md",
+      "readmeHeading": "# Ng(Nx) Libraries",
+      "npmLinks": [
+        "https://www.npmjs.com/package/@ng-ar/fa-input",
+        "https://www.npmjs.com/package/@ng-ar/prime-input",
+        "https://www.npmjs.com/package/@ng-ar/tab",
+        "https://www.npmjs.com/package/@ng-ar/modal",
+        "https://www.npmjs.com/package/@ng-ar/mask"
+      ],
+      "expectedProjectType": "library"
+    },
+    "actionanand/ng-rough-work": {
+      "id": "actionanand/ng-rough-work",
+      "url": "https://github.com/actionanand/ng-rough-work",
+      "description": "It is simple rough work of angular using reactive-forms(form-builder and form array)",
+      "homepage": "https://actionanand.github.io/ng-rough-work/",
+      "defaultBranch": "master",
+      "access": "public-metadata-verified",
+      "checkedOn": "2026-10-31",
+      "readmeUrl": "https://github.com/actionanand/ng-rough-work/blob/master/README.md",
+      "readmeHeading": "# Rough Works Project - Angular Forms",
+      "npmLinks": [],
+      "expectedProjectType": "playground"
+    },
+    "actionanand/angular-22": {
+      "id": "actionanand/angular-22",
+      "url": "https://github.com/actionanand/angular-22",
+      "description": "Angular 22 project",
+      "homepage": "https://actionanand.github.io/angular-22/",
+      "defaultBranch": "main",
+      "access": "public-metadata-verified",
+      "checkedOn": "2026-10-31",
+      "readmeUrl": "https://github.com/actionanand/angular-22/blob/main/README.md",
+      "readmeHeading": "# Angular22",
+      "npmLinks": [],
+      "expectedProjectType": "playground"
+    },
+    "actionanand/angular-change-detection": {
+      "id": "actionanand/angular-change-detection",
+      "url": "https://github.com/actionanand/angular-change-detection",
+      "description": "Angular Change Detection - Deep Dive & Adieu Zone.js (zoneless angular)",
+      "homepage": "https://actionanand.github.io/angular-change-detection/",
+      "defaultBranch": "master",
+      "access": "public-metadata-verified",
+      "checkedOn": "2026-10-31",
+      "readmeUrl": "https://github.com/actionanand/angular-change-detection/blob/master/README.md",
+      "readmeHeading": "# Angular Change Detection - Deep Dive",
+      "npmLinks": [],
+      "expectedProjectType": "playground"
+    },
+    "actionanand/angular-deferrable": {
+      "id": "actionanand/angular-deferrable",
+      "url": "https://github.com/actionanand/angular-deferrable",
+      "description": "angular - deferrable with example",
+      "homepage": "https://actionanand.github.io/angular-deferrable/",
+      "defaultBranch": "master",
+      "access": "public-metadata-verified",
+      "checkedOn": "2026-10-31",
+      "readmeUrl": "https://github.com/actionanand/angular-deferrable/blob/master/README.md",
+      "readmeHeading": "# Angular - deferrable with example",
+      "npmLinks": [],
+      "expectedProjectType": "playground"
+    },
+    "actionanand/angular-infinite-scroll": {
+      "id": "actionanand/angular-infinite-scroll",
+      "url": "https://github.com/actionanand/angular-infinite-scroll",
+      "description": "Angular infinite scroll example",
+      "homepage": "https://actionanand.github.io/angular-infinite-scroll/",
+      "defaultBranch": "main",
+      "access": "public-metadata-verified",
+      "checkedOn": "2026-10-31",
+      "readmeUrl": "https://github.com/actionanand/angular-infinite-scroll/blob/main/README.md",
+      "readmeHeading": "# AngularInfiniteScroll",
+      "npmLinks": [],
+      "expectedProjectType": "playground"
+    },
+    "actionanand/angular-model-signal": {
+      "id": "actionanand/angular-model-signal",
+      "url": "https://github.com/actionanand/angular-model-signal",
+      "description": "Angular model input signal (model signal)",
+      "homepage": "https://actionanand.github.io/angular-model-signal/",
+      "defaultBranch": "master",
+      "access": "public-metadata-verified",
+      "checkedOn": "2026-10-31",
+      "readmeUrl": "https://github.com/actionanand/angular-model-signal/blob/master/README.md",
+      "readmeHeading": "# Angular Model Input Signal",
+      "npmLinks": [],
+      "expectedProjectType": "playground"
+    },
+    "actionanand/angular-graphql-lab": {
+      "id": "actionanand/angular-graphql-lab",
+      "url": "https://github.com/actionanand/angular-graphql-lab",
+      "description": "Learn GraphQL from zero to advanced using Angular.",
+      "homepage": "https://actionanand.github.io/angular-graphql-lab/",
+      "defaultBranch": "master",
+      "access": "public-metadata-verified",
+      "checkedOn": "2026-10-31",
+      "readmeUrl": "https://github.com/actionanand/angular-graphql-lab/blob/master/README.md",
+      "readmeHeading": "# angular-graphql-lab",
+      "npmLinks": [],
+      "expectedProjectType": "study"
+    },
+    "actionanand/ng-template-depth": {
+      "id": "actionanand/ng-template-depth",
+      "url": "https://github.com/actionanand/ng-template-depth",
+      "description": "This is a hobby Angular Repo for ng-template in depth using PNPM ",
+      "homepage": "https://actionanand.github.io/ng-template-depth/",
+      "defaultBranch": "main",
+      "access": "public-metadata-verified",
+      "checkedOn": "2026-10-31",
+      "readmeUrl": "https://github.com/actionanand/ng-template-depth/blob/main/README.md",
+      "readmeHeading": "# NgTemplateDepth",
+      "npmLinks": [],
+      "expectedProjectType": "playground"
+    },
+    "actionanand/directive-deep-dive": {
+      "id": "actionanand/directive-deep-dive",
+      "url": "https://github.com/actionanand/directive-deep-dive",
+      "description": "Angular directive and model input signal (model signal) and host binding",
+      "homepage": "https://actionanand.github.io/directive-deep-dive/",
+      "defaultBranch": "master",
+      "access": "public-metadata-verified",
+      "checkedOn": "2026-10-31",
+      "readmeUrl": "https://github.com/actionanand/directive-deep-dive/blob/master/README.md",
+      "readmeHeading": "# Angular Directive Deep Dive",
+      "npmLinks": [],
+      "expectedProjectType": "playground"
+    },
+    "actionanand/pipe-deep-dive": {
+      "id": "actionanand/pipe-deep-dive",
+      "url": "https://github.com/actionanand/pipe-deep-dive",
+      "description": "Angular practice app (Pipes) - Angular 18",
+      "homepage": "https://actionanand.github.io/pipe-deep-dive/",
+      "defaultBranch": "master",
+      "access": "public-metadata-verified",
+      "checkedOn": "2026-10-31",
+      "readmeUrl": "https://github.com/actionanand/pipe-deep-dive/blob/master/README.md",
+      "readmeHeading": "# Angular Pipe Deep Dive",
+      "npmLinks": [],
+      "expectedProjectType": "playground"
+    },
+    "actionanand/ng-service-deep-dive": {
+      "id": "actionanand/ng-service-deep-dive",
+      "url": "https://github.com/actionanand/ng-service-deep-dive",
+      "description": "Angular Services deep dive",
+      "homepage": "https://actionanand.github.io/ng-service-deep-dive/",
+      "defaultBranch": "master",
+      "access": "public-metadata-verified",
+      "checkedOn": "2026-10-31",
+      "readmeUrl": "https://github.com/actionanand/ng-service-deep-dive/blob/master/README.md",
+      "readmeHeading": "# Angular Service Deep Dive",
+      "npmLinks": [],
+      "expectedProjectType": "playground"
+    },
+    "actionanand/ng-lifecycle": {
+      "id": "actionanand/ng-lifecycle",
+      "url": "https://github.com/actionanand/ng-lifecycle",
+      "description": null,
+      "homepage": "https://actionanand.github.io/ng-lifecycle/",
+      "defaultBranch": "main",
+      "access": "public-metadata-verified",
+      "checkedOn": "2026-10-31",
+      "readmeUrl": "https://github.com/actionanand/ng-lifecycle/blob/main/README.md",
+      "readmeHeading": "# Angular Life Cycles",
+      "npmLinks": [],
+      "expectedProjectType": "playground"
+    },
+    "actionanand/ng-dropdown-ngTemplateOutlets": {
+      "id": "actionanand/ng-dropdown-ngTemplateOutlets",
+      "url": "https://github.com/actionanand/ng-dropdown-ngTemplateOutlets",
+      "description": "Customization of dropdown using ngTemplateOutlets",
+      "homepage": "https://actionanand.github.io/ng-dropdown-ngTemplateOutlets/",
+      "defaultBranch": "main",
+      "access": "public-metadata-verified",
+      "checkedOn": "2026-10-31",
+      "readmeUrl": "https://github.com/actionanand/ng-dropdown-ngTemplateOutlets/blob/main/README.md",
+      "readmeHeading": "# NgDropdownNgTemplateOutlets",
+      "npmLinks": [],
+      "expectedProjectType": "playground"
+    },
+    "actionanand/ng-feature-pagination": {
+      "id": "actionanand/ng-feature-pagination",
+      "url": "https://github.com/actionanand/ng-feature-pagination",
+      "description": "Angular custom pagination and translation",
+      "homepage": "https://actionanand.github.io/ng-feature-pagination/",
+      "defaultBranch": "main",
+      "access": "public-metadata-verified",
+      "checkedOn": "2026-10-31",
+      "readmeUrl": "https://github.com/actionanand/ng-feature-pagination/blob/main/README.md",
+      "readmeHeading": "# NgFeaturePagination",
+      "npmLinks": [],
+      "expectedProjectType": "playground"
+    },
+    "actionanand/ng14-standalone-demo": {
+      "id": "actionanand/ng14-standalone-demo",
+      "url": "https://github.com/actionanand/ng14-standalone-demo",
+      "description": "This is a demo app for illustrating standalone components(without modules)",
+      "homepage": "https://actionanand.github.io/ng14-standalone-demo/",
+      "defaultBranch": "main",
+      "access": "public-metadata-verified",
+      "checkedOn": "2026-10-31",
+      "readmeUrl": "https://github.com/actionanand/ng14-standalone-demo/blob/main/README.md",
+      "readmeHeading": "# Ng14StandaloneDemo",
+      "npmLinks": [],
+      "expectedProjectType": "playground"
+    },
+    "actionanand/ng16-signal-milestone-release": {
+      "id": "actionanand/ng16-signal-milestone-release",
+      "url": "https://github.com/actionanand/ng16-signal-milestone-release",
+      "description": "Just to explore new signals feature in angular v16",
+      "homepage": "https://actionanand.github.io/ng16-signal-milestone-release/",
+      "defaultBranch": "main",
+      "access": "public-metadata-verified",
+      "checkedOn": "2026-10-31",
+      "readmeUrl": "https://github.com/actionanand/ng16-signal-milestone-release/blob/main/README.md",
+      "readmeHeading": "# Ng16SignalMilestoneRelease",
+      "npmLinks": [],
+      "expectedProjectType": "playground"
+    },
+    "actionanand/ngrx-module-based": {
+      "id": "actionanand/ngrx-module-based",
+      "url": "https://github.com/actionanand/ngrx-module-based",
+      "description": "NgRx with NgModule",
+      "homepage": "https://actionanand.github.io/ngrx-module-based/",
+      "defaultBranch": "master",
+      "access": "public-metadata-verified",
+      "checkedOn": "2026-10-31",
+      "readmeUrl": "https://github.com/actionanand/ngrx-module-based/blob/master/README.md",
+      "readmeHeading": "# Angular - NgRx with NgModule",
+      "npmLinks": [],
+      "expectedProjectType": "playground"
+    },
+    "actionanand/ngrx-standalone": {
+      "id": "actionanand/ngrx-standalone",
+      "url": "https://github.com/actionanand/ngrx-standalone",
+      "description": "Simple NgRx Standalone project",
+      "homepage": "https://actionanand.github.io/ngrx-standalone/",
+      "defaultBranch": "master",
+      "access": "public-metadata-verified",
+      "checkedOn": "2026-10-31",
+      "readmeUrl": "https://github.com/actionanand/ngrx-standalone/blob/master/README.md",
+      "readmeHeading": "# Angular - NgRx Standalone",
+      "npmLinks": [],
+      "expectedProjectType": "playground"
+    },
+    "actionanand/ng-dev-testing": {
+      "id": "actionanand/ng-dev-testing",
+      "url": "https://github.com/actionanand/ng-dev-testing",
+      "description": "Complete Angular Testing Repo - A complete guide to Angular Unit Testing",
+      "homepage": "https://actionanand.github.io/ng-dev-testing/",
+      "defaultBranch": "main",
+      "access": "public-metadata-verified",
+      "checkedOn": "2026-10-31",
+      "readmeUrl": "https://github.com/actionanand/ng-dev-testing/blob/main/README.md",
+      "readmeHeading": "# Ng Dev Testing",
+      "npmLinks": [],
+      "expectedProjectType": "study"
+    },
+    "actionanand/angular-testing": {
+      "id": "actionanand/angular-testing",
+      "url": "https://github.com/actionanand/angular-testing",
+      "description": "Angular Testing Repo - A complete guide to Angular Unit Testing and E2E Testing ",
+      "homepage": null,
+      "defaultBranch": "main",
+      "access": "public-metadata-verified",
+      "checkedOn": "2026-10-31",
+      "readmeUrl": "https://github.com/actionanand/angular-testing/blob/main/README.md",
+      "readmeHeading": "# Angular Testing",
+      "npmLinks": [],
+      "expectedProjectType": "study"
+    },
+    "actionanand/angular-testing-2": {
+      "id": "actionanand/angular-testing-2",
+      "url": "https://github.com/actionanand/angular-testing-2",
+      "description": "This is an example app for angular unit testing",
+      "homepage": null,
+      "defaultBranch": "main",
+      "access": "public-metadata-verified",
+      "checkedOn": "2026-10-31",
+      "readmeUrl": "https://github.com/actionanand/angular-testing-2/blob/main/README.md",
+      "readmeHeading": "# angular testing 2",
+      "npmLinks": [],
+      "expectedProjectType": "study"
+    },
+    "actionanand/angular-tetsing-1": {
+      "id": "actionanand/angular-tetsing-1",
+      "url": "https://github.com/actionanand/angular-tetsing-1",
+      "description": "This is about the basics of angular unit tests ",
+      "homepage": null,
+      "defaultBranch": "main",
+      "access": "public-metadata-verified",
+      "checkedOn": "2026-10-31",
+      "readmeUrl": "https://github.com/actionanand/angular-tetsing-1/blob/main/README.md",
+      "readmeHeading": "# MyFirstApp",
+      "npmLinks": [],
+      "expectedProjectType": "study"
+    },
+    "actionanand/Angular-study": {
+      "id": "actionanand/Angular-study",
+      "url": "https://github.com/actionanand/Angular-study",
+      "description": "This is my practice repository of Angular studies (directives)",
+      "homepage": "https://actionanand.github.io/Angular-study/",
+      "defaultBranch": "master",
+      "access": "public-metadata-verified",
+      "checkedOn": "2026-10-31",
+      "readmeUrl": "https://github.com/actionanand/Angular-study/blob/master/README.md",
+      "readmeHeading": "# MyFirstApp",
+      "npmLinks": [],
+      "expectedProjectType": "study"
+    },
+    "actionanand/Angular-study-services": {
+      "id": "actionanand/Angular-study-services",
+      "url": "https://github.com/actionanand/Angular-study-services",
+      "description": "Angular practice app (Services)",
+      "homepage": null,
+      "defaultBranch": "master",
+      "access": "public-metadata-verified",
+      "checkedOn": "2026-10-31",
+      "readmeUrl": "https://github.com/actionanand/Angular-study-services/blob/master/README.md",
+      "readmeHeading": "# MyFirstApp",
+      "npmLinks": [],
+      "expectedProjectType": "study"
+    },
+    "actionanand/Angular-study-Pipes": {
+      "id": "actionanand/Angular-study-Pipes",
+      "url": "https://github.com/actionanand/Angular-study-Pipes",
+      "description": "Angular practice app (Pipes)",
+      "homepage": null,
+      "defaultBranch": "master",
+      "access": "public-metadata-verified",
+      "checkedOn": "2026-10-31",
+      "readmeUrl": "https://github.com/actionanand/Angular-study-Pipes/blob/master/README.md",
+      "readmeHeading": "# AngularStudyPipes",
+      "npmLinks": [],
+      "expectedProjectType": "study"
+    },
+    "actionanand/Angular-study-http": {
+      "id": "actionanand/Angular-study-http",
+      "url": "https://github.com/actionanand/Angular-study-http",
+      "description": "It's a simple angular practice app (http, interceptor, bootstrap, http, service, etc)",
+      "homepage": null,
+      "defaultBranch": "master",
+      "access": "public-metadata-verified",
+      "checkedOn": "2026-10-31",
+      "readmeUrl": "https://github.com/actionanand/Angular-study-http/blob/master/README.md",
+      "readmeHeading": "# AngularStudyHttp",
+      "npmLinks": [],
+      "expectedProjectType": "study"
+    },
+    "actionanand/Angular-study-routing": {
+      "id": "actionanand/Angular-study-routing",
+      "url": "https://github.com/actionanand/Angular-study-routing",
+      "description": "Angular practice app (Routing, Forms - reactives and template, guard)",
+      "homepage": "https://actionanand.github.io/Angular-study-routing/",
+      "defaultBranch": "master",
+      "access": "public-metadata-verified",
+      "checkedOn": "2026-10-31",
+      "readmeUrl": "https://github.com/actionanand/Angular-study-routing/blob/master/README.md",
+      "readmeHeading": "# MyFirstApp",
+      "npmLinks": [],
+      "expectedProjectType": "study"
+    },
+    "actionanand/pdf-features-poc": {
+      "id": "actionanand/pdf-features-poc",
+      "url": "https://github.com/actionanand/pdf-features-poc",
+      "description": "PDF rough work",
+      "homepage": "https://actionanand.github.io/pdf-features-poc/",
+      "access": "public-metadata-verified",
+      "defaultBranch": "main",
+      "checkedOn": "2026-10-31",
+      "readmeUrl": "https://github.com/actionanand/pdf-features-poc/blob/main/README.md",
+      "expectedProjectType": "playground"
+    }
+  }
+}

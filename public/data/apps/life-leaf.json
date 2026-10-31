@@ -1,0 +1,25 @@
+{
+  "id": "life-leaf",
+  "name": "Life Leaf",
+  "description": "A private diary for writing, memories, photos, moods, and gentle reminders.",
+  "category": "personal",
+  "featured": false,
+  "visible": true,
+  "needsReview": true,
+  "repositories": [
+    {
+      "ref": "actionanand/life-leaf",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [],
+  "schemaVersion": 1,
+  "policyHub": {
+    "appId": "life-leaf"
+  },
+  "overrides": {},
+  "projectType": "application",
+  "order": 37,
+  "technologies": []
+}

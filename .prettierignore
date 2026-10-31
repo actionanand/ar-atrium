@@ -11,3 +11,6 @@ reports
 *.lock
 package-lock.json
 yarn.lock
+public/data/generated/
+reference/
+.cache/

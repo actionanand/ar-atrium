@@ -1,0 +1,22 @@
+{
+  "id": "arblogz",
+  "name": "AR Blogz",
+  "description": "A multilingual personal blog about learning, culture, health, food, and discoveries.",
+  "category": "content",
+  "featured": true,
+  "visible": true,
+  "needsReview": false,
+  "repositories": [
+    {
+      "ref": "actionanand/arblogz",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [],
+  "schemaVersion": 1,
+  "overrides": {},
+  "projectType": "application",
+  "order": 9,
+  "technologies": []
+}

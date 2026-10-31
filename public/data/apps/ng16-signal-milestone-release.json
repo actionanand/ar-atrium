@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "ng16-signal-milestone-release",
+  "name": "Ng16 Signal Milestone Release",
+  "description": "Just to explore new signals feature in angular v16",
+  "category": "developer-tools",
+  "projectType": "playground",
+  "visible": true,
+  "featured": false,
+  "needsReview": false,
+  "classificationReview": false,
+  "order": 64,
+  "repositories": [
+    {
+      "ref": "actionanand/ng16-signal-milestone-release",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [
+    "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+  ],
+  "overrides": {},
+  "technologies": ["angular"]
+}

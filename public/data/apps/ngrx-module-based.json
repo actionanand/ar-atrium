@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "ngrx-module-based",
+  "name": "Ngrx Module Based",
+  "description": "NgRx with NgModule",
+  "category": "developer-tools",
+  "projectType": "playground",
+  "visible": true,
+  "featured": false,
+  "needsReview": false,
+  "classificationReview": false,
+  "order": 65,
+  "repositories": [
+    {
+      "ref": "actionanand/ngrx-module-based",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [
+    "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+  ],
+  "overrides": {},
+  "technologies": ["angular"]
+}

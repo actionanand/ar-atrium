@@ -1,0 +1,25 @@
+{
+  "id": "birthday-buddy",
+  "name": "Birthday Buddy",
+  "description": "A private reminder for birthdays, anniversaries, and meaningful occasions.",
+  "category": "personal",
+  "featured": false,
+  "visible": true,
+  "needsReview": false,
+  "repositories": [
+    {
+      "ref": "actionanand/birthday-buddy",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [],
+  "schemaVersion": 1,
+  "policyHub": {
+    "appId": "birthday-buddy"
+  },
+  "overrides": {},
+  "projectType": "application",
+  "order": 14,
+  "technologies": []
+}

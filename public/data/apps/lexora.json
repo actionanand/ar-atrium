@@ -1,0 +1,22 @@
+{
+  "id": "lexora",
+  "name": "Lexora",
+  "description": "Lexora multilingual language-learning documentation website.",
+  "category": "language",
+  "featured": false,
+  "visible": true,
+  "needsReview": false,
+  "repositories": [
+    {
+      "ref": "actionanand/lexora",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [],
+  "schemaVersion": 1,
+  "overrides": {},
+  "projectType": "application",
+  "order": 21,
+  "technologies": []
+}

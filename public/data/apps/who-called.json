@@ -1,0 +1,25 @@
+{
+  "id": "who-called",
+  "name": "Who Called",
+  "description": "A private, offline contact organizer with optional call-history tools.",
+  "category": "utilities",
+  "featured": false,
+  "visible": true,
+  "needsReview": false,
+  "repositories": [
+    {
+      "ref": "actionanand/who-called",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [],
+  "schemaVersion": 1,
+  "policyHub": {
+    "appId": "who-called"
+  },
+  "overrides": {},
+  "projectType": "application",
+  "order": 16,
+  "technologies": []
+}

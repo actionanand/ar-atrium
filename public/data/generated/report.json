@@ -1,0 +1,167 @@
+{
+  "projects": 77,
+  "visible": 77,
+  "repositories": 98,
+  "byProjectType": {
+    "application": 28,
+    "tool": 8,
+    "study": 14,
+    "playground": 25,
+    "library": 2
+  },
+  "hostedUrls": 70,
+  "npmLinks": 9,
+  "withoutHostedUrl": [
+    "wiki",
+    "ar-portfolio",
+    "wifi-chat",
+    "folder-flow",
+    "resume-builder",
+    "ar-popover",
+    "care-chime",
+    "docker-learning-series",
+    "microfrontend-fundamentals",
+    "angular-testing",
+    "angular-testing-2",
+    "angular-tetsing-1",
+    "angular-study-services",
+    "angular-study-pipes",
+    "angular-study-http"
+  ],
+  "unresolvedRepositories": [
+    "actionanand/wiki",
+    "actionanand/ar-tamil-jathagam",
+    "actionanand/ar-portfolio",
+    "actionanand/ar-portfolio-legacy-1",
+    "actionanand/resume-builder",
+    "actionanand/local-tell"
+  ],
+  "metadataReview": [
+    "wiki",
+    "ar-tamil-jathagam",
+    "ar-portfolio",
+    "wifi-chat",
+    "folder-flow",
+    "universal-calendar",
+    "byteschool",
+    "resume-builder",
+    "single-spa-showcase",
+    "local-tell",
+    "stillora",
+    "link-deck",
+    "life-leaf",
+    "click2chat",
+    "arflix",
+    "personix",
+    "scrollix",
+    "artamizhsolai",
+    "care-chime",
+    "angular-22",
+    "ng-lifecycle"
+  ],
+  "collections": [
+    {
+      "id": "single-spa-showcase",
+      "mode": "variants",
+      "variants": [
+        {
+          "id": "polyglot",
+          "label": "Polyglot root configuration",
+          "order": 1,
+          "rootRepositoryRef": "actionanand/single-spa-demo-root-config",
+          "repositoryRefs": [
+            "actionanand/single-spa-demo-root-config",
+            "actionanand/single-spa-angular",
+            "actionanand/single-spa-react",
+            "actionanand/single-spa-vue",
+            "actionanand/single-spa-svelte",
+            "actionanand/single-spa-footer",
+            "actionanand/single-spa-404",
+            "actionanand/single-spa-vanilla-js",
+            "actionanand/single-spa-utility",
+            "actionanand/angular-parcel-app",
+            "actionanand/react-parcel-app",
+            "actionanand/single-spa-nav"
+          ],
+          "description": "Root config + Angular, React, Vue, Svelte and shared microfrontends."
+        },
+        {
+          "id": "angular-root",
+          "label": "Angular root configuration",
+          "order": 2,
+          "rootRepositoryRef": "actionanand/single-spa-angular-root-config",
+          "repositoryRefs": [
+            "actionanand/single-spa-angular-root-config",
+            "actionanand/single-spa-angular",
+            "actionanand/single-spa-react",
+            "actionanand/single-spa-vue",
+            "actionanand/single-spa-svelte",
+            "actionanand/single-spa-footer",
+            "actionanand/single-spa-404",
+            "actionanand/single-spa-vanilla-js",
+            "actionanand/single-spa-utility",
+            "actionanand/angular-parcel-app",
+            "actionanand/react-parcel-app",
+            "actionanand/single-spa-sidebar"
+          ],
+          "description": "Angular-root variation with sidebar component."
+        }
+      ]
+    },
+    {
+      "id": "docker-learning-series",
+      "mode": "series",
+      "parts": [
+        {
+          "number": 1,
+          "title": "Docker basics",
+          "repositoryRef": "actionanand/docker_playground",
+          "summary": "Images, containers, Dockerfiles and commands"
+        },
+        {
+          "number": 2,
+          "title": "Volumes and data",
+          "repositoryRef": "actionanand/docker_data_volume",
+          "summary": "Persistent data, volumes and bind mounts"
+        },
+        {
+          "number": 3,
+          "title": "Networking and communication",
+          "repositoryRef": "actionanand/docker_communication",
+          "summary": "Communication between containers and host"
+        },
+        {
+          "number": 4,
+          "title": "Multi-container and Compose",
+          "repositoryRef": "actionanand/docker_multi-container",
+          "summary": "Networks, multi-service applications and Compose"
+        },
+        {
+          "number": 5,
+          "title": "Angular with Docker",
+          "repositoryRef": "actionanand/angular_with_docker",
+          "summary": "Containerized Angular development"
+        },
+        {
+          "number": 6,
+          "title": "Rails with Docker",
+          "repositoryRef": "actionanand/rails_with_docker",
+          "summary": "Framework setup example"
+        },
+        {
+          "number": 7,
+          "title": "Laravel with Docker",
+          "repositoryRef": "actionanand/laravel_with_docker",
+          "summary": "Framework setup example"
+        }
+      ]
+    }
+  ],
+  "policyHub": {
+    "projects": 21,
+    "playStoreLinks": 15,
+    "checkedOn": "2026-10-31",
+    "sourceUrl": "https://raw.githubusercontent.com/actionanand/policy-hub/main/docs/.vitepress/data/apps.ts",
+    "sourceSha256": "0a5df5e1bea73d437d218db34ee6b72e1b7f5528c7e98486df879c38254b55ee"
+  }
+}
