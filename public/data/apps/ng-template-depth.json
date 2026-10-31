@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "ng-template-depth",
+  "name": "Ng Template Depth",
+  "description": "This is a hobby Angular Repo for ng-template in depth using PNPM ",
+  "category": "developer-tools",
+  "projectType": "playground",
+  "visible": true,
+  "featured": false,
+  "needsReview": false,
+  "classificationReview": false,
+  "order": 56,
+  "repositories": [
+    {
+      "ref": "actionanand/ng-template-depth",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [
+    "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+  ],
+  "overrides": {},
+  "technologies": ["angular"]
+}

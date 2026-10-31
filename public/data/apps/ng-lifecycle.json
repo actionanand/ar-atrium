@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "ng-lifecycle",
+  "name": "Ng Lifecycle",
+  "description": "Angular Life Cycles",
+  "category": "developer-tools",
+  "projectType": "playground",
+  "visible": true,
+  "featured": false,
+  "needsReview": true,
+  "classificationReview": false,
+  "order": 60,
+  "repositories": [
+    {
+      "ref": "actionanand/ng-lifecycle",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [
+    "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+  ],
+  "overrides": {},
+  "technologies": ["angular"]
+}

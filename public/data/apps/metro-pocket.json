@@ -1,0 +1,25 @@
+{
+  "id": "metro-pocket",
+  "name": "MetroPocket",
+  "description": "Offline metro routes and TV channel lookup with downloadable data packs.",
+  "category": "travel",
+  "featured": true,
+  "visible": true,
+  "needsReview": false,
+  "repositories": [
+    {
+      "ref": "actionanand/metro-pocket",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [],
+  "schemaVersion": 1,
+  "policyHub": {
+    "appId": "metro-pocket"
+  },
+  "overrides": {},
+  "projectType": "application",
+  "order": 4,
+  "technologies": []
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "angular-testing",
+  "name": "Angular Testing",
+  "description": "Angular Testing Repo - A complete guide to Angular Unit Testing and E2E Testing ",
+  "category": "developer-tools",
+  "projectType": "study",
+  "visible": true,
+  "featured": false,
+  "needsReview": false,
+  "classificationReview": false,
+  "order": 68,
+  "repositories": [
+    {
+      "ref": "actionanand/angular-testing",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [
+    "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+  ],
+  "overrides": {},
+  "technologies": ["angular"]
+}

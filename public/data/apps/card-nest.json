@@ -1,0 +1,25 @@
+{
+  "id": "card-nest",
+  "name": "Card Nest",
+  "description": "A private, offline-first credit-card and personal-finance organizer.",
+  "category": "finance",
+  "featured": true,
+  "visible": true,
+  "needsReview": false,
+  "repositories": [
+    {
+      "ref": "actionanand/card-nest",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [],
+  "schemaVersion": 1,
+  "policyHub": {
+    "appId": "card-nest"
+  },
+  "overrides": {},
+  "projectType": "application",
+  "order": 0,
+  "technologies": []
+}

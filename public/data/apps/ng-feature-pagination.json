@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "ng-feature-pagination",
+  "name": "Ng Feature Pagination",
+  "description": "Angular custom pagination and translation",
+  "category": "developer-tools",
+  "projectType": "playground",
+  "visible": true,
+  "featured": false,
+  "needsReview": false,
+  "classificationReview": false,
+  "order": 62,
+  "repositories": [
+    {
+      "ref": "actionanand/ng-feature-pagination",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [
+    "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+  ],
+  "overrides": {},
+  "technologies": ["angular"]
+}

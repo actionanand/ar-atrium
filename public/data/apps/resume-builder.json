@@ -1,0 +1,23 @@
+{
+  "id": "resume-builder",
+  "name": "Resume Builder",
+  "description": "Project description needs confirmation.",
+  "category": "productivity",
+  "featured": false,
+  "visible": true,
+  "needsReview": true,
+  "repositories": [
+    {
+      "ref": "actionanand/resume-builder",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": ["GitHub repository metadata not accessible; confirm visibility and correct URL."],
+  "schemaVersion": 1,
+  "overrides": {},
+  "projectType": "tool",
+  "classificationReview": true,
+  "order": 28,
+  "technologies": []
+}

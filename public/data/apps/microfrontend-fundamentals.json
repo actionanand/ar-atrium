@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "microfrontend-fundamentals",
+  "name": "Microfrontend Fundamentals",
+  "description": "Independent study material covering core single-spa ideas.",
+  "category": "developer-tools",
+  "projectType": "study",
+  "featured": false,
+  "visible": true,
+  "needsReview": false,
+  "repositories": [
+    {
+      "ref": "actionanand/microfrontend-fundamentals",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "relatedProjects": ["single-spa-showcase"],
+  "overrides": {},
+  "order": 45,
+  "technologies": []
+}

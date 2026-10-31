@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "angular-study",
+  "name": "Angular Study",
+  "description": "This is my practice repository of Angular studies (directives)",
+  "category": "developer-tools",
+  "projectType": "study",
+  "visible": true,
+  "featured": false,
+  "needsReview": false,
+  "classificationReview": false,
+  "order": 71,
+  "repositories": [
+    {
+      "ref": "actionanand/Angular-study",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [
+    "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+  ],
+  "overrides": {},
+  "technologies": ["angular"]
+}

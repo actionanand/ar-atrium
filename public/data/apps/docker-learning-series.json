@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "docker-learning-series",
+  "name": "Docker Learning Series",
+  "description": "Seven connected Docker study repositories, from container basics to multi-container applications and framework examples.",
+  "category": "devops",
+  "projectType": "study",
+  "featured": false,
+  "visible": true,
+  "needsReview": false,
+  "repositories": [
+    {
+      "ref": "actionanand/docker_playground",
+      "role": "part",
+      "order": 1
+    },
+    {
+      "ref": "actionanand/docker_data_volume",
+      "role": "part",
+      "order": 2
+    },
+    {
+      "ref": "actionanand/docker_communication",
+      "role": "part",
+      "order": 3
+    },
+    {
+      "ref": "actionanand/docker_multi-container",
+      "role": "part",
+      "order": 4
+    },
+    {
+      "ref": "actionanand/angular_with_docker",
+      "role": "part",
+      "order": 5
+    },
+    {
+      "ref": "actionanand/rails_with_docker",
+      "role": "part",
+      "order": 6
+    },
+    {
+      "ref": "actionanand/laravel_with_docker",
+      "role": "part",
+      "order": 7
+    }
+  ],
+  "collection": {
+    "mode": "series",
+    "parts": [
+      {
+        "number": 1,
+        "title": "Docker basics",
+        "repositoryRef": "actionanand/docker_playground",
+        "summary": "Images, containers, Dockerfiles and commands"
+      },
+      {
+        "number": 2,
+        "title": "Volumes and data",
+        "repositoryRef": "actionanand/docker_data_volume",
+        "summary": "Persistent data, volumes and bind mounts"
+      },
+      {
+        "number": 3,
+        "title": "Networking and communication",
+        "repositoryRef": "actionanand/docker_communication",
+        "summary": "Communication between containers and host"
+      },
+      {
+        "number": 4,
+        "title": "Multi-container and Compose",
+        "repositoryRef": "actionanand/docker_multi-container",
+        "summary": "Networks, multi-service applications and Compose"
+      },
+      {
+        "number": 5,
+        "title": "Angular with Docker",
+        "repositoryRef": "actionanand/angular_with_docker",
+        "summary": "Containerized Angular development"
+      },
+      {
+        "number": 6,
+        "title": "Rails with Docker",
+        "repositoryRef": "actionanand/rails_with_docker",
+        "summary": "Framework setup example"
+      },
+      {
+        "number": 7,
+        "title": "Laravel with Docker",
+        "repositoryRef": "actionanand/laravel_with_docker",
+        "summary": "Framework setup example"
+      }
+    ]
+  },
+  "links": [],
+  "notes": [
+    "Parts 5–7 are framework-specific examples, not necessarily required prerequisites for each other."
+  ],
+  "overrides": {},
+  "order": 44,
+  "technologies": ["docker"]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "image-local-upload",
+  "name": "Image Local Upload",
+  "description": "it's about converting image into base64 and serving via local blob url",
+  "category": "developer-tools",
+  "featured": false,
+  "visible": true,
+  "needsReview": false,
+  "repositories": [
+    {
+      "ref": "actionanand/image-local-upload",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [],
+  "schemaVersion": 1,
+  "overrides": {},
+  "projectType": "playground",
+  "order": 30,
+  "technologies": []
+}

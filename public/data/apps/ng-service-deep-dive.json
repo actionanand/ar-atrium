@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "ng-service-deep-dive",
+  "name": "Ng Service Deep Dive",
+  "description": "Angular Services deep dive",
+  "category": "developer-tools",
+  "projectType": "playground",
+  "visible": true,
+  "featured": false,
+  "needsReview": false,
+  "classificationReview": false,
+  "order": 59,
+  "repositories": [
+    {
+      "ref": "actionanand/ng-service-deep-dive",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [
+    "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+  ],
+  "overrides": {},
+  "technologies": ["angular"]
+}

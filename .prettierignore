@@ -1,7 +1,6 @@
 # Ignore artifacts:
 build
 coverage
-e2e
 node_modules
 dist
 dest
@@ -11,3 +10,6 @@ reports
 *.lock
 package-lock.json
 yarn.lock
+public/data/generated/
+reference/
+.cache/

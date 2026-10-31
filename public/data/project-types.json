@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "navigationGroups": [
+    {
+      "id": "apps-tools",
+      "label": "Apps & Tools",
+      "types": ["application", "tool"],
+      "description": "Practical applications and reusable utilities",
+      "showOnHome": true,
+      "route": "/explore"
+    },
+    {
+      "id": "study",
+      "label": "Study Repositories",
+      "types": ["study"],
+      "description": "Courses, tutorials and connected learning series",
+      "showOnHome": true,
+      "route": "/study"
+    },
+    {
+      "id": "playground",
+      "label": "Playground",
+      "types": ["playground"],
+      "description": "Proofs of concept, rough work and technical experiments",
+      "showOnHome": true,
+      "route": "/playground"
+    },
+    {
+      "id": "libraries",
+      "label": "Libraries",
+      "types": ["library"],
+      "description": "Angular library workspaces and npm packages",
+      "showOnHome": true,
+      "route": "/libraries"
+    }
+  ],
+  "typeLabels": {
+    "application": "Application",
+    "tool": "Tool",
+    "study": "Study repository",
+    "playground": "Playground experiment",
+    "library": "Library workspace"
+  },
+  "categories": [
+    {
+      "id": "connectivity",
+      "label": "Connectivity"
+    },
+    {
+      "id": "content",
+      "label": "Content"
+    },
+    {
+      "id": "culture",
+      "label": "Culture"
+    },
+    {
+      "id": "developer-tools",
+      "label": "Developer Tools"
+    },
+    {
+      "id": "devops",
+      "label": "Devops"
+    },
+    {
+      "id": "education",
+      "label": "Education"
+    },
+    {
+      "id": "entertainment",
+      "label": "Entertainment"
+    },
+    {
+      "id": "finance",
+      "label": "Finance"
+    },
+    {
+      "id": "knowledge",
+      "label": "Knowledge"
+    },
+    {
+      "id": "language",
+      "label": "Language"
+    },
+    {
+      "id": "personal",
+      "label": "Personal"
+    },
+    {
+      "id": "platform",
+      "label": "Platform"
+    },
+    {
+      "id": "portfolio",
+      "label": "Portfolio"
+    },
+    {
+      "id": "productivity",
+      "label": "Productivity"
+    },
+    {
+      "id": "security",
+      "label": "Security"
+    },
+    {
+      "id": "travel",
+      "label": "Travel"
+    },
+    {
+      "id": "utilities",
+      "label": "Utilities"
+    },
+    {
+      "id": "wellness",
+      "label": "Wellness"
+    }
+  ],
+  "technologies": [
+    {
+      "id": "angular",
+      "label": "Angular"
+    },
+    {
+      "id": "nx",
+      "label": "Nx"
+    },
+    {
+      "id": "react",
+      "label": "React"
+    },
+    {
+      "id": "vue",
+      "label": "Vue"
+    },
+    {
+      "id": "svelte",
+      "label": "Svelte"
+    },
+    {
+      "id": "docker",
+      "label": "Docker"
+    },
+    {
+      "id": "single-spa",
+      "label": "single-spa"
+    }
+  ]
+}

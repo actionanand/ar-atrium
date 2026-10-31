@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "ng-dev-testing",
+  "name": "Ng Dev Testing",
+  "description": "Complete Angular Testing Repo - A complete guide to Angular Unit Testing",
+  "category": "developer-tools",
+  "projectType": "study",
+  "visible": true,
+  "featured": false,
+  "needsReview": false,
+  "classificationReview": false,
+  "order": 67,
+  "repositories": [
+    {
+      "ref": "actionanand/ng-dev-testing",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [
+    "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+  ],
+  "overrides": {},
+  "technologies": ["angular"]
+}

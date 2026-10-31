@@ -1,0 +1,29 @@
+{
+  "id": "ar-portfolio",
+  "name": "AR Portfolio",
+  "description": "Portfolio website and its legacy version (related repositories; access not verified).",
+  "category": "portfolio",
+  "featured": false,
+  "visible": true,
+  "needsReview": true,
+  "repositories": [
+    {
+      "ref": "actionanand/ar-portfolio",
+      "role": "primary"
+    },
+    {
+      "ref": "actionanand/ar-portfolio-legacy-1",
+      "role": "legacy"
+    }
+  ],
+  "links": [],
+  "notes": [
+    "Two user-supplied repository URLs are grouped as one app; both returned 404 from GitHub connector.",
+    "GitHub repository metadata not accessible; confirm visibility and correct URL."
+  ],
+  "schemaVersion": 1,
+  "overrides": {},
+  "projectType": "application",
+  "order": 19,
+  "technologies": []
+}

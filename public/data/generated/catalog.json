@@ -1,0 +1,4129 @@
+{
+  "schemaVersion": 1,
+  "title": "AR Atrium",
+  "tagline": "One space. Every creation.",
+  "description": "A living collection of apps, tools, libraries and things learned along the way.",
+  "taxonomy": {
+    "schemaVersion": 1,
+    "navigationGroups": [
+      {
+        "id": "apps-tools",
+        "label": "Apps & Tools",
+        "types": [
+          "application",
+          "tool"
+        ],
+        "description": "Practical applications and reusable utilities",
+        "showOnHome": true,
+        "route": "/explore"
+      },
+      {
+        "id": "study",
+        "label": "Study Repositories",
+        "types": [
+          "study"
+        ],
+        "description": "Courses, tutorials and connected learning series",
+        "showOnHome": true,
+        "route": "/study"
+      },
+      {
+        "id": "playground",
+        "label": "Playground",
+        "types": [
+          "playground"
+        ],
+        "description": "Proofs of concept, rough work and technical experiments",
+        "showOnHome": true,
+        "route": "/playground"
+      },
+      {
+        "id": "libraries",
+        "label": "Libraries",
+        "types": [
+          "library"
+        ],
+        "description": "Angular library workspaces and npm packages",
+        "showOnHome": true,
+        "route": "/libraries"
+      }
+    ],
+    "typeLabels": {
+      "application": "Application",
+      "tool": "Tool",
+      "study": "Study repository",
+      "playground": "Playground experiment",
+      "library": "Library workspace"
+    },
+    "categories": [
+      {
+        "id": "connectivity",
+        "label": "Connectivity"
+      },
+      {
+        "id": "content",
+        "label": "Content"
+      },
+      {
+        "id": "culture",
+        "label": "Culture"
+      },
+      {
+        "id": "developer-tools",
+        "label": "Developer Tools"
+      },
+      {
+        "id": "devops",
+        "label": "Devops"
+      },
+      {
+        "id": "education",
+        "label": "Education"
+      },
+      {
+        "id": "entertainment",
+        "label": "Entertainment"
+      },
+      {
+        "id": "finance",
+        "label": "Finance"
+      },
+      {
+        "id": "knowledge",
+        "label": "Knowledge"
+      },
+      {
+        "id": "language",
+        "label": "Language"
+      },
+      {
+        "id": "personal",
+        "label": "Personal"
+      },
+      {
+        "id": "platform",
+        "label": "Platform"
+      },
+      {
+        "id": "portfolio",
+        "label": "Portfolio"
+      },
+      {
+        "id": "productivity",
+        "label": "Productivity"
+      },
+      {
+        "id": "security",
+        "label": "Security"
+      },
+      {
+        "id": "travel",
+        "label": "Travel"
+      },
+      {
+        "id": "utilities",
+        "label": "Utilities"
+      },
+      {
+        "id": "wellness",
+        "label": "Wellness"
+      }
+    ],
+    "technologies": [
+      {
+        "id": "angular",
+        "label": "Angular"
+      },
+      {
+        "id": "nx",
+        "label": "Nx"
+      },
+      {
+        "id": "react",
+        "label": "React"
+      },
+      {
+        "id": "vue",
+        "label": "Vue"
+      },
+      {
+        "id": "svelte",
+        "label": "Svelte"
+      },
+      {
+        "id": "docker",
+        "label": "Docker"
+      },
+      {
+        "id": "single-spa",
+        "label": "single-spa"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "card-nest",
+      "name": "Card Nest",
+      "description": "A private, offline-first credit-card and personal-finance organizer.",
+      "category": "finance",
+      "featured": true,
+      "visible": true,
+      "needsReview": false,
+      "repositories": [
+        {
+          "ref": "actionanand/card-nest",
+          "role": "primary",
+          "url": "https://github.com/actionanand/card-nest",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [],
+      "schemaVersion": 1,
+      "policyHub": {
+        "appId": "card-nest"
+      },
+      "projectType": "application",
+      "order": 0,
+      "technologies": [],
+      "iconUrl": "https://actionanand.github.io/policy-hub/apps/card-nest/icon.png",
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Web app",
+          "url": "https://actionanand.github.io/card-nest/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/card-nest",
+          "kind": "github",
+          "label": "primary: actionanand/card-nest",
+          "url": "https://github.com/actionanand/card-nest"
+        },
+        {
+          "id": "policy:play-store",
+          "kind": "play-store",
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.actionanand.cardnest.app"
+        }
+      ],
+      "android": {
+        "platform": "android",
+        "releasedToPlayStore": true,
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=com.actionanand.cardnest.app",
+        "iconUrl": "https://actionanand.github.io/policy-hub/apps/card-nest/icon.png"
+      }
+    },
+    {
+      "id": "policy-hub",
+      "name": "Policy Hub",
+      "description": "A centralized hub for privacy policies, terms, support, and legal information for all my Android applications.",
+      "category": "platform",
+      "featured": false,
+      "visible": true,
+      "needsReview": false,
+      "repositories": [
+        {
+          "ref": "actionanand/policy-hub",
+          "role": "primary",
+          "url": "https://github.com/actionanand/policy-hub",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [],
+      "schemaVersion": 1,
+      "projectType": "tool",
+      "order": 1,
+      "technologies": [],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Web app",
+          "url": "https://actionanand.github.io/policy-hub/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/policy-hub",
+          "kind": "github",
+          "label": "primary: actionanand/policy-hub",
+          "url": "https://github.com/actionanand/policy-hub"
+        }
+      ]
+    },
+    {
+      "id": "office-orbit",
+      "name": "Office Orbit",
+      "description": "A personal work dashboard for logs, JIRAs, sprints, releases, and feedback.",
+      "category": "productivity",
+      "featured": false,
+      "visible": true,
+      "needsReview": false,
+      "repositories": [
+        {
+          "ref": "actionanand/office-orbit",
+          "role": "primary",
+          "url": "https://github.com/actionanand/office-orbit",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "Android listed in policy-hub, but NOT marked as released to Google Play; do not generate a Play Store URL."
+      ],
+      "schemaVersion": 1,
+      "policyHub": {
+        "appId": "office-orbit"
+      },
+      "projectType": "application",
+      "order": 2,
+      "technologies": [],
+      "iconUrl": "https://actionanand.github.io/policy-hub/apps/office-orbit/icon.png",
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Web app",
+          "url": "https://actionanand.github.io/office-orbit/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/office-orbit",
+          "kind": "github",
+          "label": "primary: actionanand/office-orbit",
+          "url": "https://github.com/actionanand/office-orbit"
+        }
+      ],
+      "android": {
+        "platform": "android",
+        "releasedToPlayStore": false,
+        "iconUrl": "https://actionanand.github.io/policy-hub/apps/office-orbit/icon.png"
+      }
+    },
+    {
+      "id": "wiki",
+      "name": "Wiki",
+      "description": "Project description needs confirmation.",
+      "category": "knowledge",
+      "featured": false,
+      "visible": true,
+      "needsReview": true,
+      "repositories": [
+        {
+          "ref": "actionanand/wiki",
+          "role": "primary",
+          "url": "https://github.com/actionanand/wiki",
+          "access": "not-accessible-at-check"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "GitHub repository metadata not accessible; confirm visibility and correct URL."
+      ],
+      "schemaVersion": 1,
+      "projectType": "application",
+      "order": 3,
+      "technologies": [],
+      "destinations": [
+        {
+          "id": "repo:actionanand/wiki",
+          "kind": "github",
+          "label": "primary: actionanand/wiki",
+          "url": "https://github.com/actionanand/wiki"
+        }
+      ]
+    },
+    {
+      "id": "metro-pocket",
+      "name": "MetroPocket",
+      "description": "Offline metro routes and TV channel lookup with downloadable data packs.",
+      "category": "travel",
+      "featured": true,
+      "visible": true,
+      "needsReview": false,
+      "repositories": [
+        {
+          "ref": "actionanand/metro-pocket",
+          "role": "primary",
+          "url": "https://github.com/actionanand/metro-pocket",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [],
+      "schemaVersion": 1,
+      "policyHub": {
+        "appId": "metro-pocket"
+      },
+      "projectType": "application",
+      "order": 4,
+      "technologies": [],
+      "iconUrl": "https://actionanand.github.io/policy-hub/apps/metro-pocket/icon.png",
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Web app",
+          "url": "https://actionanand.github.io/metro-pocket/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/metro-pocket",
+          "kind": "github",
+          "label": "primary: actionanand/metro-pocket",
+          "url": "https://github.com/actionanand/metro-pocket"
+        },
+        {
+          "id": "policy:play-store",
+          "kind": "play-store",
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.actionanand.metropocket.app"
+        }
+      ],
+      "android": {
+        "platform": "android",
+        "releasedToPlayStore": true,
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=com.actionanand.metropocket.app",
+        "iconUrl": "https://actionanand.github.io/policy-hub/apps/metro-pocket/icon.png"
+      }
+    },
+    {
+      "id": "spendzo",
+      "name": "Spendzo",
+      "description": "A personal expense and budget-tracking application.",
+      "category": "finance",
+      "featured": false,
+      "visible": true,
+      "needsReview": false,
+      "repositories": [
+        {
+          "ref": "actionanand/spendzo",
+          "role": "primary",
+          "url": "https://github.com/actionanand/spendzo",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [],
+      "schemaVersion": 1,
+      "policyHub": {
+        "appId": "spendzo"
+      },
+      "projectType": "application",
+      "order": 5,
+      "technologies": [],
+      "iconUrl": "https://actionanand.github.io/policy-hub/apps/spendzo/icon.png",
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Web app",
+          "url": "https://actionanand.github.io/spendzo/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/spendzo",
+          "kind": "github",
+          "label": "primary: actionanand/spendzo",
+          "url": "https://github.com/actionanand/spendzo"
+        },
+        {
+          "id": "policy:play-store",
+          "kind": "play-store",
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.actionanand.spendzo.app"
+        }
+      ],
+      "android": {
+        "platform": "android",
+        "releasedToPlayStore": true,
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=com.actionanand.spendzo.app",
+        "iconUrl": "https://actionanand.github.io/policy-hub/apps/spendzo/icon.png"
+      }
+    },
+    {
+      "id": "ping-metric",
+      "name": "PingMetric",
+      "description": "A lightweight internet performance tester for measuring download speed, upload speed, ping, latency, and jitter — directly from your browser.",
+      "category": "utilities",
+      "featured": true,
+      "visible": true,
+      "needsReview": false,
+      "repositories": [
+        {
+          "ref": "actionanand/ping-metric",
+          "role": "primary",
+          "url": "https://github.com/actionanand/ping-metric",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [],
+      "schemaVersion": 1,
+      "projectType": "tool",
+      "order": 6,
+      "technologies": [],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Web app",
+          "url": "https://actionanand.github.io/ping-metric/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/ping-metric",
+          "kind": "github",
+          "label": "primary: actionanand/ping-metric",
+          "url": "https://github.com/actionanand/ping-metric"
+        }
+      ]
+    },
+    {
+      "id": "globee",
+      "name": "Globee",
+      "description": "Interactive geography learning app for kids to explore countries, continents, oceans, Indian states & UTs, capitals, languages, and more.",
+      "category": "education",
+      "featured": false,
+      "visible": true,
+      "needsReview": false,
+      "repositories": [
+        {
+          "ref": "actionanand/globee",
+          "role": "primary",
+          "url": "https://github.com/actionanand/globee",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [],
+      "schemaVersion": 1,
+      "projectType": "application",
+      "order": 7,
+      "technologies": [],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Web app",
+          "url": "https://actionanand.github.io/globee/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/globee",
+          "kind": "github",
+          "label": "primary: actionanand/globee",
+          "url": "https://github.com/actionanand/globee"
+        }
+      ]
+    },
+    {
+      "id": "qurio",
+      "name": "Qurio",
+      "description": "Multilingual learning, quizzes, progress tracking, and exam preparation.",
+      "category": "education",
+      "featured": true,
+      "visible": true,
+      "needsReview": false,
+      "repositories": [
+        {
+          "ref": "actionanand/qurio",
+          "role": "primary",
+          "url": "https://github.com/actionanand/qurio",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [],
+      "schemaVersion": 1,
+      "policyHub": {
+        "appId": "qurio"
+      },
+      "projectType": "application",
+      "order": 8,
+      "technologies": [],
+      "iconUrl": "https://actionanand.github.io/policy-hub/apps/qurio/icon.png",
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Web app",
+          "url": "https://actionanand.github.io/qurio/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/qurio",
+          "kind": "github",
+          "label": "primary: actionanand/qurio",
+          "url": "https://github.com/actionanand/qurio"
+        },
+        {
+          "id": "policy:play-store",
+          "kind": "play-store",
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.actionanand.qurio.app"
+        }
+      ],
+      "android": {
+        "platform": "android",
+        "releasedToPlayStore": true,
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=com.actionanand.qurio.app",
+        "iconUrl": "https://actionanand.github.io/policy-hub/apps/qurio/icon.png"
+      }
+    },
+    {
+      "id": "arblogz",
+      "name": "AR Blogz",
+      "description": "A multilingual personal blog about learning, culture, health, food, and discoveries.",
+      "category": "content",
+      "featured": true,
+      "visible": true,
+      "needsReview": false,
+      "repositories": [
+        {
+          "ref": "actionanand/arblogz",
+          "role": "primary",
+          "url": "https://github.com/actionanand/arblogz",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [],
+      "schemaVersion": 1,
+      "projectType": "application",
+      "order": 9,
+      "technologies": [],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Web app",
+          "url": "https://actionanand.github.io/arblogz/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "kind": "web",
+          "label": "Cloudflare Pages",
+          "url": "https://arblogz.pages.dev/",
+          "source": "policy-hub-registry",
+          "verified": "not-live-checked",
+          "id": "website-2"
+        },
+        {
+          "id": "repo:actionanand/arblogz",
+          "kind": "github",
+          "label": "primary: actionanand/arblogz",
+          "url": "https://github.com/actionanand/arblogz"
+        }
+      ]
+    },
+    {
+      "id": "vault-nest",
+      "name": "Vault Nest",
+      "description": "A private, offline-first password manager for Android and Wear OS.",
+      "category": "security",
+      "featured": false,
+      "visible": true,
+      "needsReview": false,
+      "repositories": [
+        {
+          "ref": "actionanand/vault-nest",
+          "role": "primary",
+          "url": "https://github.com/actionanand/vault-nest",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [],
+      "schemaVersion": 1,
+      "policyHub": {
+        "appId": "vault-nest"
+      },
+      "projectType": "application",
+      "order": 10,
+      "technologies": [],
+      "iconUrl": "https://actionanand.github.io/policy-hub/apps/vault-nest/icon.png",
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Web app",
+          "url": "https://actionanand.github.io/vault-nest/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/vault-nest",
+          "kind": "github",
+          "label": "primary: actionanand/vault-nest",
+          "url": "https://github.com/actionanand/vault-nest"
+        },
+        {
+          "id": "policy:play-store",
+          "kind": "play-store",
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.actionanand.vaultnest.app"
+        }
+      ],
+      "android": {
+        "platform": "android",
+        "releasedToPlayStore": true,
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=com.actionanand.vaultnest.app",
+        "iconUrl": "https://actionanand.github.io/policy-hub/apps/vault-nest/icon.png"
+      }
+    },
+    {
+      "id": "office-pulse",
+      "name": "Office Pulse",
+      "description": "A work dashboard for attendance, schedules, tasks, notes, and utilities.",
+      "category": "productivity",
+      "featured": false,
+      "visible": true,
+      "needsReview": false,
+      "repositories": [
+        {
+          "ref": "actionanand/office-pulse",
+          "role": "primary",
+          "url": "https://github.com/actionanand/office-pulse",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "Android listed in policy-hub, but NOT marked as released to Google Play; do not generate a Play Store URL."
+      ],
+      "schemaVersion": 1,
+      "policyHub": {
+        "appId": "office-pulse"
+      },
+      "projectType": "application",
+      "order": 11,
+      "technologies": [],
+      "iconUrl": "https://actionanand.github.io/policy-hub/apps/office-pulse/icon.png",
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Web app",
+          "url": "https://actionanand.github.io/office-pulse/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/office-pulse",
+          "kind": "github",
+          "label": "primary: actionanand/office-pulse",
+          "url": "https://github.com/actionanand/office-pulse"
+        }
+      ],
+      "android": {
+        "platform": "android",
+        "releasedToPlayStore": false,
+        "iconUrl": "https://actionanand.github.io/policy-hub/apps/office-pulse/icon.png"
+      }
+    },
+    {
+      "id": "lingua-log",
+      "name": "Lingua Log",
+      "description": "A multilingual sentence, translation, explanation, and learning-resource organizer.",
+      "category": "language",
+      "featured": false,
+      "visible": true,
+      "needsReview": false,
+      "repositories": [
+        {
+          "ref": "actionanand/lingua-log",
+          "role": "primary",
+          "url": "https://github.com/actionanand/lingua-log",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "Android listed in policy-hub, but NOT marked as released to Google Play; do not generate a Play Store URL."
+      ],
+      "schemaVersion": 1,
+      "policyHub": {
+        "appId": "lingua-log"
+      },
+      "projectType": "application",
+      "order": 12,
+      "technologies": [],
+      "iconUrl": "https://actionanand.github.io/policy-hub/apps/lingua-log/icon.png",
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Web app",
+          "url": "https://actionanand.github.io/lingua-log/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/lingua-log",
+          "kind": "github",
+          "label": "primary: actionanand/lingua-log",
+          "url": "https://github.com/actionanand/lingua-log"
+        }
+      ],
+      "android": {
+        "platform": "android",
+        "releasedToPlayStore": false,
+        "iconUrl": "https://actionanand.github.io/policy-hub/apps/lingua-log/icon.png"
+      }
+    },
+    {
+      "id": "ar-tamil-jathagam",
+      "name": "AR Tamil Jathagam",
+      "description": "A Tamil and English astrology app for horoscopes, Panchanga, and compatibility.",
+      "category": "culture",
+      "featured": false,
+      "visible": true,
+      "needsReview": true,
+      "repositories": [
+        {
+          "ref": "actionanand/ar-tamil-jathagam",
+          "role": "primary",
+          "url": "https://github.com/actionanand/ar-tamil-jathagam",
+          "access": "not-accessible-at-check"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "GitHub repository metadata not accessible; confirm visibility and correct URL.",
+        "Android listed in policy-hub, but NOT marked as released to Google Play; do not generate a Play Store URL."
+      ],
+      "schemaVersion": 1,
+      "policyHub": {
+        "appId": "ar-tamil-jathagam"
+      },
+      "projectType": "application",
+      "order": 13,
+      "technologies": [],
+      "iconUrl": "https://actionanand.github.io/policy-hub/apps/ar-tamil-jathagam/icon.png",
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Web application (Cloudflare Pages)",
+          "url": "https://ar-tamil-jathagam.pages.dev/",
+          "source": "policy-hub-registry",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/ar-tamil-jathagam",
+          "kind": "github",
+          "label": "primary: actionanand/ar-tamil-jathagam",
+          "url": "https://github.com/actionanand/ar-tamil-jathagam"
+        }
+      ],
+      "android": {
+        "platform": "android",
+        "releasedToPlayStore": false,
+        "iconUrl": "https://actionanand.github.io/policy-hub/apps/ar-tamil-jathagam/icon.png"
+      }
+    },
+    {
+      "id": "birthday-buddy",
+      "name": "Birthday Buddy",
+      "description": "A private reminder for birthdays, anniversaries, and meaningful occasions.",
+      "category": "personal",
+      "featured": false,
+      "visible": true,
+      "needsReview": false,
+      "repositories": [
+        {
+          "ref": "actionanand/birthday-buddy",
+          "role": "primary",
+          "url": "https://github.com/actionanand/birthday-buddy",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [],
+      "schemaVersion": 1,
+      "policyHub": {
+        "appId": "birthday-buddy"
+      },
+      "projectType": "application",
+      "order": 14,
+      "technologies": [],
+      "iconUrl": "https://actionanand.github.io/policy-hub/apps/birthday-buddy/icon.png",
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Web app",
+          "url": "https://actionanand.github.io/birthday-buddy/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "kind": "web",
+          "label": "Alternate web version",
+          "url": "https://actionanand.github.io/birthday-buddy/tabs/home",
+          "source": "policy-hub-registry",
+          "verified": "not-live-checked",
+          "id": "website-2"
+        },
+        {
+          "id": "repo:actionanand/birthday-buddy",
+          "kind": "github",
+          "label": "primary: actionanand/birthday-buddy",
+          "url": "https://github.com/actionanand/birthday-buddy"
+        },
+        {
+          "id": "policy:play-store",
+          "kind": "play-store",
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.actionanand.birthdaybuddy.app"
+        }
+      ],
+      "android": {
+        "platform": "android",
+        "releasedToPlayStore": true,
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=com.actionanand.birthdaybuddy.app",
+        "iconUrl": "https://actionanand.github.io/policy-hub/apps/birthday-buddy/icon.png"
+      }
+    },
+    {
+      "id": "expenzo",
+      "name": "Expenzo",
+      "description": "A finance dashboard for expenses, budgets, savings, wishlists, and checklists.",
+      "category": "finance",
+      "featured": false,
+      "visible": true,
+      "needsReview": false,
+      "repositories": [
+        {
+          "ref": "actionanand/expenzo",
+          "role": "primary",
+          "url": "https://github.com/actionanand/expenzo",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "Android listed in policy-hub, but NOT marked as released to Google Play; do not generate a Play Store URL."
+      ],
+      "schemaVersion": 1,
+      "policyHub": {
+        "appId": "expenzo"
+      },
+      "projectType": "application",
+      "order": 15,
+      "technologies": [],
+      "iconUrl": "https://actionanand.github.io/policy-hub/apps/expenzo/icon.png",
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Web app",
+          "url": "https://actionanand.github.io/expenzo/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/expenzo",
+          "kind": "github",
+          "label": "primary: actionanand/expenzo",
+          "url": "https://github.com/actionanand/expenzo"
+        }
+      ],
+      "android": {
+        "platform": "android",
+        "releasedToPlayStore": false,
+        "iconUrl": "https://actionanand.github.io/policy-hub/apps/expenzo/icon.png"
+      }
+    },
+    {
+      "id": "who-called",
+      "name": "Who Called",
+      "description": "A private, offline contact organizer with optional call-history tools.",
+      "category": "utilities",
+      "featured": false,
+      "visible": true,
+      "needsReview": false,
+      "repositories": [
+        {
+          "ref": "actionanand/who-called",
+          "role": "primary",
+          "url": "https://github.com/actionanand/who-called",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [],
+      "schemaVersion": 1,
+      "policyHub": {
+        "appId": "who-called"
+      },
+      "projectType": "application",
+      "order": 16,
+      "technologies": [],
+      "iconUrl": "https://actionanand.github.io/policy-hub/apps/who-called/icon.png",
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Web app",
+          "url": "https://actionanand.github.io/who-called/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/who-called",
+          "kind": "github",
+          "label": "primary: actionanand/who-called",
+          "url": "https://github.com/actionanand/who-called"
+        },
+        {
+          "id": "policy:play-store",
+          "kind": "play-store",
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.actionanand.whocalled.app"
+        }
+      ],
+      "android": {
+        "platform": "android",
+        "releasedToPlayStore": true,
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=com.actionanand.whocalled.app",
+        "iconUrl": "https://actionanand.github.io/policy-hub/apps/who-called/icon.png"
+      }
+    },
+    {
+      "id": "converter",
+      "name": "Converter",
+      "description": "It has basic converters like base64, sha1, etc",
+      "category": "developer-tools",
+      "featured": false,
+      "visible": true,
+      "needsReview": false,
+      "repositories": [
+        {
+          "ref": "actionanand/converter",
+          "role": "primary",
+          "url": "https://github.com/actionanand/converter",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [],
+      "schemaVersion": 1,
+      "projectType": "tool",
+      "order": 17,
+      "technologies": [],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Web app",
+          "url": "https://actionanand.github.io/converter/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/converter",
+          "kind": "github",
+          "label": "primary: actionanand/converter",
+          "url": "https://github.com/actionanand/converter"
+        }
+      ]
+    },
+    {
+      "id": "recipe-atlas",
+      "name": "Recipe Atlas",
+      "description": "A multilingual recipe and cooking knowledge base built with Eleventy, Markdown, and static site generation.",
+      "category": "content",
+      "featured": false,
+      "visible": true,
+      "needsReview": false,
+      "repositories": [
+        {
+          "ref": "actionanand/recipe-atlas",
+          "role": "primary",
+          "url": "https://github.com/actionanand/recipe-atlas",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "Repeated URL in original list was deduplicated."
+      ],
+      "schemaVersion": 1,
+      "projectType": "application",
+      "order": 18,
+      "technologies": [],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Web app",
+          "url": "https://actionanand.github.io/recipe-atlas/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/recipe-atlas",
+          "kind": "github",
+          "label": "primary: actionanand/recipe-atlas",
+          "url": "https://github.com/actionanand/recipe-atlas"
+        }
+      ]
+    },
+    {
+      "id": "ar-portfolio",
+      "name": "AR Portfolio",
+      "description": "Portfolio website and its legacy version (related repositories; access not verified).",
+      "category": "portfolio",
+      "featured": false,
+      "visible": true,
+      "needsReview": true,
+      "repositories": [
+        {
+          "ref": "actionanand/ar-portfolio",
+          "role": "primary",
+          "url": "https://github.com/actionanand/ar-portfolio",
+          "access": "not-accessible-at-check"
+        },
+        {
+          "ref": "actionanand/ar-portfolio-legacy-1",
+          "role": "legacy",
+          "url": "https://github.com/actionanand/ar-portfolio-legacy-1",
+          "access": "not-accessible-at-check"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "Two user-supplied repository URLs are grouped as one app; both returned 404 from GitHub connector.",
+        "GitHub repository metadata not accessible; confirm visibility and correct URL."
+      ],
+      "schemaVersion": 1,
+      "projectType": "application",
+      "order": 19,
+      "technologies": [],
+      "destinations": [
+        {
+          "id": "repo:actionanand/ar-portfolio",
+          "kind": "github",
+          "label": "primary: actionanand/ar-portfolio",
+          "url": "https://github.com/actionanand/ar-portfolio"
+        },
+        {
+          "id": "repo:actionanand/ar-portfolio-legacy-1",
+          "kind": "github",
+          "label": "legacy: actionanand/ar-portfolio-legacy-1",
+          "url": "https://github.com/actionanand/ar-portfolio-legacy-1"
+        }
+      ]
+    },
+    {
+      "id": "svg-forge",
+      "name": "SVG Forge",
+      "description": "All-in-one SVG workspace for editing, optimizing, previewing, and exporting vector graphics.",
+      "category": "developer-tools",
+      "featured": false,
+      "visible": true,
+      "needsReview": false,
+      "repositories": [
+        {
+          "ref": "actionanand/svg-forge",
+          "role": "primary",
+          "url": "https://github.com/actionanand/svg-forge",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [],
+      "schemaVersion": 1,
+      "projectType": "tool",
+      "order": 20,
+      "technologies": [],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Web app",
+          "url": "https://actionanand.github.io/svg-forge/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/svg-forge",
+          "kind": "github",
+          "label": "primary: actionanand/svg-forge",
+          "url": "https://github.com/actionanand/svg-forge"
+        }
+      ]
+    },
+    {
+      "id": "lexora",
+      "name": "Lexora",
+      "description": "Lexora multilingual language-learning documentation website.",
+      "category": "language",
+      "featured": false,
+      "visible": true,
+      "needsReview": false,
+      "repositories": [
+        {
+          "ref": "actionanand/lexora",
+          "role": "primary",
+          "url": "https://github.com/actionanand/lexora",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [],
+      "schemaVersion": 1,
+      "projectType": "application",
+      "order": 21,
+      "technologies": [],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Web app",
+          "url": "https://actionanand.github.io/lexora/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/lexora",
+          "kind": "github",
+          "label": "primary: actionanand/lexora",
+          "url": "https://github.com/actionanand/lexora"
+        }
+      ]
+    },
+    {
+      "id": "wifi-chat",
+      "name": "WiFi Chat",
+      "description": "Real-time chat app for devices on the same WiFi network",
+      "category": "connectivity",
+      "featured": false,
+      "visible": true,
+      "needsReview": false,
+      "repositories": [
+        {
+          "ref": "actionanand/wifi-chat",
+          "role": "primary",
+          "url": "https://github.com/actionanand/wifi-chat",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [],
+      "schemaVersion": 1,
+      "projectType": "playground",
+      "classificationReview": true,
+      "order": 22,
+      "technologies": [],
+      "destinations": [
+        {
+          "id": "repo:actionanand/wifi-chat",
+          "kind": "github",
+          "label": "primary: actionanand/wifi-chat",
+          "url": "https://github.com/actionanand/wifi-chat"
+        }
+      ]
+    },
+    {
+      "id": "folder-flow",
+      "name": "Folder Flow",
+      "description": "WiFi & FTP file sharing app — share files between devices on your local network",
+      "category": "connectivity",
+      "featured": false,
+      "visible": true,
+      "needsReview": false,
+      "repositories": [
+        {
+          "ref": "actionanand/folder-flow",
+          "role": "primary",
+          "url": "https://github.com/actionanand/folder-flow",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [],
+      "schemaVersion": 1,
+      "projectType": "playground",
+      "classificationReview": true,
+      "order": 23,
+      "technologies": [],
+      "destinations": [
+        {
+          "id": "repo:actionanand/folder-flow",
+          "kind": "github",
+          "label": "primary: actionanand/folder-flow",
+          "url": "https://github.com/actionanand/folder-flow"
+        }
+      ]
+    },
+    {
+      "id": "mozhi-type",
+      "name": "Mozhi Type",
+      "description": "Angular-based Tamil transliteration app that converts English phonetic typing into Unicode Tamil text in real time.",
+      "category": "language",
+      "featured": false,
+      "visible": true,
+      "needsReview": false,
+      "repositories": [
+        {
+          "ref": "actionanand/mozhi-type",
+          "role": "primary",
+          "url": "https://github.com/actionanand/mozhi-type",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [],
+      "schemaVersion": 1,
+      "projectType": "tool",
+      "order": 24,
+      "technologies": [],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Web app",
+          "url": "https://actionanand.github.io/mozhi-type/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/mozhi-type",
+          "kind": "github",
+          "label": "primary: actionanand/mozhi-type",
+          "url": "https://github.com/actionanand/mozhi-type"
+        }
+      ]
+    },
+    {
+      "id": "glyph-forge",
+      "name": "Glyph Forge",
+      "description": "Load, inspect, and style TTF, OTF, WOFF, and WOFF2 fonts.",
+      "category": "developer-tools",
+      "featured": false,
+      "visible": true,
+      "needsReview": false,
+      "repositories": [
+        {
+          "ref": "actionanand/glyph-forge",
+          "role": "primary",
+          "url": "https://github.com/actionanand/glyph-forge",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [],
+      "schemaVersion": 1,
+      "projectType": "tool",
+      "order": 25,
+      "technologies": [],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Web app",
+          "url": "https://actionanand.github.io/glyph-forge/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/glyph-forge",
+          "kind": "github",
+          "label": "primary: actionanand/glyph-forge",
+          "url": "https://github.com/actionanand/glyph-forge"
+        }
+      ]
+    },
+    {
+      "id": "universal-calendar",
+      "name": "Universal Calendar",
+      "description": "Angular 20.0.1 with AI Instructions.",
+      "category": "utilities",
+      "featured": false,
+      "visible": true,
+      "needsReview": false,
+      "repositories": [
+        {
+          "ref": "actionanand/universal-calendar",
+          "role": "primary",
+          "url": "https://github.com/actionanand/universal-calendar",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [],
+      "schemaVersion": 1,
+      "projectType": "playground",
+      "classificationReview": true,
+      "order": 26,
+      "technologies": [],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Web app",
+          "url": "https://actionanand.github.io/universal-calendar/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/universal-calendar",
+          "kind": "github",
+          "label": "primary: actionanand/universal-calendar",
+          "url": "https://github.com/actionanand/universal-calendar"
+        }
+      ]
+    },
+    {
+      "id": "byteschool",
+      "name": "ByteSchool",
+      "description": "ByteSchool - Learn programming with interactive tutorials for CoffeeScript, Python, and more",
+      "category": "education",
+      "featured": false,
+      "visible": true,
+      "needsReview": false,
+      "repositories": [
+        {
+          "ref": "actionanand/byteschool",
+          "role": "primary",
+          "url": "https://github.com/actionanand/byteschool",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [],
+      "schemaVersion": 1,
+      "projectType": "study",
+      "classificationReview": true,
+      "order": 27,
+      "technologies": [],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Web app",
+          "url": "https://actionanand.github.io/byteschool/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/byteschool",
+          "kind": "github",
+          "label": "primary: actionanand/byteschool",
+          "url": "https://github.com/actionanand/byteschool"
+        }
+      ]
+    },
+    {
+      "id": "resume-builder",
+      "name": "Resume Builder",
+      "description": "Project description needs confirmation.",
+      "category": "productivity",
+      "featured": false,
+      "visible": true,
+      "needsReview": true,
+      "repositories": [
+        {
+          "ref": "actionanand/resume-builder",
+          "role": "primary",
+          "url": "https://github.com/actionanand/resume-builder",
+          "access": "not-accessible-at-check"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "GitHub repository metadata not accessible; confirm visibility and correct URL."
+      ],
+      "schemaVersion": 1,
+      "projectType": "tool",
+      "classificationReview": true,
+      "order": 28,
+      "technologies": [],
+      "destinations": [
+        {
+          "id": "repo:actionanand/resume-builder",
+          "kind": "github",
+          "label": "primary: actionanand/resume-builder",
+          "url": "https://github.com/actionanand/resume-builder"
+        }
+      ]
+    },
+    {
+      "id": "ng-pdf-rough-work",
+      "name": "Angular PDF Experiments",
+      "description": "Angular 15 PDF rendering experiments using PDF tooling. No published npm package has been confirmed.",
+      "category": "developer-tools",
+      "featured": false,
+      "visible": true,
+      "needsReview": false,
+      "repositories": [
+        {
+          "ref": "actionanand/ng-pdf-rough-work",
+          "role": "primary",
+          "url": "https://github.com/actionanand/ng-pdf-rough-work",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [],
+      "schemaVersion": 1,
+      "projectType": "playground",
+      "order": 29,
+      "technologies": [
+        "angular"
+      ],
+      "facets": [
+        "playground",
+        "pdf-experiment"
+      ],
+      "classificationReview": false,
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Web app",
+          "url": "https://actionanand.github.io/ng-pdf-rough-work/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/ng-pdf-rough-work",
+          "kind": "github",
+          "label": "primary: actionanand/ng-pdf-rough-work",
+          "url": "https://github.com/actionanand/ng-pdf-rough-work"
+        }
+      ]
+    },
+    {
+      "id": "image-local-upload",
+      "name": "Image Local Upload",
+      "description": "it's about converting image into base64 and serving via local blob url",
+      "category": "developer-tools",
+      "featured": false,
+      "visible": true,
+      "needsReview": false,
+      "repositories": [
+        {
+          "ref": "actionanand/image-local-upload",
+          "role": "primary",
+          "url": "https://github.com/actionanand/image-local-upload",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [],
+      "schemaVersion": 1,
+      "projectType": "playground",
+      "order": 30,
+      "technologies": [],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Web app",
+          "url": "https://actionanand.github.io/image-local-upload/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/image-local-upload",
+          "kind": "github",
+          "label": "primary: actionanand/image-local-upload",
+          "url": "https://github.com/actionanand/image-local-upload"
+        }
+      ]
+    },
+    {
+      "id": "ar-popover",
+      "name": "AR Popover",
+      "description": "Angular CDK Popover, no default style, examples using @angular/material",
+      "category": "developer-tools",
+      "featured": false,
+      "visible": true,
+      "needsReview": false,
+      "repositories": [
+        {
+          "ref": "actionanand/ar-popover",
+          "role": "primary",
+          "url": "https://github.com/actionanand/ar-popover",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [],
+      "schemaVersion": 1,
+      "projectType": "playground",
+      "order": 31,
+      "technologies": [],
+      "destinations": [
+        {
+          "id": "repo:actionanand/ar-popover",
+          "kind": "github",
+          "label": "primary: actionanand/ar-popover",
+          "url": "https://github.com/actionanand/ar-popover"
+        }
+      ]
+    },
+    {
+      "id": "single-spa-showcase",
+      "name": "Single-SPA Showcase",
+      "description": "Polyglot single-spa microfrontend examples, including two root configurations and framework-specific apps.",
+      "category": "developer-tools",
+      "featured": false,
+      "visible": true,
+      "needsReview": true,
+      "repositories": [
+        {
+          "ref": "actionanand/single-spa-demo-root-config",
+          "role": "polyglot-root",
+          "url": "https://github.com/actionanand/single-spa-demo-root-config",
+          "access": "public-metadata-verified"
+        },
+        {
+          "ref": "actionanand/single-spa-angular-root-config",
+          "role": "angular-root",
+          "url": "https://github.com/actionanand/single-spa-angular-root-config",
+          "access": "public-metadata-verified"
+        },
+        {
+          "ref": "actionanand/single-spa-angular",
+          "role": "angular-app",
+          "url": "https://github.com/actionanand/single-spa-angular",
+          "access": "public-metadata-verified"
+        },
+        {
+          "ref": "actionanand/single-spa-react",
+          "role": "react-app",
+          "url": "https://github.com/actionanand/single-spa-react",
+          "access": "public-metadata-verified"
+        },
+        {
+          "ref": "actionanand/single-spa-vue",
+          "role": "vue-app",
+          "url": "https://github.com/actionanand/single-spa-vue",
+          "access": "public-metadata-verified"
+        },
+        {
+          "ref": "actionanand/single-spa-svelte",
+          "role": "svelte-app",
+          "url": "https://github.com/actionanand/single-spa-svelte",
+          "access": "public-metadata-verified"
+        },
+        {
+          "ref": "actionanand/single-spa-footer",
+          "role": "footer",
+          "url": "https://github.com/actionanand/single-spa-footer",
+          "access": "public-metadata-verified"
+        },
+        {
+          "ref": "actionanand/single-spa-404",
+          "role": "not-found",
+          "url": "https://github.com/actionanand/single-spa-404",
+          "access": "public-metadata-verified"
+        },
+        {
+          "ref": "actionanand/single-spa-vanilla-js",
+          "role": "vanilla-app",
+          "url": "https://github.com/actionanand/single-spa-vanilla-js",
+          "access": "public-metadata-verified"
+        },
+        {
+          "ref": "actionanand/single-spa-utility",
+          "role": "shared-utility",
+          "url": "https://github.com/actionanand/single-spa-utility",
+          "access": "public-metadata-verified"
+        },
+        {
+          "ref": "actionanand/angular-parcel-app",
+          "role": "angular-parcel",
+          "url": "https://github.com/actionanand/angular-parcel-app",
+          "access": "public-metadata-verified"
+        },
+        {
+          "ref": "actionanand/react-parcel-app",
+          "role": "react-parcel",
+          "url": "https://github.com/actionanand/react-parcel-app",
+          "access": "public-metadata-verified"
+        },
+        {
+          "ref": "actionanand/single-spa-nav",
+          "role": "navbar",
+          "url": "https://github.com/actionanand/single-spa-nav",
+          "access": "public-metadata-verified"
+        },
+        {
+          "ref": "actionanand/single-spa-sidebar",
+          "role": "sidebar",
+          "url": "https://github.com/actionanand/single-spa-sidebar",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "Variants are closely related and share several component repositories.",
+        "Both root-config READMEs list multiple related repositories; demo and component accessibility must be checked before launch.",
+        "The number of linked repositories comes from their READMEs and exceeds the initial five mentioned."
+      ],
+      "schemaVersion": 1,
+      "projectType": "study",
+      "collection": {
+        "mode": "variants",
+        "variants": [
+          {
+            "id": "polyglot",
+            "label": "Polyglot root configuration",
+            "order": 1,
+            "rootRepositoryRef": "actionanand/single-spa-demo-root-config",
+            "repositoryRefs": [
+              "actionanand/single-spa-demo-root-config",
+              "actionanand/single-spa-angular",
+              "actionanand/single-spa-react",
+              "actionanand/single-spa-vue",
+              "actionanand/single-spa-svelte",
+              "actionanand/single-spa-footer",
+              "actionanand/single-spa-404",
+              "actionanand/single-spa-vanilla-js",
+              "actionanand/single-spa-utility",
+              "actionanand/angular-parcel-app",
+              "actionanand/react-parcel-app",
+              "actionanand/single-spa-nav"
+            ],
+            "description": "Root config + Angular, React, Vue, Svelte and shared microfrontends."
+          },
+          {
+            "id": "angular-root",
+            "label": "Angular root configuration",
+            "order": 2,
+            "rootRepositoryRef": "actionanand/single-spa-angular-root-config",
+            "repositoryRefs": [
+              "actionanand/single-spa-angular-root-config",
+              "actionanand/single-spa-angular",
+              "actionanand/single-spa-react",
+              "actionanand/single-spa-vue",
+              "actionanand/single-spa-svelte",
+              "actionanand/single-spa-footer",
+              "actionanand/single-spa-404",
+              "actionanand/single-spa-vanilla-js",
+              "actionanand/single-spa-utility",
+              "actionanand/angular-parcel-app",
+              "actionanand/react-parcel-app",
+              "actionanand/single-spa-sidebar"
+            ],
+            "description": "Angular-root variation with sidebar component."
+          }
+        ]
+      },
+      "order": 32,
+      "technologies": [
+        "single-spa",
+        "angular",
+        "react",
+        "vue",
+        "svelte"
+      ],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Angular demo",
+          "url": "https://single-spa-angular.surge.sh",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "kind": "web",
+          "label": "Polyglot demo",
+          "url": "https://ar-single-spa.onrender.com/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-2"
+        },
+        {
+          "id": "website-3",
+          "kind": "web",
+          "url": "https://ar-single-spa.surge.sh",
+          "label": "Polyglot on Surge",
+          "source": "https://github.com/actionanand/single-spa-demo-root-config/blob/main/README.md",
+          "verified": "readme-reference"
+        },
+        {
+          "id": "website-4",
+          "kind": "web",
+          "url": "https://single-spa-angular.onrender.com",
+          "label": "Angular on Render",
+          "source": "https://github.com/actionanand/single-spa-angular-root-config/blob/main/README.md",
+          "verified": "readme-reference"
+        },
+        {
+          "id": "website-5",
+          "kind": "web",
+          "url": "https://actionanand.github.io/single-spa-angular-root-config",
+          "label": "Angular on GitHub Pages",
+          "source": "https://github.com/actionanand/single-spa-angular-root-config/blob/main/README.md",
+          "verified": "readme-reference"
+        },
+        {
+          "id": "repo:actionanand/single-spa-demo-root-config",
+          "kind": "github",
+          "label": "polyglot-root: actionanand/single-spa-demo-root-config",
+          "url": "https://github.com/actionanand/single-spa-demo-root-config"
+        },
+        {
+          "id": "repo:actionanand/single-spa-angular-root-config",
+          "kind": "github",
+          "label": "angular-root: actionanand/single-spa-angular-root-config",
+          "url": "https://github.com/actionanand/single-spa-angular-root-config"
+        },
+        {
+          "id": "repo:actionanand/single-spa-angular",
+          "kind": "github",
+          "label": "angular-app: actionanand/single-spa-angular",
+          "url": "https://github.com/actionanand/single-spa-angular"
+        },
+        {
+          "id": "repo:actionanand/single-spa-react",
+          "kind": "github",
+          "label": "react-app: actionanand/single-spa-react",
+          "url": "https://github.com/actionanand/single-spa-react"
+        },
+        {
+          "id": "repo:actionanand/single-spa-vue",
+          "kind": "github",
+          "label": "vue-app: actionanand/single-spa-vue",
+          "url": "https://github.com/actionanand/single-spa-vue"
+        },
+        {
+          "id": "repo:actionanand/single-spa-svelte",
+          "kind": "github",
+          "label": "svelte-app: actionanand/single-spa-svelte",
+          "url": "https://github.com/actionanand/single-spa-svelte"
+        },
+        {
+          "id": "repo:actionanand/single-spa-footer",
+          "kind": "github",
+          "label": "footer: actionanand/single-spa-footer",
+          "url": "https://github.com/actionanand/single-spa-footer"
+        },
+        {
+          "id": "repo:actionanand/single-spa-404",
+          "kind": "github",
+          "label": "not-found: actionanand/single-spa-404",
+          "url": "https://github.com/actionanand/single-spa-404"
+        },
+        {
+          "id": "repo:actionanand/single-spa-vanilla-js",
+          "kind": "github",
+          "label": "vanilla-app: actionanand/single-spa-vanilla-js",
+          "url": "https://github.com/actionanand/single-spa-vanilla-js"
+        },
+        {
+          "id": "repo:actionanand/single-spa-utility",
+          "kind": "github",
+          "label": "shared-utility: actionanand/single-spa-utility",
+          "url": "https://github.com/actionanand/single-spa-utility"
+        },
+        {
+          "id": "repo:actionanand/angular-parcel-app",
+          "kind": "github",
+          "label": "angular-parcel: actionanand/angular-parcel-app",
+          "url": "https://github.com/actionanand/angular-parcel-app"
+        },
+        {
+          "id": "repo:actionanand/react-parcel-app",
+          "kind": "github",
+          "label": "react-parcel: actionanand/react-parcel-app",
+          "url": "https://github.com/actionanand/react-parcel-app"
+        },
+        {
+          "id": "repo:actionanand/single-spa-nav",
+          "kind": "github",
+          "label": "navbar: actionanand/single-spa-nav",
+          "url": "https://github.com/actionanand/single-spa-nav"
+        },
+        {
+          "id": "repo:actionanand/single-spa-sidebar",
+          "kind": "github",
+          "label": "sidebar: actionanand/single-spa-sidebar",
+          "url": "https://github.com/actionanand/single-spa-sidebar"
+        }
+      ]
+    },
+    {
+      "id": "local-tell",
+      "name": "LocalTell",
+      "description": "Offline approximate-area lookup from your serving cellular network.",
+      "category": "travel",
+      "featured": true,
+      "visible": true,
+      "needsReview": true,
+      "repositories": [
+        {
+          "ref": "actionanand/local-tell",
+          "role": "primary",
+          "url": "https://github.com/actionanand/local-tell",
+          "access": "not-accessible-at-check"
+        },
+        {
+          "ref": "actionanand/localtell-data",
+          "role": "data-and-web-companion",
+          "url": "https://github.com/actionanand/localtell-data",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "GitHub repository metadata not accessible; confirm visibility and correct URL.",
+        "LocalTell client and localtell-data are intentionally grouped as one application."
+      ],
+      "schemaVersion": 1,
+      "policyHub": {
+        "appId": "local-tell"
+      },
+      "projectType": "application",
+      "order": 33,
+      "technologies": [],
+      "iconUrl": "https://actionanand.github.io/policy-hub/apps/local-tell/icon.png",
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "LocalTell web companion",
+          "url": "https://actionanand.github.io/localtell-data/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/local-tell",
+          "kind": "github",
+          "label": "primary: actionanand/local-tell",
+          "url": "https://github.com/actionanand/local-tell"
+        },
+        {
+          "id": "repo:actionanand/localtell-data",
+          "kind": "github",
+          "label": "data-and-web-companion: actionanand/localtell-data",
+          "url": "https://github.com/actionanand/localtell-data"
+        },
+        {
+          "id": "policy:play-store",
+          "kind": "play-store",
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.actionanand.localtell.app"
+        }
+      ],
+      "android": {
+        "platform": "android",
+        "releasedToPlayStore": true,
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=com.actionanand.localtell.app",
+        "iconUrl": "https://actionanand.github.io/policy-hub/apps/local-tell/icon.png"
+      }
+    },
+    {
+      "id": "stillora",
+      "name": "Stillora",
+      "description": "A relaxation, meditation and ambient-sound application.",
+      "category": "wellness",
+      "featured": false,
+      "visible": true,
+      "needsReview": true,
+      "repositories": [
+        {
+          "ref": "actionanand/stillora",
+          "role": "primary",
+          "url": "https://github.com/actionanand/stillora",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [],
+      "schemaVersion": 1,
+      "policyHub": {
+        "appId": "stillora"
+      },
+      "projectType": "application",
+      "order": 34,
+      "technologies": [],
+      "iconUrl": "https://actionanand.github.io/policy-hub/apps/stillora/icon.png",
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Web app",
+          "url": "https://actionanand.github.io/stillora/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/stillora",
+          "kind": "github",
+          "label": "primary: actionanand/stillora",
+          "url": "https://github.com/actionanand/stillora"
+        },
+        {
+          "id": "policy:play-store",
+          "kind": "play-store",
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.actionanand.stillora.app"
+        }
+      ],
+      "android": {
+        "platform": "android",
+        "releasedToPlayStore": true,
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=com.actionanand.stillora.app",
+        "iconUrl": "https://actionanand.github.io/policy-hub/apps/stillora/icon.png"
+      }
+    },
+    {
+      "id": "flowra",
+      "name": "Flowra",
+      "description": "A private, offline-first period and cycle tracker with on-device insights.",
+      "category": "wellness",
+      "featured": true,
+      "visible": true,
+      "needsReview": false,
+      "repositories": [
+        {
+          "ref": "actionanand/flowra",
+          "role": "primary",
+          "url": "https://github.com/actionanand/flowra",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [],
+      "schemaVersion": 1,
+      "policyHub": {
+        "appId": "flowra"
+      },
+      "projectType": "application",
+      "order": 35,
+      "technologies": [],
+      "iconUrl": "https://actionanand.github.io/policy-hub/apps/flowra/icon.png",
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Web app",
+          "url": "https://actionanand.github.io/flowra/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/flowra",
+          "kind": "github",
+          "label": "primary: actionanand/flowra",
+          "url": "https://github.com/actionanand/flowra"
+        },
+        {
+          "id": "policy:play-store",
+          "kind": "play-store",
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.actionanand.flowra.app"
+        }
+      ],
+      "android": {
+        "platform": "android",
+        "releasedToPlayStore": true,
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=com.actionanand.flowra.app",
+        "iconUrl": "https://actionanand.github.io/policy-hub/apps/flowra/icon.png"
+      }
+    },
+    {
+      "id": "link-deck",
+      "name": "Link Deck",
+      "description": "A private, offline-first bookmark manager with profiles and nested folders.",
+      "category": "productivity",
+      "featured": false,
+      "visible": true,
+      "needsReview": true,
+      "repositories": [
+        {
+          "ref": "actionanand/link-deck",
+          "role": "primary",
+          "url": "https://github.com/actionanand/link-deck",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [],
+      "schemaVersion": 1,
+      "policyHub": {
+        "appId": "link-deck"
+      },
+      "projectType": "tool",
+      "classificationReview": true,
+      "order": 36,
+      "technologies": [],
+      "iconUrl": "https://actionanand.github.io/policy-hub/apps/link-deck/icon.png",
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Web app",
+          "url": "https://actionanand.github.io/link-deck/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/link-deck",
+          "kind": "github",
+          "label": "primary: actionanand/link-deck",
+          "url": "https://github.com/actionanand/link-deck"
+        },
+        {
+          "id": "policy:play-store",
+          "kind": "play-store",
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.actionanand.linkdeck.app"
+        }
+      ],
+      "android": {
+        "platform": "android",
+        "releasedToPlayStore": true,
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=com.actionanand.linkdeck.app",
+        "iconUrl": "https://actionanand.github.io/policy-hub/apps/link-deck/icon.png"
+      }
+    },
+    {
+      "id": "life-leaf",
+      "name": "Life Leaf",
+      "description": "A private diary for writing, memories, photos, moods, and gentle reminders.",
+      "category": "personal",
+      "featured": false,
+      "visible": true,
+      "needsReview": true,
+      "repositories": [
+        {
+          "ref": "actionanand/life-leaf",
+          "role": "primary",
+          "url": "https://github.com/actionanand/life-leaf",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [],
+      "schemaVersion": 1,
+      "policyHub": {
+        "appId": "life-leaf"
+      },
+      "projectType": "application",
+      "order": 37,
+      "technologies": [],
+      "iconUrl": "https://actionanand.github.io/policy-hub/apps/life-leaf/icon.png",
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Web app",
+          "url": "https://actionanand.github.io/life-leaf/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/life-leaf",
+          "kind": "github",
+          "label": "primary: actionanand/life-leaf",
+          "url": "https://github.com/actionanand/life-leaf"
+        },
+        {
+          "id": "policy:play-store",
+          "kind": "play-store",
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.actionanand.lifeleaf.app"
+        }
+      ],
+      "android": {
+        "platform": "android",
+        "releasedToPlayStore": true,
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=com.actionanand.lifeleaf.app",
+        "iconUrl": "https://actionanand.github.io/policy-hub/apps/life-leaf/icon.png"
+      }
+    },
+    {
+      "id": "click2chat",
+      "name": "Click2Chat",
+      "description": "Start WhatsApp chats without saving numbers to your contacts.",
+      "category": "utilities",
+      "featured": false,
+      "visible": true,
+      "needsReview": true,
+      "repositories": [
+        {
+          "ref": "actionanand/click2chat",
+          "role": "primary",
+          "url": "https://github.com/actionanand/click2chat",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [],
+      "schemaVersion": 1,
+      "policyHub": {
+        "appId": "click2chat"
+      },
+      "projectType": "application",
+      "order": 38,
+      "technologies": [],
+      "iconUrl": "https://actionanand.github.io/policy-hub/apps/click2chat/icon.png",
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Web app",
+          "url": "https://actionanand.github.io/click2chat/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/click2chat",
+          "kind": "github",
+          "label": "primary: actionanand/click2chat",
+          "url": "https://github.com/actionanand/click2chat"
+        },
+        {
+          "id": "policy:play-store",
+          "kind": "play-store",
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.actionanand.click2chat.app"
+        }
+      ],
+      "android": {
+        "platform": "android",
+        "releasedToPlayStore": true,
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=com.actionanand.click2chat.app",
+        "iconUrl": "https://actionanand.github.io/policy-hub/apps/click2chat/icon.png"
+      }
+    },
+    {
+      "id": "arflix",
+      "name": "ARFlix",
+      "description": "A movie and TV discovery app with TMDb details and a curated collection.",
+      "category": "entertainment",
+      "featured": false,
+      "visible": true,
+      "needsReview": true,
+      "repositories": [
+        {
+          "ref": "actionanand/arflix",
+          "role": "primary",
+          "url": "https://github.com/actionanand/arflix",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [],
+      "schemaVersion": 1,
+      "policyHub": {
+        "appId": "arflix"
+      },
+      "projectType": "application",
+      "order": 39,
+      "technologies": [],
+      "iconUrl": "https://actionanand.github.io/policy-hub/apps/arflix/icon.png",
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Web app",
+          "url": "https://actionanand.github.io/arflix/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "kind": "web",
+          "label": "Alternate web version",
+          "url": "https://actionanand.github.io/ar-flix/",
+          "source": "policy-hub-registry",
+          "verified": "not-live-checked",
+          "id": "website-2"
+        },
+        {
+          "id": "repo:actionanand/arflix",
+          "kind": "github",
+          "label": "primary: actionanand/arflix",
+          "url": "https://github.com/actionanand/arflix"
+        },
+        {
+          "id": "policy:play-store",
+          "kind": "play-store",
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.actionanand.arflix.app"
+        }
+      ],
+      "android": {
+        "platform": "android",
+        "releasedToPlayStore": true,
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=com.actionanand.arflix.app",
+        "iconUrl": "https://actionanand.github.io/policy-hub/apps/arflix/icon.png"
+      }
+    },
+    {
+      "id": "personix",
+      "name": "Personix",
+      "description": "A private personal organizer for links, family records, vehicles, notes, and checklists.",
+      "category": "personal",
+      "featured": false,
+      "visible": true,
+      "needsReview": true,
+      "repositories": [
+        {
+          "ref": "actionanand/personix",
+          "role": "primary",
+          "url": "https://github.com/actionanand/personix",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [],
+      "schemaVersion": 1,
+      "policyHub": {
+        "appId": "personix"
+      },
+      "projectType": "application",
+      "order": 40,
+      "technologies": [],
+      "iconUrl": "https://actionanand.github.io/policy-hub/apps/personix/icon.png",
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Web app",
+          "url": "https://actionanand.github.io/personix/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/personix",
+          "kind": "github",
+          "label": "primary: actionanand/personix",
+          "url": "https://github.com/actionanand/personix"
+        },
+        {
+          "id": "policy:play-store",
+          "kind": "play-store",
+          "label": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.actionanand.personix.app"
+        }
+      ],
+      "android": {
+        "platform": "android",
+        "releasedToPlayStore": true,
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=com.actionanand.personix.app",
+        "iconUrl": "https://actionanand.github.io/policy-hub/apps/personix/icon.png"
+      }
+    },
+    {
+      "id": "scrollix",
+      "name": "Scrollix",
+      "description": "A curated, scrollable feed for videos, social posts, and web articles.",
+      "category": "entertainment",
+      "featured": false,
+      "visible": true,
+      "needsReview": true,
+      "repositories": [
+        {
+          "ref": "actionanand/scrollix",
+          "role": "primary",
+          "url": "https://github.com/actionanand/scrollix",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "Android listed in policy-hub, but NOT marked as released to Google Play; do not generate a Play Store URL."
+      ],
+      "schemaVersion": 1,
+      "policyHub": {
+        "appId": "scrollix"
+      },
+      "projectType": "application",
+      "order": 41,
+      "technologies": [],
+      "iconUrl": "https://actionanand.github.io/policy-hub/apps/scrollix/icon.png",
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Web app",
+          "url": "https://actionanand.github.io/scrollix/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/scrollix",
+          "kind": "github",
+          "label": "primary: actionanand/scrollix",
+          "url": "https://github.com/actionanand/scrollix"
+        }
+      ],
+      "android": {
+        "platform": "android",
+        "releasedToPlayStore": false,
+        "iconUrl": "https://actionanand.github.io/policy-hub/apps/scrollix/icon.png"
+      }
+    },
+    {
+      "id": "artamizhsolai",
+      "name": "AR Tamizh Solai",
+      "description": "A Tamil literature publication exploring classics, poetry, language, and culture.",
+      "category": "content",
+      "featured": false,
+      "visible": true,
+      "needsReview": true,
+      "repositories": [
+        {
+          "ref": "actionanand/artamizhsolai",
+          "role": "primary",
+          "url": "https://github.com/actionanand/artamizhsolai",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [],
+      "schemaVersion": 1,
+      "projectType": "application",
+      "order": 42,
+      "technologies": [],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Web app",
+          "url": "https://actionanand.github.io/artamizhsolai/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "kind": "web",
+          "label": "Cloudflare Pages",
+          "url": "https://artamizhsolai.pages.dev/",
+          "source": "policy-hub-registry",
+          "verified": "not-live-checked",
+          "id": "website-2"
+        },
+        {
+          "id": "repo:actionanand/artamizhsolai",
+          "kind": "github",
+          "label": "primary: actionanand/artamizhsolai",
+          "url": "https://github.com/actionanand/artamizhsolai"
+        }
+      ]
+    },
+    {
+      "id": "care-chime",
+      "name": "Care Chime",
+      "description": "Care Chime is a privacy-first Android app for smart medicine and water reminders, real-time dose tracking, family health profiles, vaccination records, medical history, and encrypted backups.",
+      "category": "wellness",
+      "featured": true,
+      "visible": true,
+      "needsReview": true,
+      "repositories": [
+        {
+          "ref": "actionanand/care-chime",
+          "role": "primary",
+          "url": "https://github.com/actionanand/care-chime",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [],
+      "schemaVersion": 1,
+      "projectType": "application",
+      "order": 43,
+      "technologies": [],
+      "destinations": [
+        {
+          "id": "repo:actionanand/care-chime",
+          "kind": "github",
+          "label": "primary: actionanand/care-chime",
+          "url": "https://github.com/actionanand/care-chime"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "docker-learning-series",
+      "name": "Docker Learning Series",
+      "description": "Seven connected Docker study repositories, from container basics to multi-container applications and framework examples.",
+      "category": "devops",
+      "projectType": "study",
+      "featured": false,
+      "visible": true,
+      "needsReview": false,
+      "repositories": [
+        {
+          "ref": "actionanand/docker_playground",
+          "role": "part",
+          "order": 1,
+          "url": "https://github.com/actionanand/docker_playground",
+          "access": "public-metadata-verified"
+        },
+        {
+          "ref": "actionanand/docker_data_volume",
+          "role": "part",
+          "order": 2,
+          "url": "https://github.com/actionanand/docker_data_volume",
+          "access": "public-metadata-verified"
+        },
+        {
+          "ref": "actionanand/docker_communication",
+          "role": "part",
+          "order": 3,
+          "url": "https://github.com/actionanand/docker_communication",
+          "access": "public-metadata-verified"
+        },
+        {
+          "ref": "actionanand/docker_multi-container",
+          "role": "part",
+          "order": 4,
+          "url": "https://github.com/actionanand/docker_multi-container",
+          "access": "public-metadata-verified"
+        },
+        {
+          "ref": "actionanand/angular_with_docker",
+          "role": "part",
+          "order": 5,
+          "url": "https://github.com/actionanand/angular_with_docker",
+          "access": "public-metadata-verified"
+        },
+        {
+          "ref": "actionanand/rails_with_docker",
+          "role": "part",
+          "order": 6,
+          "url": "https://github.com/actionanand/rails_with_docker",
+          "access": "public-metadata-verified"
+        },
+        {
+          "ref": "actionanand/laravel_with_docker",
+          "role": "part",
+          "order": 7,
+          "url": "https://github.com/actionanand/laravel_with_docker",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "collection": {
+        "mode": "series",
+        "parts": [
+          {
+            "number": 1,
+            "title": "Docker basics",
+            "repositoryRef": "actionanand/docker_playground",
+            "summary": "Images, containers, Dockerfiles and commands"
+          },
+          {
+            "number": 2,
+            "title": "Volumes and data",
+            "repositoryRef": "actionanand/docker_data_volume",
+            "summary": "Persistent data, volumes and bind mounts"
+          },
+          {
+            "number": 3,
+            "title": "Networking and communication",
+            "repositoryRef": "actionanand/docker_communication",
+            "summary": "Communication between containers and host"
+          },
+          {
+            "number": 4,
+            "title": "Multi-container and Compose",
+            "repositoryRef": "actionanand/docker_multi-container",
+            "summary": "Networks, multi-service applications and Compose"
+          },
+          {
+            "number": 5,
+            "title": "Angular with Docker",
+            "repositoryRef": "actionanand/angular_with_docker",
+            "summary": "Containerized Angular development"
+          },
+          {
+            "number": 6,
+            "title": "Rails with Docker",
+            "repositoryRef": "actionanand/rails_with_docker",
+            "summary": "Framework setup example"
+          },
+          {
+            "number": 7,
+            "title": "Laravel with Docker",
+            "repositoryRef": "actionanand/laravel_with_docker",
+            "summary": "Framework setup example"
+          }
+        ]
+      },
+      "links": [],
+      "notes": [
+        "Parts 5–7 are framework-specific examples, not necessarily required prerequisites for each other."
+      ],
+      "order": 44,
+      "technologies": [
+        "docker"
+      ],
+      "destinations": [
+        {
+          "id": "repo:actionanand/docker_playground",
+          "kind": "github",
+          "label": "part: actionanand/docker_playground",
+          "url": "https://github.com/actionanand/docker_playground"
+        },
+        {
+          "id": "repo:actionanand/docker_data_volume",
+          "kind": "github",
+          "label": "part: actionanand/docker_data_volume",
+          "url": "https://github.com/actionanand/docker_data_volume"
+        },
+        {
+          "id": "repo:actionanand/docker_communication",
+          "kind": "github",
+          "label": "part: actionanand/docker_communication",
+          "url": "https://github.com/actionanand/docker_communication"
+        },
+        {
+          "id": "repo:actionanand/docker_multi-container",
+          "kind": "github",
+          "label": "part: actionanand/docker_multi-container",
+          "url": "https://github.com/actionanand/docker_multi-container"
+        },
+        {
+          "id": "repo:actionanand/angular_with_docker",
+          "kind": "github",
+          "label": "part: actionanand/angular_with_docker",
+          "url": "https://github.com/actionanand/angular_with_docker"
+        },
+        {
+          "id": "repo:actionanand/rails_with_docker",
+          "kind": "github",
+          "label": "part: actionanand/rails_with_docker",
+          "url": "https://github.com/actionanand/rails_with_docker"
+        },
+        {
+          "id": "repo:actionanand/laravel_with_docker",
+          "kind": "github",
+          "label": "part: actionanand/laravel_with_docker",
+          "url": "https://github.com/actionanand/laravel_with_docker"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "microfrontend-fundamentals",
+      "name": "Microfrontend Fundamentals",
+      "description": "Independent study material covering core single-spa ideas.",
+      "category": "developer-tools",
+      "projectType": "study",
+      "featured": false,
+      "visible": true,
+      "needsReview": false,
+      "repositories": [
+        {
+          "ref": "actionanand/microfrontend-fundamentals",
+          "role": "primary",
+          "url": "https://github.com/actionanand/microfrontend-fundamentals",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "relatedProjects": [
+        "single-spa-showcase"
+      ],
+      "order": 45,
+      "technologies": [],
+      "destinations": [
+        {
+          "id": "repo:actionanand/microfrontend-fundamentals",
+          "kind": "github",
+          "label": "primary: actionanand/microfrontend-fundamentals",
+          "url": "https://github.com/actionanand/microfrontend-fundamentals"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "angular-playground",
+      "name": "Angular Playground",
+      "description": "It focuses on Angular Material tables and their customizations",
+      "category": "developer-tools",
+      "projectType": "playground",
+      "visible": true,
+      "featured": false,
+      "needsReview": false,
+      "classificationReview": false,
+      "order": 46,
+      "repositories": [
+        {
+          "ref": "actionanand/angular-playground",
+          "role": "primary",
+          "url": "https://github.com/actionanand/angular-playground",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+      ],
+      "technologies": [
+        "angular"
+      ],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Hosted demo",
+          "url": "https://actionanand.github.io/angular-playground/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/angular-playground",
+          "kind": "github",
+          "label": "primary: actionanand/angular-playground",
+          "url": "https://github.com/actionanand/angular-playground"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "angular-lib-demo",
+      "name": "Angular Library Workspace",
+      "description": "It's an angular workspace where simple angular app and angular library are used.",
+      "category": "developer-tools",
+      "projectType": "library",
+      "visible": true,
+      "featured": false,
+      "needsReview": false,
+      "classificationReview": false,
+      "order": 47,
+      "repositories": [
+        {
+          "ref": "actionanand/angular-lib-demo",
+          "role": "primary",
+          "url": "https://github.com/actionanand/angular-lib-demo",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [
+        {
+          "kind": "npm",
+          "label": "@ng-ar/md-input",
+          "url": "https://www.npmjs.com/package/@ng-ar/md-input",
+          "source": "https://github.com/actionanand/angular-lib-demo/blob/main/README.md",
+          "verified": "readme-reference",
+          "id": "npm-1"
+        },
+        {
+          "kind": "npm",
+          "label": "@ng-ar/svg-icon",
+          "url": "https://www.npmjs.com/package/@ng-ar/svg-icon",
+          "source": "https://github.com/actionanand/angular-lib-demo/blob/main/README.md",
+          "verified": "readme-reference",
+          "id": "npm-2"
+        },
+        {
+          "kind": "npm",
+          "label": "@ng-ar/input",
+          "url": "https://www.npmjs.com/package/@ng-ar/input",
+          "source": "https://github.com/actionanand/angular-lib-demo/blob/main/README.md",
+          "verified": "readme-reference",
+          "id": "npm-3"
+        },
+        {
+          "kind": "npm",
+          "label": "@ng-ar/bg-svg",
+          "url": "https://www.npmjs.com/package/@ng-ar/bg-svg",
+          "source": "https://github.com/actionanand/angular-lib-demo/blob/main/README.md",
+          "verified": "readme-reference",
+          "id": "npm-4"
+        }
+      ],
+      "notes": [
+        "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+      ],
+      "technologies": [
+        "angular"
+      ],
+      "destinations": [
+        {
+          "kind": "npm",
+          "label": "@ng-ar/md-input",
+          "url": "https://www.npmjs.com/package/@ng-ar/md-input",
+          "source": "https://github.com/actionanand/angular-lib-demo/blob/main/README.md",
+          "verified": "readme-reference",
+          "id": "npm-1"
+        },
+        {
+          "kind": "npm",
+          "label": "@ng-ar/svg-icon",
+          "url": "https://www.npmjs.com/package/@ng-ar/svg-icon",
+          "source": "https://github.com/actionanand/angular-lib-demo/blob/main/README.md",
+          "verified": "readme-reference",
+          "id": "npm-2"
+        },
+        {
+          "kind": "npm",
+          "label": "@ng-ar/input",
+          "url": "https://www.npmjs.com/package/@ng-ar/input",
+          "source": "https://github.com/actionanand/angular-lib-demo/blob/main/README.md",
+          "verified": "readme-reference",
+          "id": "npm-3"
+        },
+        {
+          "kind": "npm",
+          "label": "@ng-ar/bg-svg",
+          "url": "https://www.npmjs.com/package/@ng-ar/bg-svg",
+          "source": "https://github.com/actionanand/angular-lib-demo/blob/main/README.md",
+          "verified": "readme-reference",
+          "id": "npm-4"
+        },
+        {
+          "kind": "web",
+          "label": "Hosted demo",
+          "url": "https://actionanand.github.io/angular-lib-demo/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/angular-lib-demo",
+          "kind": "github",
+          "label": "primary: actionanand/angular-lib-demo",
+          "url": "https://github.com/actionanand/angular-lib-demo"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "ng-my-libraries",
+      "name": "Ng (Nx) Libraries",
+      "description": "This repo has some of my basic angular libraries(npm publishable). It's using angular version 14.0.2. Some features like Function Types and Polymorphic Programming Without Class are used.",
+      "category": "developer-tools",
+      "projectType": "library",
+      "visible": true,
+      "featured": false,
+      "needsReview": false,
+      "classificationReview": false,
+      "order": 48,
+      "repositories": [
+        {
+          "ref": "actionanand/ng-my-libraries",
+          "role": "primary",
+          "url": "https://github.com/actionanand/ng-my-libraries",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [
+        {
+          "kind": "npm",
+          "label": "@ng-ar/fa-input",
+          "url": "https://www.npmjs.com/package/@ng-ar/fa-input",
+          "source": "https://github.com/actionanand/ng-my-libraries/blob/main/README.md",
+          "verified": "readme-reference",
+          "id": "npm-1"
+        },
+        {
+          "kind": "npm",
+          "label": "@ng-ar/prime-input",
+          "url": "https://www.npmjs.com/package/@ng-ar/prime-input",
+          "source": "https://github.com/actionanand/ng-my-libraries/blob/main/README.md",
+          "verified": "readme-reference",
+          "id": "npm-2"
+        },
+        {
+          "kind": "npm",
+          "label": "@ng-ar/tab",
+          "url": "https://www.npmjs.com/package/@ng-ar/tab",
+          "source": "https://github.com/actionanand/ng-my-libraries/blob/main/README.md",
+          "verified": "readme-reference",
+          "id": "npm-3"
+        },
+        {
+          "kind": "npm",
+          "label": "@ng-ar/modal",
+          "url": "https://www.npmjs.com/package/@ng-ar/modal",
+          "source": "https://github.com/actionanand/ng-my-libraries/blob/main/README.md",
+          "verified": "readme-reference",
+          "id": "npm-4"
+        },
+        {
+          "kind": "npm",
+          "label": "@ng-ar/mask",
+          "url": "https://www.npmjs.com/package/@ng-ar/mask",
+          "source": "https://github.com/actionanand/ng-my-libraries/blob/main/README.md",
+          "verified": "readme-reference",
+          "id": "npm-5"
+        }
+      ],
+      "notes": [
+        "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees.",
+        "Learning and playground workspace containing publishable Angular libraries."
+      ],
+      "technologies": [
+        "angular",
+        "nx"
+      ],
+      "facets": [
+        "learning-workspace",
+        "playground",
+        "publishable-libraries"
+      ],
+      "destinations": [
+        {
+          "kind": "npm",
+          "label": "@ng-ar/fa-input",
+          "url": "https://www.npmjs.com/package/@ng-ar/fa-input",
+          "source": "https://github.com/actionanand/ng-my-libraries/blob/main/README.md",
+          "verified": "readme-reference",
+          "id": "npm-1"
+        },
+        {
+          "kind": "npm",
+          "label": "@ng-ar/prime-input",
+          "url": "https://www.npmjs.com/package/@ng-ar/prime-input",
+          "source": "https://github.com/actionanand/ng-my-libraries/blob/main/README.md",
+          "verified": "readme-reference",
+          "id": "npm-2"
+        },
+        {
+          "kind": "npm",
+          "label": "@ng-ar/tab",
+          "url": "https://www.npmjs.com/package/@ng-ar/tab",
+          "source": "https://github.com/actionanand/ng-my-libraries/blob/main/README.md",
+          "verified": "readme-reference",
+          "id": "npm-3"
+        },
+        {
+          "kind": "npm",
+          "label": "@ng-ar/modal",
+          "url": "https://www.npmjs.com/package/@ng-ar/modal",
+          "source": "https://github.com/actionanand/ng-my-libraries/blob/main/README.md",
+          "verified": "readme-reference",
+          "id": "npm-4"
+        },
+        {
+          "kind": "npm",
+          "label": "@ng-ar/mask",
+          "url": "https://www.npmjs.com/package/@ng-ar/mask",
+          "source": "https://github.com/actionanand/ng-my-libraries/blob/main/README.md",
+          "verified": "readme-reference",
+          "id": "npm-5"
+        },
+        {
+          "kind": "web",
+          "label": "Hosted demo",
+          "url": "https://actionanand.github.io/ng-my-libraries/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/ng-my-libraries",
+          "kind": "github",
+          "label": "primary: actionanand/ng-my-libraries",
+          "url": "https://github.com/actionanand/ng-my-libraries"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "ng-rough-work",
+      "name": "Ng Rough Work",
+      "description": "It is simple rough work of angular using reactive-forms(form-builder and form array)",
+      "category": "developer-tools",
+      "projectType": "playground",
+      "visible": true,
+      "featured": false,
+      "needsReview": false,
+      "classificationReview": false,
+      "order": 49,
+      "repositories": [
+        {
+          "ref": "actionanand/ng-rough-work",
+          "role": "primary",
+          "url": "https://github.com/actionanand/ng-rough-work",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+      ],
+      "technologies": [
+        "angular"
+      ],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Hosted demo",
+          "url": "https://actionanand.github.io/ng-rough-work/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/ng-rough-work",
+          "kind": "github",
+          "label": "primary: actionanand/ng-rough-work",
+          "url": "https://github.com/actionanand/ng-rough-work"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "angular-22",
+      "name": "Angular 22",
+      "description": "Angular 22 project",
+      "category": "developer-tools",
+      "projectType": "playground",
+      "visible": true,
+      "featured": false,
+      "needsReview": false,
+      "classificationReview": true,
+      "order": 50,
+      "repositories": [
+        {
+          "ref": "actionanand/angular-22",
+          "role": "primary",
+          "url": "https://github.com/actionanand/angular-22",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+      ],
+      "technologies": [
+        "angular"
+      ],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Hosted demo",
+          "url": "https://actionanand.github.io/angular-22/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/angular-22",
+          "kind": "github",
+          "label": "primary: actionanand/angular-22",
+          "url": "https://github.com/actionanand/angular-22"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "angular-change-detection",
+      "name": "Angular Change Detection",
+      "description": "Angular Change Detection - Deep Dive & Adieu Zone.js (zoneless angular)",
+      "category": "developer-tools",
+      "projectType": "playground",
+      "visible": true,
+      "featured": false,
+      "needsReview": false,
+      "classificationReview": false,
+      "order": 51,
+      "repositories": [
+        {
+          "ref": "actionanand/angular-change-detection",
+          "role": "primary",
+          "url": "https://github.com/actionanand/angular-change-detection",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+      ],
+      "technologies": [
+        "angular"
+      ],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Hosted demo",
+          "url": "https://actionanand.github.io/angular-change-detection/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/angular-change-detection",
+          "kind": "github",
+          "label": "primary: actionanand/angular-change-detection",
+          "url": "https://github.com/actionanand/angular-change-detection"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "angular-deferrable",
+      "name": "Angular Deferrable",
+      "description": "angular - deferrable with example",
+      "category": "developer-tools",
+      "projectType": "playground",
+      "visible": true,
+      "featured": false,
+      "needsReview": false,
+      "classificationReview": false,
+      "order": 52,
+      "repositories": [
+        {
+          "ref": "actionanand/angular-deferrable",
+          "role": "primary",
+          "url": "https://github.com/actionanand/angular-deferrable",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+      ],
+      "technologies": [
+        "angular"
+      ],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Hosted demo",
+          "url": "https://actionanand.github.io/angular-deferrable/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/angular-deferrable",
+          "kind": "github",
+          "label": "primary: actionanand/angular-deferrable",
+          "url": "https://github.com/actionanand/angular-deferrable"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "angular-infinite-scroll",
+      "name": "Angular Infinite Scroll",
+      "description": "Angular infinite scroll example",
+      "category": "developer-tools",
+      "projectType": "playground",
+      "visible": true,
+      "featured": false,
+      "needsReview": false,
+      "classificationReview": false,
+      "order": 53,
+      "repositories": [
+        {
+          "ref": "actionanand/angular-infinite-scroll",
+          "role": "primary",
+          "url": "https://github.com/actionanand/angular-infinite-scroll",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+      ],
+      "technologies": [
+        "angular"
+      ],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Hosted demo",
+          "url": "https://actionanand.github.io/angular-infinite-scroll/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/angular-infinite-scroll",
+          "kind": "github",
+          "label": "primary: actionanand/angular-infinite-scroll",
+          "url": "https://github.com/actionanand/angular-infinite-scroll"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "angular-model-signal",
+      "name": "Angular Model Signal",
+      "description": "Angular model input signal (model signal)",
+      "category": "developer-tools",
+      "projectType": "playground",
+      "visible": true,
+      "featured": false,
+      "needsReview": false,
+      "classificationReview": false,
+      "order": 54,
+      "repositories": [
+        {
+          "ref": "actionanand/angular-model-signal",
+          "role": "primary",
+          "url": "https://github.com/actionanand/angular-model-signal",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+      ],
+      "technologies": [
+        "angular"
+      ],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Hosted demo",
+          "url": "https://actionanand.github.io/angular-model-signal/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/angular-model-signal",
+          "kind": "github",
+          "label": "primary: actionanand/angular-model-signal",
+          "url": "https://github.com/actionanand/angular-model-signal"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "angular-graphql-lab",
+      "name": "Angular Graphql Lab",
+      "description": "Learn GraphQL from zero to advanced using Angular.",
+      "category": "developer-tools",
+      "projectType": "study",
+      "visible": true,
+      "featured": false,
+      "needsReview": false,
+      "classificationReview": false,
+      "order": 55,
+      "repositories": [
+        {
+          "ref": "actionanand/angular-graphql-lab",
+          "role": "primary",
+          "url": "https://github.com/actionanand/angular-graphql-lab",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+      ],
+      "technologies": [
+        "angular"
+      ],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Hosted demo",
+          "url": "https://actionanand.github.io/angular-graphql-lab/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/angular-graphql-lab",
+          "kind": "github",
+          "label": "primary: actionanand/angular-graphql-lab",
+          "url": "https://github.com/actionanand/angular-graphql-lab"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "ng-template-depth",
+      "name": "Ng Template Depth",
+      "description": "This is a hobby Angular Repo for ng-template in depth using PNPM ",
+      "category": "developer-tools",
+      "projectType": "playground",
+      "visible": true,
+      "featured": false,
+      "needsReview": false,
+      "classificationReview": false,
+      "order": 56,
+      "repositories": [
+        {
+          "ref": "actionanand/ng-template-depth",
+          "role": "primary",
+          "url": "https://github.com/actionanand/ng-template-depth",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+      ],
+      "technologies": [
+        "angular"
+      ],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Hosted demo",
+          "url": "https://actionanand.github.io/ng-template-depth/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/ng-template-depth",
+          "kind": "github",
+          "label": "primary: actionanand/ng-template-depth",
+          "url": "https://github.com/actionanand/ng-template-depth"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "directive-deep-dive",
+      "name": "Directive Deep Dive",
+      "description": "Angular directive and model input signal (model signal) and host binding",
+      "category": "developer-tools",
+      "projectType": "playground",
+      "visible": true,
+      "featured": false,
+      "needsReview": false,
+      "classificationReview": false,
+      "order": 57,
+      "repositories": [
+        {
+          "ref": "actionanand/directive-deep-dive",
+          "role": "primary",
+          "url": "https://github.com/actionanand/directive-deep-dive",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+      ],
+      "technologies": [
+        "angular"
+      ],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Hosted demo",
+          "url": "https://actionanand.github.io/directive-deep-dive/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/directive-deep-dive",
+          "kind": "github",
+          "label": "primary: actionanand/directive-deep-dive",
+          "url": "https://github.com/actionanand/directive-deep-dive"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "pipe-deep-dive",
+      "name": "Pipe Deep Dive",
+      "description": "Angular practice app (Pipes) - Angular 18",
+      "category": "developer-tools",
+      "projectType": "playground",
+      "visible": true,
+      "featured": false,
+      "needsReview": false,
+      "classificationReview": false,
+      "order": 58,
+      "repositories": [
+        {
+          "ref": "actionanand/pipe-deep-dive",
+          "role": "primary",
+          "url": "https://github.com/actionanand/pipe-deep-dive",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+      ],
+      "technologies": [
+        "angular"
+      ],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Hosted demo",
+          "url": "https://actionanand.github.io/pipe-deep-dive/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/pipe-deep-dive",
+          "kind": "github",
+          "label": "primary: actionanand/pipe-deep-dive",
+          "url": "https://github.com/actionanand/pipe-deep-dive"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "ng-service-deep-dive",
+      "name": "Ng Service Deep Dive",
+      "description": "Angular Services deep dive",
+      "category": "developer-tools",
+      "projectType": "playground",
+      "visible": true,
+      "featured": false,
+      "needsReview": false,
+      "classificationReview": false,
+      "order": 59,
+      "repositories": [
+        {
+          "ref": "actionanand/ng-service-deep-dive",
+          "role": "primary",
+          "url": "https://github.com/actionanand/ng-service-deep-dive",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+      ],
+      "technologies": [
+        "angular"
+      ],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Hosted demo",
+          "url": "https://actionanand.github.io/ng-service-deep-dive/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/ng-service-deep-dive",
+          "kind": "github",
+          "label": "primary: actionanand/ng-service-deep-dive",
+          "url": "https://github.com/actionanand/ng-service-deep-dive"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "ng-lifecycle",
+      "name": "Ng Lifecycle",
+      "description": "Angular Life Cycles",
+      "category": "developer-tools",
+      "projectType": "playground",
+      "visible": true,
+      "featured": false,
+      "needsReview": true,
+      "classificationReview": false,
+      "order": 60,
+      "repositories": [
+        {
+          "ref": "actionanand/ng-lifecycle",
+          "role": "primary",
+          "url": "https://github.com/actionanand/ng-lifecycle",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+      ],
+      "technologies": [
+        "angular"
+      ],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Hosted demo",
+          "url": "https://actionanand.github.io/ng-lifecycle/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/ng-lifecycle",
+          "kind": "github",
+          "label": "primary: actionanand/ng-lifecycle",
+          "url": "https://github.com/actionanand/ng-lifecycle"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "ng-dropdown-ngtemplateoutlets",
+      "name": "Ng Dropdown NgTemplateOutlets",
+      "description": "Customization of dropdown using ngTemplateOutlets",
+      "category": "developer-tools",
+      "projectType": "playground",
+      "visible": true,
+      "featured": false,
+      "needsReview": false,
+      "classificationReview": false,
+      "order": 61,
+      "repositories": [
+        {
+          "ref": "actionanand/ng-dropdown-ngTemplateOutlets",
+          "role": "primary",
+          "url": "https://github.com/actionanand/ng-dropdown-ngTemplateOutlets",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+      ],
+      "technologies": [
+        "angular"
+      ],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Hosted demo",
+          "url": "https://actionanand.github.io/ng-dropdown-ngTemplateOutlets/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/ng-dropdown-ngTemplateOutlets",
+          "kind": "github",
+          "label": "primary: actionanand/ng-dropdown-ngTemplateOutlets",
+          "url": "https://github.com/actionanand/ng-dropdown-ngTemplateOutlets"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "ng-feature-pagination",
+      "name": "Ng Feature Pagination",
+      "description": "Angular custom pagination and translation",
+      "category": "developer-tools",
+      "projectType": "playground",
+      "visible": true,
+      "featured": false,
+      "needsReview": false,
+      "classificationReview": false,
+      "order": 62,
+      "repositories": [
+        {
+          "ref": "actionanand/ng-feature-pagination",
+          "role": "primary",
+          "url": "https://github.com/actionanand/ng-feature-pagination",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+      ],
+      "technologies": [
+        "angular"
+      ],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Hosted demo",
+          "url": "https://actionanand.github.io/ng-feature-pagination/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/ng-feature-pagination",
+          "kind": "github",
+          "label": "primary: actionanand/ng-feature-pagination",
+          "url": "https://github.com/actionanand/ng-feature-pagination"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "ng14-standalone-demo",
+      "name": "Ng14 Standalone Demo",
+      "description": "This is a demo app for illustrating standalone components(without modules)",
+      "category": "developer-tools",
+      "projectType": "playground",
+      "visible": true,
+      "featured": false,
+      "needsReview": false,
+      "classificationReview": false,
+      "order": 63,
+      "repositories": [
+        {
+          "ref": "actionanand/ng14-standalone-demo",
+          "role": "primary",
+          "url": "https://github.com/actionanand/ng14-standalone-demo",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+      ],
+      "technologies": [
+        "angular"
+      ],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Hosted demo",
+          "url": "https://actionanand.github.io/ng14-standalone-demo/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/ng14-standalone-demo",
+          "kind": "github",
+          "label": "primary: actionanand/ng14-standalone-demo",
+          "url": "https://github.com/actionanand/ng14-standalone-demo"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "ng16-signal-milestone-release",
+      "name": "Ng16 Signal Milestone Release",
+      "description": "Just to explore new signals feature in angular v16",
+      "category": "developer-tools",
+      "projectType": "playground",
+      "visible": true,
+      "featured": false,
+      "needsReview": false,
+      "classificationReview": false,
+      "order": 64,
+      "repositories": [
+        {
+          "ref": "actionanand/ng16-signal-milestone-release",
+          "role": "primary",
+          "url": "https://github.com/actionanand/ng16-signal-milestone-release",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+      ],
+      "technologies": [
+        "angular"
+      ],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Hosted demo",
+          "url": "https://actionanand.github.io/ng16-signal-milestone-release/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/ng16-signal-milestone-release",
+          "kind": "github",
+          "label": "primary: actionanand/ng16-signal-milestone-release",
+          "url": "https://github.com/actionanand/ng16-signal-milestone-release"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "ngrx-module-based",
+      "name": "Ngrx Module Based",
+      "description": "NgRx with NgModule",
+      "category": "developer-tools",
+      "projectType": "playground",
+      "visible": true,
+      "featured": false,
+      "needsReview": false,
+      "classificationReview": false,
+      "order": 65,
+      "repositories": [
+        {
+          "ref": "actionanand/ngrx-module-based",
+          "role": "primary",
+          "url": "https://github.com/actionanand/ngrx-module-based",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+      ],
+      "technologies": [
+        "angular"
+      ],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Hosted demo",
+          "url": "https://actionanand.github.io/ngrx-module-based/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/ngrx-module-based",
+          "kind": "github",
+          "label": "primary: actionanand/ngrx-module-based",
+          "url": "https://github.com/actionanand/ngrx-module-based"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "ngrx-standalone",
+      "name": "Ngrx Standalone",
+      "description": "Simple NgRx Standalone project",
+      "category": "developer-tools",
+      "projectType": "playground",
+      "visible": true,
+      "featured": false,
+      "needsReview": false,
+      "classificationReview": false,
+      "order": 66,
+      "repositories": [
+        {
+          "ref": "actionanand/ngrx-standalone",
+          "role": "primary",
+          "url": "https://github.com/actionanand/ngrx-standalone",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+      ],
+      "technologies": [
+        "angular"
+      ],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Hosted demo",
+          "url": "https://actionanand.github.io/ngrx-standalone/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/ngrx-standalone",
+          "kind": "github",
+          "label": "primary: actionanand/ngrx-standalone",
+          "url": "https://github.com/actionanand/ngrx-standalone"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "ng-dev-testing",
+      "name": "Ng Dev Testing",
+      "description": "Complete Angular Testing Repo - A complete guide to Angular Unit Testing",
+      "category": "developer-tools",
+      "projectType": "study",
+      "visible": true,
+      "featured": false,
+      "needsReview": false,
+      "classificationReview": false,
+      "order": 67,
+      "repositories": [
+        {
+          "ref": "actionanand/ng-dev-testing",
+          "role": "primary",
+          "url": "https://github.com/actionanand/ng-dev-testing",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+      ],
+      "technologies": [
+        "angular"
+      ],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Hosted demo",
+          "url": "https://actionanand.github.io/ng-dev-testing/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/ng-dev-testing",
+          "kind": "github",
+          "label": "primary: actionanand/ng-dev-testing",
+          "url": "https://github.com/actionanand/ng-dev-testing"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "angular-testing",
+      "name": "Angular Testing",
+      "description": "Angular Testing Repo - A complete guide to Angular Unit Testing and E2E Testing ",
+      "category": "developer-tools",
+      "projectType": "study",
+      "visible": true,
+      "featured": false,
+      "needsReview": false,
+      "classificationReview": false,
+      "order": 68,
+      "repositories": [
+        {
+          "ref": "actionanand/angular-testing",
+          "role": "primary",
+          "url": "https://github.com/actionanand/angular-testing",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+      ],
+      "technologies": [
+        "angular"
+      ],
+      "destinations": [
+        {
+          "id": "repo:actionanand/angular-testing",
+          "kind": "github",
+          "label": "primary: actionanand/angular-testing",
+          "url": "https://github.com/actionanand/angular-testing"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "angular-testing-2",
+      "name": "Angular Testing 2",
+      "description": "This is an example app for angular unit testing",
+      "category": "developer-tools",
+      "projectType": "study",
+      "visible": true,
+      "featured": false,
+      "needsReview": false,
+      "classificationReview": false,
+      "order": 69,
+      "repositories": [
+        {
+          "ref": "actionanand/angular-testing-2",
+          "role": "primary",
+          "url": "https://github.com/actionanand/angular-testing-2",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+      ],
+      "technologies": [
+        "angular"
+      ],
+      "destinations": [
+        {
+          "id": "repo:actionanand/angular-testing-2",
+          "kind": "github",
+          "label": "primary: actionanand/angular-testing-2",
+          "url": "https://github.com/actionanand/angular-testing-2"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "angular-tetsing-1",
+      "name": "Angular Tetsing 1",
+      "description": "This is about the basics of angular unit tests ",
+      "category": "developer-tools",
+      "projectType": "study",
+      "visible": true,
+      "featured": false,
+      "needsReview": false,
+      "classificationReview": false,
+      "order": 70,
+      "repositories": [
+        {
+          "ref": "actionanand/angular-tetsing-1",
+          "role": "primary",
+          "url": "https://github.com/actionanand/angular-tetsing-1",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+      ],
+      "technologies": [
+        "angular"
+      ],
+      "destinations": [
+        {
+          "id": "repo:actionanand/angular-tetsing-1",
+          "kind": "github",
+          "label": "primary: actionanand/angular-tetsing-1",
+          "url": "https://github.com/actionanand/angular-tetsing-1"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "angular-study",
+      "name": "Angular Study",
+      "description": "This is my practice repository of Angular studies (directives)",
+      "category": "developer-tools",
+      "projectType": "study",
+      "visible": true,
+      "featured": false,
+      "needsReview": false,
+      "classificationReview": false,
+      "order": 71,
+      "repositories": [
+        {
+          "ref": "actionanand/Angular-study",
+          "role": "primary",
+          "url": "https://github.com/actionanand/Angular-study",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+      ],
+      "technologies": [
+        "angular"
+      ],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Hosted demo",
+          "url": "https://actionanand.github.io/Angular-study/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/Angular-study",
+          "kind": "github",
+          "label": "primary: actionanand/Angular-study",
+          "url": "https://github.com/actionanand/Angular-study"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "angular-study-services",
+      "name": "Angular Study Services",
+      "description": "Angular practice app (Services)",
+      "category": "developer-tools",
+      "projectType": "study",
+      "visible": true,
+      "featured": false,
+      "needsReview": false,
+      "classificationReview": false,
+      "order": 72,
+      "repositories": [
+        {
+          "ref": "actionanand/Angular-study-services",
+          "role": "primary",
+          "url": "https://github.com/actionanand/Angular-study-services",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+      ],
+      "technologies": [
+        "angular"
+      ],
+      "destinations": [
+        {
+          "id": "repo:actionanand/Angular-study-services",
+          "kind": "github",
+          "label": "primary: actionanand/Angular-study-services",
+          "url": "https://github.com/actionanand/Angular-study-services"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "angular-study-pipes",
+      "name": "Angular Study Pipes",
+      "description": "Angular practice app (Pipes)",
+      "category": "developer-tools",
+      "projectType": "study",
+      "visible": true,
+      "featured": false,
+      "needsReview": false,
+      "classificationReview": false,
+      "order": 73,
+      "repositories": [
+        {
+          "ref": "actionanand/Angular-study-Pipes",
+          "role": "primary",
+          "url": "https://github.com/actionanand/Angular-study-Pipes",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+      ],
+      "technologies": [
+        "angular"
+      ],
+      "destinations": [
+        {
+          "id": "repo:actionanand/Angular-study-Pipes",
+          "kind": "github",
+          "label": "primary: actionanand/Angular-study-Pipes",
+          "url": "https://github.com/actionanand/Angular-study-Pipes"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "angular-study-http",
+      "name": "Angular Study Http",
+      "description": "It's a simple angular practice app (http, interceptor, bootstrap, http, service, etc)",
+      "category": "developer-tools",
+      "projectType": "study",
+      "visible": true,
+      "featured": false,
+      "needsReview": false,
+      "classificationReview": false,
+      "order": 74,
+      "repositories": [
+        {
+          "ref": "actionanand/Angular-study-http",
+          "role": "primary",
+          "url": "https://github.com/actionanand/Angular-study-http",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+      ],
+      "technologies": [
+        "angular"
+      ],
+      "destinations": [
+        {
+          "id": "repo:actionanand/Angular-study-http",
+          "kind": "github",
+          "label": "primary: actionanand/Angular-study-http",
+          "url": "https://github.com/actionanand/Angular-study-http"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "angular-study-routing",
+      "name": "Angular Study Routing",
+      "description": "Angular practice app (Routing, Forms - reactives and template, guard)",
+      "category": "developer-tools",
+      "projectType": "study",
+      "visible": true,
+      "featured": false,
+      "needsReview": false,
+      "classificationReview": false,
+      "order": 75,
+      "repositories": [
+        {
+          "ref": "actionanand/Angular-study-routing",
+          "role": "primary",
+          "url": "https://github.com/actionanand/Angular-study-routing",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "notes": [
+        "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+      ],
+      "technologies": [
+        "angular"
+      ],
+      "destinations": [
+        {
+          "kind": "web",
+          "label": "Hosted demo",
+          "url": "https://actionanand.github.io/Angular-study-routing/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked",
+          "id": "website-1"
+        },
+        {
+          "id": "repo:actionanand/Angular-study-routing",
+          "kind": "github",
+          "label": "primary: actionanand/Angular-study-routing",
+          "url": "https://github.com/actionanand/Angular-study-routing"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "pdf-features-poc",
+      "name": "PDF Features POC",
+      "description": "Angular proof of concept comparing ng2-pdf-viewer, direct PDF.js, and PDF-lib with PDF.js for PDF rendering, text search, highlighting and manipulation.",
+      "category": "developer-tools",
+      "projectType": "playground",
+      "visible": true,
+      "featured": false,
+      "needsReview": false,
+      "order": 76,
+      "repositories": [
+        {
+          "ref": "actionanand/pdf-features-poc",
+          "role": "primary",
+          "url": "https://github.com/actionanand/pdf-features-poc",
+          "access": "public-metadata-verified"
+        }
+      ],
+      "links": [],
+      "technologies": [
+        "angular"
+      ],
+      "facets": [
+        "angular18",
+        "pdf"
+      ],
+      "notes": [
+        "An experimental PDF comparison demo; no published npm package is confirmed."
+      ],
+      "destinations": [
+        {
+          "id": "website-1",
+          "kind": "web",
+          "label": "Hosted PDF experiment",
+          "url": "https://actionanand.github.io/pdf-features-poc/",
+          "source": "github-repository-homepage",
+          "verified": "not-live-checked"
+        },
+        {
+          "id": "repo:actionanand/pdf-features-poc",
+          "kind": "github",
+          "label": "primary: actionanand/pdf-features-poc",
+          "url": "https://github.com/actionanand/pdf-features-poc"
+        }
+      ]
+    }
+  ],
+  "policyHub": {
+    "checkedOn": "2026-10-31",
+    "sourceUrl": "https://raw.githubusercontent.com/actionanand/policy-hub/master/docs/.vitepress/data/apps.ts",
+    "sourceSha256": "43cfd87531d7d5b6e97a56847f17f0d4d55f21b6697a1edf65ccd62c5e3aa816"
+  }
+}

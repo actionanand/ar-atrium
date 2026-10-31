@@ -1,0 +1,22 @@
+{
+  "id": "recipe-atlas",
+  "name": "Recipe Atlas",
+  "description": "A multilingual recipe and cooking knowledge base built with Eleventy, Markdown, and static site generation.",
+  "category": "content",
+  "featured": false,
+  "visible": true,
+  "needsReview": false,
+  "repositories": [
+    {
+      "ref": "actionanand/recipe-atlas",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": ["Repeated URL in original list was deduplicated."],
+  "schemaVersion": 1,
+  "overrides": {},
+  "projectType": "application",
+  "order": 18,
+  "technologies": []
+}

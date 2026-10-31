@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "angular-tetsing-1",
+  "name": "Angular Tetsing 1",
+  "description": "This is about the basics of angular unit tests ",
+  "category": "developer-tools",
+  "projectType": "study",
+  "visible": true,
+  "featured": false,
+  "needsReview": false,
+  "classificationReview": false,
+  "order": 70,
+  "repositories": [
+    {
+      "ref": "actionanand/angular-tetsing-1",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [
+    "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+  ],
+  "overrides": {},
+  "technologies": ["angular"]
+}

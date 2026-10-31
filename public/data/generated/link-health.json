@@ -1,0 +1,457 @@
+{
+  "checkedOn": "2026-10-31T13:12:50.406Z",
+  "note": "Point-in-time HTTP HEAD observations; failures may reflect bot protection, lack of HEAD support, or transient networking. URLs and projects are retained. npm registry metadata is checked separately.",
+  "results": [
+    {
+      "url": "https://actionanand.github.io/angular-22/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/angular-22/"
+    },
+    {
+      "url": "https://actionanand.github.io/angular-change-detection/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/angular-change-detection/"
+    },
+    {
+      "url": "https://actionanand.github.io/angular-deferrable/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/angular-deferrable/"
+    },
+    {
+      "url": "https://actionanand.github.io/angular-graphql-lab/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/angular-graphql-lab/"
+    },
+    {
+      "url": "https://actionanand.github.io/angular-infinite-scroll/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/angular-infinite-scroll/"
+    },
+    {
+      "url": "https://actionanand.github.io/angular-lib-demo/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/angular-lib-demo/"
+    },
+    {
+      "url": "https://actionanand.github.io/angular-model-signal/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/angular-model-signal/"
+    },
+    {
+      "url": "https://actionanand.github.io/angular-playground/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/angular-playground/"
+    },
+    {
+      "url": "https://actionanand.github.io/Angular-study-routing/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/Angular-study-routing/"
+    },
+    {
+      "url": "https://actionanand.github.io/Angular-study/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/Angular-study/"
+    },
+    {
+      "url": "https://actionanand.github.io/ar-flix/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/ar-flix/"
+    },
+    {
+      "url": "https://actionanand.github.io/arblogz/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/arblogz/"
+    },
+    {
+      "url": "https://actionanand.github.io/arflix/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/arflix/"
+    },
+    {
+      "url": "https://actionanand.github.io/artamizhsolai/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/artamizhsolai/"
+    },
+    {
+      "url": "https://actionanand.github.io/birthday-buddy/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/birthday-buddy/"
+    },
+    {
+      "url": "https://actionanand.github.io/birthday-buddy/tabs/home",
+      "status": 404,
+      "resolvedUrl": "https://actionanand.github.io/birthday-buddy/tabs/home"
+    },
+    {
+      "url": "https://actionanand.github.io/byteschool/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/byteschool/"
+    },
+    {
+      "url": "https://actionanand.github.io/card-nest/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/card-nest/"
+    },
+    {
+      "url": "https://actionanand.github.io/click2chat/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/click2chat/"
+    },
+    {
+      "url": "https://actionanand.github.io/converter/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/converter/"
+    },
+    {
+      "url": "https://actionanand.github.io/directive-deep-dive/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/directive-deep-dive/"
+    },
+    {
+      "url": "https://actionanand.github.io/expenzo/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/expenzo/"
+    },
+    {
+      "url": "https://actionanand.github.io/flowra/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/flowra/"
+    },
+    {
+      "url": "https://actionanand.github.io/globee/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/globee/"
+    },
+    {
+      "url": "https://actionanand.github.io/glyph-forge/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/glyph-forge/"
+    },
+    {
+      "url": "https://actionanand.github.io/image-local-upload/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/image-local-upload/"
+    },
+    {
+      "url": "https://actionanand.github.io/lexora/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/lexora/"
+    },
+    {
+      "url": "https://actionanand.github.io/life-leaf/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/life-leaf/"
+    },
+    {
+      "url": "https://actionanand.github.io/lingua-log/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/lingua-log/"
+    },
+    {
+      "url": "https://actionanand.github.io/link-deck/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/link-deck/"
+    },
+    {
+      "url": "https://actionanand.github.io/localtell-data/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/localtell-data/"
+    },
+    {
+      "url": "https://actionanand.github.io/metro-pocket/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/metro-pocket/"
+    },
+    {
+      "url": "https://actionanand.github.io/mozhi-type/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/mozhi-type/"
+    },
+    {
+      "url": "https://actionanand.github.io/ng-dev-testing/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/ng-dev-testing/"
+    },
+    {
+      "url": "https://actionanand.github.io/ng-dropdown-ngTemplateOutlets/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/ng-dropdown-ngTemplateOutlets/"
+    },
+    {
+      "url": "https://actionanand.github.io/ng-feature-pagination/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/ng-feature-pagination/"
+    },
+    {
+      "url": "https://actionanand.github.io/ng-lifecycle/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/ng-lifecycle/"
+    },
+    {
+      "url": "https://actionanand.github.io/ng-my-libraries/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/ng-my-libraries/"
+    },
+    {
+      "url": "https://actionanand.github.io/ng-pdf-rough-work/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/ng-pdf-rough-work/"
+    },
+    {
+      "url": "https://actionanand.github.io/ng-rough-work/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/ng-rough-work/"
+    },
+    {
+      "url": "https://actionanand.github.io/ng-service-deep-dive/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/ng-service-deep-dive/"
+    },
+    {
+      "url": "https://actionanand.github.io/ng-template-depth/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/ng-template-depth/"
+    },
+    {
+      "url": "https://actionanand.github.io/ng14-standalone-demo/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/ng14-standalone-demo/"
+    },
+    {
+      "url": "https://actionanand.github.io/ng16-signal-milestone-release/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/ng16-signal-milestone-release/"
+    },
+    {
+      "url": "https://actionanand.github.io/ngrx-module-based/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/ngrx-module-based/"
+    },
+    {
+      "url": "https://actionanand.github.io/ngrx-standalone/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/ngrx-standalone/"
+    },
+    {
+      "url": "https://actionanand.github.io/office-orbit/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/office-orbit/"
+    },
+    {
+      "url": "https://actionanand.github.io/office-pulse/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/office-pulse/"
+    },
+    {
+      "url": "https://actionanand.github.io/pdf-features-poc/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/pdf-features-poc/"
+    },
+    {
+      "url": "https://actionanand.github.io/personix/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/personix/"
+    },
+    {
+      "url": "https://actionanand.github.io/ping-metric/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/ping-metric/"
+    },
+    {
+      "url": "https://actionanand.github.io/pipe-deep-dive/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/pipe-deep-dive/"
+    },
+    {
+      "url": "https://actionanand.github.io/policy-hub/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/policy-hub/"
+    },
+    {
+      "url": "https://actionanand.github.io/qurio/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/qurio/"
+    },
+    {
+      "url": "https://actionanand.github.io/recipe-atlas/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/recipe-atlas/"
+    },
+    {
+      "url": "https://actionanand.github.io/scrollix/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/scrollix/"
+    },
+    {
+      "url": "https://actionanand.github.io/single-spa-angular-root-config",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/single-spa-angular-root-config/"
+    },
+    {
+      "url": "https://actionanand.github.io/spendzo/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/spendzo/"
+    },
+    {
+      "url": "https://actionanand.github.io/stillora/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/stillora/"
+    },
+    {
+      "url": "https://actionanand.github.io/svg-forge/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/svg-forge/"
+    },
+    {
+      "url": "https://actionanand.github.io/universal-calendar/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/universal-calendar/"
+    },
+    {
+      "url": "https://actionanand.github.io/vault-nest/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/vault-nest/"
+    },
+    {
+      "url": "https://actionanand.github.io/who-called/",
+      "status": 200,
+      "resolvedUrl": "https://actionanand.github.io/who-called/"
+    },
+    {
+      "url": "https://ar-single-spa.onrender.com/",
+      "status": 200,
+      "resolvedUrl": "https://ar-single-spa.onrender.com/"
+    },
+    {
+      "url": "https://ar-single-spa.surge.sh",
+      "status": 200,
+      "resolvedUrl": "https://ar-single-spa.surge.sh/"
+    },
+    {
+      "url": "https://ar-tamil-jathagam.pages.dev/",
+      "status": 200,
+      "resolvedUrl": "https://ar-tamil-jathagam.pages.dev/"
+    },
+    {
+      "url": "https://arblogz.pages.dev/",
+      "status": 200,
+      "resolvedUrl": "https://arblogz.pages.dev/"
+    },
+    {
+      "url": "https://artamizhsolai.pages.dev/",
+      "status": 200,
+      "resolvedUrl": "https://artamizhsolai.pages.dev/"
+    },
+    {
+      "url": "https://single-spa-angular.onrender.com",
+      "status": 200,
+      "resolvedUrl": "https://single-spa-angular.onrender.com/"
+    },
+    {
+      "url": "https://single-spa-angular.surge.sh",
+      "status": 200,
+      "resolvedUrl": "https://single-spa-angular.surge.sh/"
+    },
+    {
+      "url": "https://www.npmjs.com/package/@ng-ar/bg-svg",
+      "status": 403,
+      "resolvedUrl": "https://www.npmjs.com/package/@ng-ar/bg-svg"
+    },
+    {
+      "url": "https://www.npmjs.com/package/@ng-ar/fa-input",
+      "status": 403,
+      "resolvedUrl": "https://www.npmjs.com/package/@ng-ar/fa-input"
+    },
+    {
+      "url": "https://www.npmjs.com/package/@ng-ar/input",
+      "status": 403,
+      "resolvedUrl": "https://www.npmjs.com/package/@ng-ar/input"
+    },
+    {
+      "url": "https://www.npmjs.com/package/@ng-ar/mask",
+      "status": 403,
+      "resolvedUrl": "https://www.npmjs.com/package/@ng-ar/mask"
+    },
+    {
+      "url": "https://www.npmjs.com/package/@ng-ar/md-input",
+      "status": 403,
+      "resolvedUrl": "https://www.npmjs.com/package/@ng-ar/md-input"
+    },
+    {
+      "url": "https://www.npmjs.com/package/@ng-ar/modal",
+      "status": 403,
+      "resolvedUrl": "https://www.npmjs.com/package/@ng-ar/modal"
+    },
+    {
+      "url": "https://www.npmjs.com/package/@ng-ar/prime-input",
+      "status": 403,
+      "resolvedUrl": "https://www.npmjs.com/package/@ng-ar/prime-input"
+    },
+    {
+      "url": "https://www.npmjs.com/package/@ng-ar/svg-icon",
+      "status": 403,
+      "resolvedUrl": "https://www.npmjs.com/package/@ng-ar/svg-icon"
+    },
+    {
+      "url": "https://www.npmjs.com/package/@ng-ar/tab",
+      "status": 403,
+      "resolvedUrl": "https://www.npmjs.com/package/@ng-ar/tab"
+    }
+  ],
+  "npmPackages": [
+    {
+      "name": "@ng-ar/md-input",
+      "metadataUrl": "https://registry.npmjs.org/%40ng-ar%2Fmd-input/latest",
+      "status": 200,
+      "version": "13.0.3"
+    },
+    {
+      "name": "@ng-ar/svg-icon",
+      "metadataUrl": "https://registry.npmjs.org/%40ng-ar%2Fsvg-icon/latest",
+      "status": 200,
+      "version": "13.0.4"
+    },
+    {
+      "name": "@ng-ar/input",
+      "metadataUrl": "https://registry.npmjs.org/%40ng-ar%2Finput/latest",
+      "status": 200,
+      "version": "13.0.4"
+    },
+    {
+      "name": "@ng-ar/bg-svg",
+      "metadataUrl": "https://registry.npmjs.org/%40ng-ar%2Fbg-svg/latest",
+      "status": 200,
+      "version": "13.0.2"
+    },
+    {
+      "name": "@ng-ar/fa-input",
+      "metadataUrl": "https://registry.npmjs.org/%40ng-ar%2Ffa-input/latest",
+      "status": 200,
+      "version": "14.0.5"
+    },
+    {
+      "name": "@ng-ar/prime-input",
+      "metadataUrl": "https://registry.npmjs.org/%40ng-ar%2Fprime-input/latest",
+      "status": 200,
+      "version": "14.0.5"
+    },
+    {
+      "name": "@ng-ar/tab",
+      "metadataUrl": "https://registry.npmjs.org/%40ng-ar%2Ftab/latest",
+      "status": 200,
+      "version": "14.0.5"
+    },
+    {
+      "name": "@ng-ar/modal",
+      "metadataUrl": "https://registry.npmjs.org/%40ng-ar%2Fmodal/latest",
+      "status": 200,
+      "version": "14.0.5"
+    },
+    {
+      "name": "@ng-ar/mask",
+      "metadataUrl": "https://registry.npmjs.org/%40ng-ar%2Fmask/latest",
+      "status": 200,
+      "version": "14.0.4"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "angular-graphql-lab",
+  "name": "Angular Graphql Lab",
+  "description": "Learn GraphQL from zero to advanced using Angular.",
+  "category": "developer-tools",
+  "projectType": "study",
+  "visible": true,
+  "featured": false,
+  "needsReview": false,
+  "classificationReview": false,
+  "order": 55,
+  "repositories": [
+    {
+      "ref": "actionanand/angular-graphql-lab",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [
+    "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+  ],
+  "overrides": {},
+  "technologies": ["angular"]
+}

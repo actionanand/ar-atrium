@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "ng-my-libraries",
+  "name": "Ng (Nx) Libraries",
+  "description": "This repo has some of my basic angular libraries(npm publishable). It's using angular version 14.0.2. Some features like Function Types and Polymorphic Programming Without Class are used.",
+  "category": "developer-tools",
+  "projectType": "library",
+  "visible": true,
+  "featured": false,
+  "needsReview": false,
+  "classificationReview": false,
+  "order": 48,
+  "repositories": [
+    {
+      "ref": "actionanand/ng-my-libraries",
+      "role": "primary"
+    }
+  ],
+  "links": [
+    {
+      "kind": "npm",
+      "label": "@ng-ar/fa-input",
+      "url": "https://www.npmjs.com/package/@ng-ar/fa-input",
+      "source": "https://github.com/actionanand/ng-my-libraries/blob/main/README.md",
+      "verified": "readme-reference",
+      "id": "npm-1"
+    },
+    {
+      "kind": "npm",
+      "label": "@ng-ar/prime-input",
+      "url": "https://www.npmjs.com/package/@ng-ar/prime-input",
+      "source": "https://github.com/actionanand/ng-my-libraries/blob/main/README.md",
+      "verified": "readme-reference",
+      "id": "npm-2"
+    },
+    {
+      "kind": "npm",
+      "label": "@ng-ar/tab",
+      "url": "https://www.npmjs.com/package/@ng-ar/tab",
+      "source": "https://github.com/actionanand/ng-my-libraries/blob/main/README.md",
+      "verified": "readme-reference",
+      "id": "npm-3"
+    },
+    {
+      "kind": "npm",
+      "label": "@ng-ar/modal",
+      "url": "https://www.npmjs.com/package/@ng-ar/modal",
+      "source": "https://github.com/actionanand/ng-my-libraries/blob/main/README.md",
+      "verified": "readme-reference",
+      "id": "npm-4"
+    },
+    {
+      "kind": "npm",
+      "label": "@ng-ar/mask",
+      "url": "https://www.npmjs.com/package/@ng-ar/mask",
+      "source": "https://github.com/actionanand/ng-my-libraries/blob/main/README.md",
+      "verified": "readme-reference",
+      "id": "npm-5"
+    }
+  ],
+  "notes": [
+    "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees.",
+    "Learning and playground workspace containing publishable Angular libraries."
+  ],
+  "overrides": {},
+  "technologies": ["angular", "nx"],
+  "facets": ["learning-workspace", "playground", "publishable-libraries"]
+}
