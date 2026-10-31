@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "sourceUrl": "https://raw.githubusercontent.com/actionanand/policy-hub/master/docs/.vitepress/data/apps.ts",
+  "sourceSha256": "43cfd87531d7d5b6e97a56847f17f0d4d55f21b6697a1edf65ccd62c5e3aa816",
+  "checkedOn": "2026-10-31",
+  "apps": [
+    {
+      "id": "local-tell",
+      "name": "LocalTell",
+      "shortDescription": "Offline approximate-area lookup from your serving cellular network.",
+      "icon": "/apps/local-tell/icon.png",
+      "platform": "android",
+      "releasedToPlayStore": true,
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.actionanand.localtell.app"
+    },
+    {
+      "id": "qurio",
+      "name": "Qurio",
+      "shortDescription": "Multilingual learning, quizzes, progress tracking, and exam preparation.",
+      "icon": "/apps/qurio/icon.png",
+      "platform": "android",
+      "releasedToPlayStore": true,
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.actionanand.qurio.app"
+    },
+    {
+      "id": "metro-pocket",
+      "name": "MetroPocket",
+      "shortDescription": "Offline metro routes and TV channel lookup with downloadable data packs.",
+      "icon": "/apps/metro-pocket/icon.png",
+      "platform": "android",
+      "releasedToPlayStore": true,
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.actionanand.metropocket.app"
+    },
+    {
+      "id": "spendzo",
+      "name": "Spendzo",
+      "shortDescription": "A personal expense and budget-tracking application.",
+      "icon": "/apps/spendzo/icon.png",
+      "platform": "android",
+      "releasedToPlayStore": true,
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.actionanand.spendzo.app"
+    },
+    {
+      "id": "stillora",
+      "name": "Stillora",
+      "shortDescription": "A relaxation, meditation and ambient-sound application.",
+      "icon": "/apps/stillora/icon.png",
+      "platform": "android",
+      "releasedToPlayStore": true,
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.actionanand.stillora.app"
+    },
+    {
+      "id": "flowra",
+      "name": "Flowra",
+      "shortDescription": "A private, offline-first period and cycle tracker with on-device insights.",
+      "icon": "/apps/flowra/icon.png",
+      "platform": "android",
+      "releasedToPlayStore": true,
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.actionanand.flowra.app"
+    },
+    {
+      "id": "vault-nest",
+      "name": "Vault Nest",
+      "shortDescription": "A private, offline-first password manager for Android and Wear OS.",
+      "icon": "/apps/vault-nest/icon.png",
+      "platform": "android",
+      "releasedToPlayStore": true,
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.actionanand.vaultnest.app"
+    },
+    {
+      "id": "card-nest",
+      "name": "Card Nest",
+      "shortDescription": "A private, offline-first credit-card and personal-finance organizer.",
+      "icon": "/apps/card-nest/icon.png",
+      "platform": "android",
+      "releasedToPlayStore": true,
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.actionanand.cardnest.app"
+    },
+    {
+      "id": "link-deck",
+      "name": "Link Deck",
+      "shortDescription": "A private, offline-first bookmark manager with profiles and nested folders.",
+      "icon": "/apps/link-deck/icon.png",
+      "platform": "android",
+      "releasedToPlayStore": true,
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.actionanand.linkdeck.app"
+    },
+    {
+      "id": "who-called",
+      "name": "Who Called",
+      "shortDescription": "A private, offline contact organizer with optional call-history tools.",
+      "icon": "/apps/who-called/icon.png",
+      "platform": "android",
+      "releasedToPlayStore": true,
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.actionanand.whocalled.app"
+    },
+    {
+      "id": "life-leaf",
+      "name": "Life Leaf",
+      "shortDescription": "A private diary for writing, memories, photos, moods, and gentle reminders.",
+      "icon": "/apps/life-leaf/icon.png",
+      "platform": "android",
+      "releasedToPlayStore": true,
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.actionanand.lifeleaf.app"
+    },
+    {
+      "id": "birthday-buddy",
+      "name": "Birthday Buddy",
+      "shortDescription": "A private reminder for birthdays, anniversaries, and meaningful occasions.",
+      "icon": "/apps/birthday-buddy/icon.png",
+      "platform": "android",
+      "releasedToPlayStore": true,
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.actionanand.birthdaybuddy.app"
+    },
+    {
+      "id": "click2chat",
+      "name": "Click2Chat",
+      "shortDescription": "Start WhatsApp chats without saving numbers to your contacts.",
+      "icon": "/apps/click2chat/icon.png",
+      "platform": "android",
+      "releasedToPlayStore": true,
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.actionanand.click2chat.app"
+    },
+    {
+      "id": "arflix",
+      "name": "ARFlix",
+      "shortDescription": "A movie and TV discovery app with TMDb details and a curated collection.",
+      "icon": "/apps/arflix/icon.png",
+      "platform": "android",
+      "releasedToPlayStore": true,
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.actionanand.arflix.app"
+    },
+    {
+      "id": "office-orbit",
+      "name": "Office Orbit",
+      "shortDescription": "A personal work dashboard for logs, JIRAs, sprints, releases, and feedback.",
+      "icon": "/apps/office-orbit/icon.png",
+      "platform": "android",
+      "releasedToPlayStore": false
+    },
+    {
+      "id": "office-pulse",
+      "name": "Office Pulse",
+      "shortDescription": "A work dashboard for attendance, schedules, tasks, notes, and utilities.",
+      "icon": "/apps/office-pulse/icon.png",
+      "platform": "android",
+      "releasedToPlayStore": false
+    },
+    {
+      "id": "personix",
+      "name": "Personix",
+      "shortDescription": "A private personal organizer for links, family records, vehicles, notes, and checklists.",
+      "icon": "/apps/personix/icon.png",
+      "platform": "android",
+      "releasedToPlayStore": true,
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.actionanand.personix.app"
+    },
+    {
+      "id": "expenzo",
+      "name": "Expenzo",
+      "shortDescription": "A finance dashboard for expenses, budgets, savings, wishlists, and checklists.",
+      "icon": "/apps/expenzo/icon.png",
+      "platform": "android",
+      "releasedToPlayStore": false
+    },
+    {
+      "id": "ar-tamil-jathagam",
+      "name": "AR Tamil Jathagam",
+      "shortDescription": "A Tamil and English astrology app for horoscopes, Panchanga, and compatibility.",
+      "icon": "/apps/ar-tamil-jathagam/icon.png",
+      "platform": "android",
+      "releasedToPlayStore": false
+    },
+    {
+      "id": "lingua-log",
+      "name": "Lingua Log",
+      "shortDescription": "A multilingual sentence, translation, explanation, and learning-resource organizer.",
+      "icon": "/apps/lingua-log/icon.png",
+      "platform": "android",
+      "releasedToPlayStore": false
+    },
+    {
+      "id": "scrollix",
+      "name": "Scrollix",
+      "shortDescription": "A curated, scrollable feed for videos, social posts, and web articles.",
+      "icon": "/apps/scrollix/icon.png",
+      "platform": "android",
+      "releasedToPlayStore": false
+    },
+    {
+      "id": "arblogz",
+      "name": "AR Blogz",
+      "shortDescription": "A multilingual personal blog about learning, culture, health, food, and discoveries.",
+      "icon": "/apps/arblogz/icon.png",
+      "platform": "web",
+      "releasedToPlayStore": false
+    },
+    {
+      "id": "artamizhsolai",
+      "name": "AR Tamizh Solai",
+      "shortDescription": "A Tamil literature publication exploring classics, poetry, language, and culture.",
+      "platform": "web",
+      "releasedToPlayStore": false
+    }
+  ]
+}

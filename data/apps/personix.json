@@ -1,0 +1,25 @@
+{
+  "id": "personix",
+  "name": "Personix",
+  "description": "A private personal organizer for links, family records, vehicles, notes, and checklists.",
+  "category": "personal",
+  "featured": false,
+  "visible": true,
+  "needsReview": true,
+  "repositories": [
+    {
+      "ref": "actionanand/personix",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [],
+  "schemaVersion": 1,
+  "policyHub": {
+    "appId": "personix"
+  },
+  "overrides": {},
+  "projectType": "application",
+  "order": 40,
+  "technologies": []
+}

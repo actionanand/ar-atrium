@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "angular-study-http",
+  "name": "Angular Study Http",
+  "description": "It's a simple angular practice app (http, interceptor, bootstrap, http, service, etc)",
+  "category": "developer-tools",
+  "projectType": "study",
+  "visible": true,
+  "featured": false,
+  "needsReview": false,
+  "classificationReview": false,
+  "order": 74,
+  "repositories": [
+    {
+      "ref": "actionanand/Angular-study-http",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [
+    "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+  ],
+  "overrides": {},
+  "technologies": ["angular"]
+}

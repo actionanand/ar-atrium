@@ -1,0 +1,26 @@
+{
+  "id": "link-deck",
+  "name": "Link Deck",
+  "description": "A private, offline-first bookmark manager with profiles and nested folders.",
+  "category": "productivity",
+  "featured": false,
+  "visible": true,
+  "needsReview": true,
+  "repositories": [
+    {
+      "ref": "actionanand/link-deck",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [],
+  "schemaVersion": 1,
+  "policyHub": {
+    "appId": "link-deck"
+  },
+  "overrides": {},
+  "projectType": "tool",
+  "classificationReview": true,
+  "order": 36,
+  "technologies": []
+}

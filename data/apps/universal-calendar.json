@@ -1,0 +1,23 @@
+{
+  "id": "universal-calendar",
+  "name": "Universal Calendar",
+  "description": "Angular 20.0.1 with AI Instructions.",
+  "category": "utilities",
+  "featured": false,
+  "visible": true,
+  "needsReview": false,
+  "repositories": [
+    {
+      "ref": "actionanand/universal-calendar",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [],
+  "schemaVersion": 1,
+  "overrides": {},
+  "projectType": "playground",
+  "classificationReview": true,
+  "order": 26,
+  "technologies": []
+}

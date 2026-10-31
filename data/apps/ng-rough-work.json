@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "ng-rough-work",
+  "name": "Ng Rough Work",
+  "description": "It is simple rough work of angular using reactive-forms(form-builder and form array)",
+  "category": "developer-tools",
+  "projectType": "playground",
+  "visible": true,
+  "featured": false,
+  "needsReview": false,
+  "classificationReview": false,
+  "order": 49,
+  "repositories": [
+    {
+      "ref": "actionanand/ng-rough-work",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [
+    "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+  ],
+  "overrides": {},
+  "technologies": ["angular"]
+}

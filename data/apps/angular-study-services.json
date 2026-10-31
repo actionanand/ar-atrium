@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "angular-study-services",
+  "name": "Angular Study Services",
+  "description": "Angular practice app (Services)",
+  "category": "developer-tools",
+  "projectType": "study",
+  "visible": true,
+  "featured": false,
+  "needsReview": false,
+  "classificationReview": false,
+  "order": 72,
+  "repositories": [
+    {
+      "ref": "actionanand/Angular-study-services",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [
+    "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+  ],
+  "overrides": {},
+  "technologies": ["angular"]
+}

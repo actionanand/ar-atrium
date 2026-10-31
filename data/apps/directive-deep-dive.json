@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "directive-deep-dive",
+  "name": "Directive Deep Dive",
+  "description": "Angular directive and model input signal (model signal) and host binding",
+  "category": "developer-tools",
+  "projectType": "playground",
+  "visible": true,
+  "featured": false,
+  "needsReview": false,
+  "classificationReview": false,
+  "order": 57,
+  "repositories": [
+    {
+      "ref": "actionanand/directive-deep-dive",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [
+    "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+  ],
+  "overrides": {},
+  "technologies": ["angular"]
+}

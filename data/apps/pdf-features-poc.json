@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "pdf-features-poc",
+  "name": "PDF Features POC",
+  "description": "Angular proof of concept comparing ng2-pdf-viewer, direct PDF.js, and PDF-lib with PDF.js for PDF rendering, text search, highlighting and manipulation.",
+  "category": "developer-tools",
+  "projectType": "playground",
+  "visible": true,
+  "featured": false,
+  "needsReview": false,
+  "order": 76,
+  "repositories": [
+    {
+      "ref": "actionanand/pdf-features-poc",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "technologies": ["angular"],
+  "facets": ["angular18", "pdf"],
+  "notes": ["An experimental PDF comparison demo; no published npm package is confirmed."],
+  "overrides": {}
+}

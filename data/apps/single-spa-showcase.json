@@ -1,0 +1,125 @@
+{
+  "id": "single-spa-showcase",
+  "name": "Single-SPA Showcase",
+  "description": "Polyglot single-spa microfrontend examples, including two root configurations and framework-specific apps.",
+  "category": "developer-tools",
+  "featured": false,
+  "visible": true,
+  "needsReview": true,
+  "repositories": [
+    {
+      "ref": "actionanand/single-spa-demo-root-config",
+      "role": "polyglot-root"
+    },
+    {
+      "ref": "actionanand/single-spa-angular-root-config",
+      "role": "angular-root"
+    },
+    {
+      "ref": "actionanand/single-spa-angular",
+      "role": "angular-app"
+    },
+    {
+      "ref": "actionanand/single-spa-react",
+      "role": "react-app"
+    },
+    {
+      "ref": "actionanand/single-spa-vue",
+      "role": "vue-app"
+    },
+    {
+      "ref": "actionanand/single-spa-svelte",
+      "role": "svelte-app"
+    },
+    {
+      "ref": "actionanand/single-spa-footer",
+      "role": "footer"
+    },
+    {
+      "ref": "actionanand/single-spa-404",
+      "role": "not-found"
+    },
+    {
+      "ref": "actionanand/single-spa-vanilla-js",
+      "role": "vanilla-app"
+    },
+    {
+      "ref": "actionanand/single-spa-utility",
+      "role": "shared-utility"
+    },
+    {
+      "ref": "actionanand/angular-parcel-app",
+      "role": "angular-parcel"
+    },
+    {
+      "ref": "actionanand/react-parcel-app",
+      "role": "react-parcel"
+    },
+    {
+      "ref": "actionanand/single-spa-nav",
+      "role": "navbar"
+    },
+    {
+      "ref": "actionanand/single-spa-sidebar",
+      "role": "sidebar"
+    }
+  ],
+  "links": [],
+  "notes": [
+    "Variants are closely related and share several component repositories.",
+    "Both root-config READMEs list multiple related repositories; demo and component accessibility must be checked before launch.",
+    "The number of linked repositories comes from their READMEs and exceeds the initial five mentioned."
+  ],
+  "schemaVersion": 1,
+  "overrides": {},
+  "projectType": "study",
+  "collection": {
+    "mode": "variants",
+    "variants": [
+      {
+        "id": "polyglot",
+        "label": "Polyglot root configuration",
+        "order": 1,
+        "rootRepositoryRef": "actionanand/single-spa-demo-root-config",
+        "repositoryRefs": [
+          "actionanand/single-spa-demo-root-config",
+          "actionanand/single-spa-angular",
+          "actionanand/single-spa-react",
+          "actionanand/single-spa-vue",
+          "actionanand/single-spa-svelte",
+          "actionanand/single-spa-footer",
+          "actionanand/single-spa-404",
+          "actionanand/single-spa-vanilla-js",
+          "actionanand/single-spa-utility",
+          "actionanand/angular-parcel-app",
+          "actionanand/react-parcel-app",
+          "actionanand/single-spa-nav"
+        ],
+        "description": "Root config + Angular, React, Vue, Svelte and shared microfrontends."
+      },
+      {
+        "id": "angular-root",
+        "label": "Angular root configuration",
+        "order": 2,
+        "rootRepositoryRef": "actionanand/single-spa-angular-root-config",
+        "repositoryRefs": [
+          "actionanand/single-spa-angular-root-config",
+          "actionanand/single-spa-angular",
+          "actionanand/single-spa-react",
+          "actionanand/single-spa-vue",
+          "actionanand/single-spa-svelte",
+          "actionanand/single-spa-footer",
+          "actionanand/single-spa-404",
+          "actionanand/single-spa-vanilla-js",
+          "actionanand/single-spa-utility",
+          "actionanand/angular-parcel-app",
+          "actionanand/react-parcel-app",
+          "actionanand/single-spa-sidebar"
+        ],
+        "description": "Angular-root variation with sidebar component."
+      }
+    ]
+  },
+  "order": 32,
+  "technologies": ["single-spa", "angular", "react", "vue", "svelte"]
+}

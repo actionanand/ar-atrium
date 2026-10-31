@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "angular-change-detection",
+  "name": "Angular Change Detection",
+  "description": "Angular Change Detection - Deep Dive & Adieu Zone.js (zoneless angular)",
+  "category": "developer-tools",
+  "projectType": "playground",
+  "visible": true,
+  "featured": false,
+  "needsReview": false,
+  "classificationReview": false,
+  "order": 51,
+  "repositories": [
+    {
+      "ref": "actionanand/angular-change-detection",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [
+    "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+  ],
+  "overrides": {},
+  "technologies": ["angular"]
+}

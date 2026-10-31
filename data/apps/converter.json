@@ -1,0 +1,22 @@
+{
+  "id": "converter",
+  "name": "Converter",
+  "description": "It has basic converters like base64, sha1, etc",
+  "category": "developer-tools",
+  "featured": false,
+  "visible": true,
+  "needsReview": false,
+  "repositories": [
+    {
+      "ref": "actionanand/converter",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [],
+  "schemaVersion": 1,
+  "overrides": {},
+  "projectType": "tool",
+  "order": 17,
+  "technologies": []
+}

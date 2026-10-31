@@ -1,0 +1,27 @@
+{
+  "id": "office-orbit",
+  "name": "Office Orbit",
+  "description": "A personal work dashboard for logs, JIRAs, sprints, releases, and feedback.",
+  "category": "productivity",
+  "featured": false,
+  "visible": true,
+  "needsReview": false,
+  "repositories": [
+    {
+      "ref": "actionanand/office-orbit",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [
+    "Android listed in policy-hub, but NOT marked as released to Google Play; do not generate a Play Store URL."
+  ],
+  "schemaVersion": 1,
+  "policyHub": {
+    "appId": "office-orbit"
+  },
+  "overrides": {},
+  "projectType": "application",
+  "order": 2,
+  "technologies": []
+}

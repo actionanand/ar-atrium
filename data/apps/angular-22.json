@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "angular-22",
+  "name": "Angular 22",
+  "description": "Angular 22 project",
+  "category": "developer-tools",
+  "projectType": "playground",
+  "visible": true,
+  "featured": false,
+  "needsReview": false,
+  "classificationReview": true,
+  "order": 50,
+  "repositories": [
+    {
+      "ref": "actionanand/angular-22",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [
+    "Imported from public GitHub metadata and README. Hosted URLs are references, not uptime guarantees."
+  ],
+  "overrides": {},
+  "technologies": ["angular"]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "spendzo",
+  "name": "Spendzo",
+  "description": "A personal expense and budget-tracking application.",
+  "category": "finance",
+  "featured": false,
+  "visible": true,
+  "needsReview": false,
+  "repositories": [
+    {
+      "ref": "actionanand/spendzo",
+      "role": "primary"
+    }
+  ],
+  "links": [],
+  "notes": [],
+  "schemaVersion": 1,
+  "policyHub": {
+    "appId": "spendzo"
+  },
+  "overrides": {},
+  "projectType": "application",
+  "order": 5,
+  "technologies": []
+}
