@@ -34,7 +34,10 @@ import { CatalogService } from '../core/catalog.service';
           This browser lock is a convenience for a personal showcase. It does not secure publicly
           hosted static content or its configuration files.
         </p>
-        <a class="button primary" routerLink="/explore">Find a discovery ↗</a>
+        <a class="button primary" routerLink="/explore"
+          >Find a discovery
+          <span class="material-symbols-rounded" aria-hidden="true">arrow_forward</span></a
+        >
       </div>
     </div>
   </section>`,

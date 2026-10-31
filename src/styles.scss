@@ -1,4 +1,72 @@
 @use '@angular/cdk/overlay-prebuilt.css';
+.material-symbols-rounded {
+  font-family: 'Material Symbols Rounded';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.25rem;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+  vertical-align: middle;
+  flex-shrink: 0;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  color: inherit;
+  visibility: hidden;
+}
+.material-symbols-ready .material-symbols-rounded {
+  visibility: visible;
+}
+.material-symbols-ready .icon-fallback {
+  display: none;
+}
+.nav-actions button:first-child {
+  width: 44px;
+  padding: 0;
+  position: relative;
+}
+.preview-heading button {
+  position: relative;
+}
+.nav-actions .icon-fallback,
+.preview-heading .icon-fallback {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.65rem;
+}
+label {
+  min-height: 24px;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+@media (max-width: 600px) {
+  .material-symbols-rounded {
+    font-size: 1.125rem;
+  }
+}
+a > .material-symbols-rounded,
+button > .material-symbols-rounded {
+  margin-inline: 0.2em;
+}
+.password-field button {
+  min-width: 44px;
+  min-height: 44px;
+}
 :root {
   color-scheme: light;
   --bg: #f5f7f1;
@@ -1088,7 +1156,7 @@ input::placeholder {
   position: relative;
 }
 .password-field input {
-  padding-right: 70px;
+  padding-right: 100px;
 }
 .password-field button {
   position: absolute;

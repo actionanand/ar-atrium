@@ -18,8 +18,13 @@ import { ProjectCardComponent } from '../shared/project-card';
           and everything I learn along the way.
         </p>
         <div class="hero-actions">
-          <a class="button primary" routerLink="/explore">Explore the collection <span>↗</span></a
-          ><a class="text-link" href="#directory" (click)="skipIntro($event)">Skip intro ↓</a>
+          <a class="button primary" routerLink="/explore"
+            >Explore the collection
+            <span class="material-symbols-rounded" aria-hidden="true">arrow_forward</span></a
+          ><a class="text-link" href="#directory" (click)="skipIntro($event)"
+            >Skip intro
+            <span class="material-symbols-rounded" aria-hidden="true">arrow_downward</span></a
+          >
         </div>
       </div>
       <div class="hero-architecture" aria-hidden="true">
@@ -34,7 +39,9 @@ import { ProjectCardComponent } from '../shared/project-card';
         <span class="arch-caption">A SPACE FOR POSSIBILITY</span>
       </div>
       <div class="hero-bottom">
-        <span>SCROLL TO STEP INSIDE <span aria-hidden="true">↓</span></span
+        <span
+          >SCROLL TO STEP INSIDE
+          <span class="material-symbols-rounded" aria-hidden="true">arrow_downward</span></span
         ><span>{{ catalog.projects().length }} creations. One curious mind.</span
         ><span>EST. IN CURIOSITY</span>
       </div>
@@ -51,7 +58,10 @@ import { ProjectCardComponent } from '../shared/project-card';
           <strong>{{ catalog.projects().length }}</strong
           ><span>projects & experiments</span>
         </div>
-        <a routerLink="/about" class="text-link">Behind the collection ↗</a>
+        <a routerLink="/about" class="text-link"
+          >Behind the collection
+          <span class="material-symbols-rounded" aria-hidden="true">arrow_forward</span></a
+        >
       </div>
     </section>
     <section class="showcase-scene">
@@ -75,7 +85,12 @@ import { ProjectCardComponent } from '../shared/project-card';
                 <div class="device-monogram" aria-hidden="true">{{ project.name.slice(0, 2) }}</div>
                 <h3>{{ project.name }}</h3>
                 <p>{{ project.description }}</p>
-                <span class="device-open">Explore project ↗</span>
+                <span class="device-open"
+                  >Explore project
+                  <span class="material-symbols-rounded" aria-hidden="true"
+                    >arrow_forward</span
+                  ></span
+                >
               </div></a
             >
           }
@@ -89,7 +104,10 @@ import { ProjectCardComponent } from '../shared/project-card';
           <p class="eyebrow">SELECTED FROM THE COLLECTION</p>
           <h2 tabindex="-1" id="featured-heading">Made with purpose.</h2>
         </div>
-        <a routerLink="/explore" class="text-link">View all projects ↗</a>
+        <a routerLink="/explore" class="text-link"
+          >View all projects
+          <span class="material-symbols-rounded" aria-hidden="true">arrow_forward</span></a
+        >
       </div>
       <div class="project-grid">
         @for (project of catalog.featured().slice(0, 6); track project.id) {
@@ -114,7 +132,9 @@ import { ProjectCardComponent } from '../shared/project-card';
           ><span class="path-index">0{{ i + 1 }}</span>
           <h3>{{ group.label }}</h3>
           <p>{{ group.description }}</p>
-          <span class="path-arrow" aria-hidden="true">↗</span></a
+          <span class="material-symbols-rounded path-arrow" aria-hidden="true"
+            >arrow_forward</span
+          ></a
         >
       }
     </section>

@@ -32,8 +32,13 @@ import { ThemeService } from '../core/theme.service';
             (click)="theme.toggle()"
             [attr.aria-label]="theme.dark() ? 'Switch to light theme' : 'Switch to dark theme'"
           >
-            {{ theme.dark() ? '☀' : '☾' }}</button
-          ><button type="button" (click)="lock()">Lock <span aria-hidden="true">↗</span></button>
+            <span class="material-symbols-rounded" aria-hidden="true">{{
+              theme.dark() ? 'light_mode' : 'dark_mode'
+            }}</span
+            ><span class="icon-fallback">{{ theme.dark() ? 'Light' : 'Dark' }}</span></button
+          ><button type="button" (click)="lock()">
+            Lock <span class="material-symbols-rounded" aria-hidden="true">lock</span>
+          </button>
         </div>
       </div>
     </header>
@@ -44,7 +49,9 @@ import { ThemeService } from '../core/theme.service';
         <div class="state-panel" role="alert">
           <h1>Something interrupted the visit.</h1>
           <p>{{ catalog.error() }}</p>
-          <button class="button" (click)="catalog.load()">Try again</button>
+          <button class="button" (click)="catalog.load()">
+            Try again <span class="material-symbols-rounded" aria-hidden="true">refresh</span>
+          </button>
         </div>
       } @else {
         <router-outlet />
@@ -55,7 +62,10 @@ import { ThemeService } from '../core/theme.service';
         ><img ngSrc="ar_emblem.png" width="32" height="32" alt="" /><span>AR ATRIUM</span></a
       >
       <p>{{ catalog.data()?.tagline }}</p>
-      <a routerLink="/about">About this collection ↗</a><span>Made with curiosity.</span>
+      <a routerLink="/about"
+        >About this collection
+        <span class="material-symbols-rounded" aria-hidden="true">arrow_forward</span></a
+      ><span>Made with curiosity.</span>
     </footer>
   `,
 })

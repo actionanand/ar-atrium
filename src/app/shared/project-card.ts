@@ -29,7 +29,8 @@ import type { CompiledProject } from '../core/catalog.models';
       </div>
       <h3>
         <a [routerLink]="['/app', project().id]"
-          >{{ project().name }} <span aria-hidden="true">↗</span></a
+          >{{ project().name }}
+          <span class="material-symbols-rounded" aria-hidden="true">arrow_forward</span></a
         >
       </h3>
       <p>{{ project().description }}</p>
@@ -45,7 +46,7 @@ import type { CompiledProject } from '../core/catalog.models';
           aria-haspopup="dialog"
           [attr.aria-label]="'Preview ' + project().name"
         >
-          Preview ↗
+          Preview <span class="material-symbols-rounded" aria-hidden="true">preview</span>
         </button>
       </div>
     </article>
@@ -76,7 +77,8 @@ import type { CompiledProject } from '../core/catalog.models';
         <div class="preview-heading">
           <span class="eyebrow">PROJECT PREVIEW</span
           ><button type="button" (click)="close()" aria-label="Close preview" cdkFocusInitial>
-            ✕
+            <span class="material-symbols-rounded" aria-hidden="true">close</span>
+            <span class="icon-fallback" aria-hidden="true">Close</span>
           </button>
         </div>
         <div class="preview-visual">
@@ -101,7 +103,8 @@ import type { CompiledProject } from '../core/catalog.models';
         <div class="preview-actions">
           @if (website(); as link) {
             <a class="button primary" [href]="link.url" target="_blank" rel="noopener noreferrer"
-              >Open website ↗</a
+              >Open website
+              <span class="material-symbols-rounded" aria-hidden="true">open_in_new</span></a
             >
           }
           <a class="button" [routerLink]="['/app', project().id]" (click)="close()"

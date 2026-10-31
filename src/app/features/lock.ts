@@ -17,6 +17,9 @@ import { ThemeService } from '../core/theme.service';
         (click)="theme.toggle()"
         [attr.aria-label]="theme.dark() ? 'Switch to light theme' : 'Switch to dark theme'"
       >
+        <span class="material-symbols-rounded" aria-hidden="true">{{
+          theme.dark() ? 'light_mode' : 'dark_mode'
+        }}</span>
         {{ theme.dark() ? 'Light mode' : 'Dark mode' }}
       </button>
       <section class="lock-story" aria-label="Welcome to AR Atrium">
@@ -62,8 +65,12 @@ import { ThemeService } from '../core/theme.service';
                 (click)="showPassword.update(toggle)"
                 [attr.aria-pressed]="showPassword()"
                 aria-controls="password"
+                [attr.aria-label]="showPassword() ? 'Hide password' : 'Show password'"
               >
-                {{ showPassword() ? 'Hide' : 'Show' }}
+                <span class="material-symbols-rounded" aria-hidden="true">{{
+                  showPassword() ? 'visibility_off' : 'visibility'
+                }}</span
+                ><span>{{ showPassword() ? 'Hide' : 'Show' }}</span>
               </button>
             </div>
             <p id="login-message" role="status" class="form-message">{{ message() }}</p>
@@ -75,7 +82,8 @@ import { ThemeService } from '../core/theme.service';
               type="submit"
               [disabled]="busy() || !canUnlock() || !auth.configured"
             >
-              {{ busy() ? 'Opening…' : 'Unlock Atrium →' }}
+              {{ busy() ? 'Opening…' : 'Unlock Atrium' }}
+              <span class="material-symbols-rounded" aria-hidden="true">lock_open</span>
             </button>
           </form>
           <p class="lock-note">

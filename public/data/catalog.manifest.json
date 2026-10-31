@@ -86,7 +86,7 @@
   "taxonomy": "project-types.json",
   "policyHub": {
     "repository": "actionanand/policy-hub",
-    "sourceUrl": "https://raw.githubusercontent.com/actionanand/policy-hub/main/docs/.vitepress/data/apps.ts",
+    "sourceUrl": "https://raw.githubusercontent.com/actionanand/policy-hub/master/docs/.vitepress/data/apps.ts",
     "websiteUrl": "https://actionanand.github.io/policy-hub/",
     "snapshot": "generated/policy-hub.json"
   },

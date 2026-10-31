@@ -26,7 +26,9 @@ import { ProjectCardComponent } from '../shared/project-card';
       </div>
       <div class="filter-bar">
         <div class="search-field">
-          <label for="search">Search the collection</label
+          <label for="search"
+            >Search the collection
+            <span class="material-symbols-rounded" aria-hidden="true">search</span></label
           ><input
             id="search"
             type="search"
@@ -70,7 +72,10 @@ import { ProjectCardComponent } from '../shared/project-card';
           <div class="empty-state">
             <h2>No discoveries here yet.</h2>
             <p>Try another search or clear the filters.</p>
-            <button class="button" (click)="reset()">Reset filters</button>
+            <button class="button" (click)="reset()">
+              Reset filters
+              <span class="material-symbols-rounded" aria-hidden="true">restart_alt</span>
+            </button>
           </div>
         }
       </div>

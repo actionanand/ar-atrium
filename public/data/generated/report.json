@@ -161,7 +161,7 @@
     "projects": 21,
     "playStoreLinks": 15,
     "checkedOn": "2026-10-31",
-    "sourceUrl": "https://raw.githubusercontent.com/actionanand/policy-hub/main/docs/.vitepress/data/apps.ts",
-    "sourceSha256": "0a5df5e1bea73d437d218db34ee6b72e1b7f5528c7e98486df879c38254b55ee"
+    "sourceUrl": "https://raw.githubusercontent.com/actionanand/policy-hub/master/docs/.vitepress/data/apps.ts",
+    "sourceSha256": "43cfd87531d7d5b6e97a56847f17f0d4d55f21b6697a1edf65ccd62c5e3aa816"
   }
 }

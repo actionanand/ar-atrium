@@ -8,7 +8,10 @@ import { CatalogService } from '../core/catalog.service';
   imports: [RouterLink],
   template: `
     <section class="detail-page page-wrap">
-      <a class="back-link" routerLink="/explore">← Back to collection</a>
+      <a class="back-link" routerLink="/explore"
+        ><span class="material-symbols-rounded" aria-hidden="true">arrow_back</span> Back to
+        collection</a
+      >
       @if (project(); as app) {
         <div class="detail-hero">
           <div>
@@ -36,7 +39,11 @@ import { CatalogService } from '../core/catalog.service';
               @for (link of app.destinations; track link.id) {
                 <a class="destination" [href]="link.url" target="_blank" rel="noopener noreferrer"
                   ><span class="eyebrow">{{ link.kind }}</span
-                  ><strong>{{ link.label }} ↗</strong
+                  ><strong
+                    >{{ link.label }}
+                    <span class="material-symbols-rounded" aria-hidden="true"
+                      >open_in_new</span
+                    ></strong
                   ><span class="destination-url">{{ link.url }}</span></a
                 >
               } @empty {
@@ -58,7 +65,10 @@ import { CatalogService } from '../core/catalog.service';
                             [href]="repositoryUrl(part.repositoryRef)"
                             target="_blank"
                             rel="noopener noreferrer"
-                            >{{ part.title }} ↗</a
+                            >{{ part.title }}
+                            <span class="material-symbols-rounded" aria-hidden="true"
+                              >open_in_new</span
+                            ></a
                           >
                         </h3>
                         <p>{{ part.summary }}</p>
@@ -88,7 +98,10 @@ import { CatalogService } from '../core/catalog.service';
                         @for (ref of variant.repositoryRefs; track ref) {
                           <li>
                             <a [href]="repositoryUrl(ref)" target="_blank" rel="noopener noreferrer"
-                              >{{ ref }} ↗</a
+                              >{{ ref }}
+                              <span class="material-symbols-rounded" aria-hidden="true"
+                                >open_in_new</span
+                              ></a
                             >
                             @if (ref === variant.rootRepositoryRef) {
                               <span class="type-pill">Root configuration</span>
@@ -137,7 +150,10 @@ import { CatalogService } from '../core/catalog.service';
             @if (app.relatedProjects?.length) {
               <h3>Related discoveries</h3>
               @for (id of app.relatedProjects; track id) {
-                <a [routerLink]="['/app', id]">{{ relatedName(id) }} →</a>
+                <a [routerLink]="['/app', id]"
+                  >{{ relatedName(id) }}
+                  <span class="material-symbols-rounded" aria-hidden="true">arrow_forward</span></a
+                >
               }
             }
           </aside>
