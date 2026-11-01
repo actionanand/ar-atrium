@@ -214,3 +214,5 @@ The optional `node tools/check-links.mts` command records HTTP observations in `
 ## Motion preference
 
 Choose **System**, **On** or **Off** in the lock screen or site footer. System is the default and follows the browser's reduced-motion preference. On explicitly enables decorative web motion even when the device requests reduced motion. Off keeps the interface static. The choice is stored locally and can be changed without reloading. See [motion audit](documentation/motion-policy-audit.md) for the implementation, animation inventory and test matrix.
+
+Real home-screen screenshots, safe demo links and the owner-controlled protected capture workflow are documented in [Real application previews](documentation/real-app-previews.md).

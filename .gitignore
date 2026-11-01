@@ -53,3 +53,12 @@ __pycache__/
 .cache
 /reference/
 /.angular/cache/
+
+# Private preview capture/session artifacts
+/playwright/.auth/
+/.auth/
+**/storage-state*.json
+**/storageState*.json
+**/*.har
+.env
+.env.*

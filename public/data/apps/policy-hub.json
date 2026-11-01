@@ -18,5 +18,9 @@
   "overrides": {},
   "projectType": "tool",
   "order": 1,
-  "technologies": []
+  "technologies": [],
+  "preview": {
+    "imageUrl": "previews/policy-hub/home-desktop.png",
+    "imageAlt": "Policy Hub public homepage and application directory"
+  }
 }

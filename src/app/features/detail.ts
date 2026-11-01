@@ -35,6 +35,12 @@ import { CatalogService } from '../core/catalog.service';
         <div class="detail-layout">
           <div>
             <h2>Open & explore</h2>
+            @if (app.preview?.demoPublic && app.preview.demoUrl; as demo) {
+              <a class="button" [href]="demo" target="_blank" rel="noopener noreferrer"
+                >Open live demo
+                <span class="material-symbols-rounded" aria-hidden="true">open_in_new</span></a
+              >
+            }
             <div class="destination-grid">
               @for (link of app.destinations; track link.id) {
                 <a class="destination" [href]="link.url" target="_blank" rel="noopener noreferrer"

@@ -1018,7 +1018,7 @@ input::placeholder {
 .preview-visual > img:not([ngsrc]) {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .preview-visual > span {
   font-size: 0.85rem;
@@ -1283,4 +1283,8 @@ body:has(.mobile-navigation[open]) {
 :root[data-motion-enabled='false'] .project-card:hover,
 :root[data-motion-enabled='false'] .project-card:focus-within {
   transform: none;
+}
+
+.preview-visual.has-screenshot {
+  height: clamp(220px, 40dvh, 380px);
 }
