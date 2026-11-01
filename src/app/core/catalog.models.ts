@@ -58,7 +58,14 @@ export interface Project {
   iconUrl?: string;
   technologies?: string[];
   facets?: string[];
-  preview?: { imageUrl?: string; iframeUrl?: string; allowIframe?: boolean };
+  preview?: {
+    imageUrl?: string;
+    imageAlt?: string;
+    demoUrl?: string;
+    demoPublic?: boolean;
+    iframeUrl?: string;
+    allowIframe?: boolean;
+  };
   repositories: RepositoryRef[];
   links: ProjectLink[];
   collection?: Collection;

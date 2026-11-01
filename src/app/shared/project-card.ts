@@ -6,6 +6,7 @@ import {
   OnDestroy,
   viewChild,
   ElementRef,
+  linkedSignal,
 } from '@angular/core';
 import { NgOptimizedImage } from '@angular/common';
 import { RouterLink } from '@angular/router';
@@ -82,11 +83,15 @@ import type { CompiledProject } from '../core/catalog.models';
           </button>
         </div>
         <div class="preview-visual">
+          @if (project().preview?.imageUrl && !imageLoaded() && !imageFailed()) {
+            <small role="status">Loading home-screen screenshot…</small>
+          }
           @if (project().preview?.imageUrl; as image) {
             <img
               [src]="image"
-              [alt]="project().name + ' website screenshot'"
+              [alt]="project().preview?.imageAlt ?? project().name + ' home screen'"
               loading="lazy"
+              (load)="imageLoaded.set(true)"
               (error)="imageFailed.set(true)"
               [hidden]="imageFailed()"
             />
@@ -95,12 +100,22 @@ import type { CompiledProject } from '../core/catalog.models';
             <img ngSrc="ar_emblem.png" width="76" height="76" alt="" /><span>{{
               project().name
             }}</span
-            ><small>Website screenshot not yet available</small>
+            ><small>{{
+              imageFailed()
+                ? 'Screenshot could not be loaded'
+                : 'Home-screen screenshot not yet available'
+            }}</small>
           }
         </div>
         <h3>{{ project().name }}</h3>
         <p>{{ project().description }}</p>
         <div class="preview-actions">
+          @if (project().preview?.demoPublic && project().preview?.demoUrl; as demo) {
+            <a class="button" [href]="demo" target="_blank" rel="noopener noreferrer"
+              >Open live demo
+              <span class="material-symbols-rounded" aria-hidden="true">open_in_new</span></a
+            >
+          }
           @if (website(); as link) {
             <a class="button primary" [href]="link.url" target="_blank" rel="noopener noreferrer"
               >Open website
@@ -120,7 +135,16 @@ export class ProjectCardComponent implements OnDestroy {
   readonly typeLabel = input.required<string>();
   protected readonly opened = signal(false);
   protected readonly modal = signal(false);
-  protected readonly imageFailed = signal(false);
+  protected readonly imageFailed = linkedSignal(() => {
+    this.project();
+    this.opened();
+    return false;
+  });
+  protected readonly imageLoaded = linkedSignal(() => {
+    this.project();
+    this.opened();
+    return false;
+  });
   protected readonly website = computed(() =>
     this.project().destinations.find((l) => l.kind === 'web'),
   );

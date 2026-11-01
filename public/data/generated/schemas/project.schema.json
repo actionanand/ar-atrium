@@ -85,6 +85,17 @@
           "type": "string",
           "minLength": 1
         },
+        "imageAlt": {
+          "type": "string",
+          "minLength": 1
+        },
+        "demoUrl": {
+          "type": "string",
+          "minLength": 1
+        },
+        "demoPublic": {
+          "type": "boolean"
+        },
         "iframeUrl": {
           "type": "string",
           "minLength": 1

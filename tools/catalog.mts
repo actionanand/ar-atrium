@@ -1,3 +1,4 @@
+import { validatePreview } from './preview-validation.mts';
 import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises';
 import { resolve, relative, basename, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -250,8 +251,8 @@ export function compileProject(
     destinations.push(link);
   }
   if (project.iconUrl) validUrl(project.iconUrl, `${base.id}: iconUrl`);
-  for (const url of [project.preview?.imageUrl, project.preview?.iframeUrl])
-    if (url) validUrl(url, `${base.id}: preview`);
+  validatePreview(project.preview);
+  for (const url of [project.preview?.iframeUrl]) if (url) validUrl(url, `${base.id}: preview`);
   if (project.preview?.iframeUrl && !project.preview.allowIframe)
     fail('iframeUrl requires explicit allowIframe: true');
   if (collection?.mode === 'variants') collection.variants.sort((a, b) => a.order - b.order);
