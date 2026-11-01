@@ -1,6 +1,6 @@
 # AR Atrium: animation absent on one Windows laptop — confirmed resolution and console investigation
 
-**Status:** Resolved on the affected laptop; follow-up UX improvement recommended  
+**Status:** Resolved on the affected laptop; motion notice added on `feature/1-basic-app` (pending merge)  
 **Incident date:** 2026-11-01 (India local date)  
 **Application:** AR Atrium — Angular + GSAP/ScrollTrigger, deployed on GitHub Pages  
 **Production merge:** `30a0bbf` (contains motion preference fix `3d0aa28`)  
@@ -72,7 +72,7 @@ document.documentElement.dataset.motionEnabled;
 document.querySelector('app-home')?.dataset.motion;
 ```
 
-**First screenshot — observed results:**
+**Initial console results (transcribed):**
 
 ```text
 window.matchMedia('(prefers-reduced-motion: reduce)').matches  → true
@@ -88,8 +88,6 @@ document.querySelector('app-home')?.dataset.motion            → 'reduced'
 3. `app-home.dataset.motion` tells us whether the **homepage animation implementation** took its active or reduced branch. This rules in/out a policy gate before spending time debugging scroll triggers.
 
 These four checks isolated the issue more precisely than checking the Windows preference alone.
-
-![Console before changing the site setting](images/motion-before-system.png)
 
 ### Step 3 — Enable this site's animations, keeping Windows optimized
 
@@ -133,7 +131,7 @@ console.table({
 });
 ```
 
-**Second screenshot — observed values:**
+**Console results after setting website motion to On (transcribed):**
 
 ```text
 windowsReducedMotion  true
@@ -148,11 +146,9 @@ The user confirmed that animations were now visible. This establishes that the a
 
 **Why `VM930:1` (or similar) appears:** It labels a script evaluated from the DevTools console, not an application-file failure.
 
-![Console after setting website motion to On](images/motion-after-on.png)
-
 ### Step 5 — Understand the other red console messages
 
-The final screenshot also showed messages similar to these:
+The final browser-console output also included messages similar to these:
 
 ```text
 Uncaught (in promise) Error: Cannot read properties of undefined (reading 'get')
@@ -195,7 +191,7 @@ console.table({ before, after, displacement: after - before });
 
 For a correctly positioned homepage, a nonzero displacement is evidence of scroll-driven motion. The exact number varies with viewport, layout and scroll conditions. Run only on a page with the `app-home` component loaded.
 
-**Reusability:** This optional pixel check was not the command used to establish the screenshot result; it is an additional future debugging tool.
+**Reusability:** This optional pixel check was not used for the user's confirmation; it is an additional future debugging tool.
 
 ## 3. Source-code explanation (verified against the deployed branch)
 
@@ -253,35 +249,26 @@ localStorage.setItem('ar-atrium.motion.v1', 'off');
 location.reload();
 ```
 
-## 5. Product-level follow-up: improve discoverability, not the animation engine
+## 5. Implemented improvement: discoverability notice, not a change to the animation engine
 
-**Current outcome:** The shipped fix works, but first-time visitors on reduced-motion devices get `System` (as designed) and may assume AR Atrium is broken because they do not notice the selector.
+The central motion override already worked; the remaining issue was that people with disabled Windows animations could overlook AR Atrium's default **System** setting. The `feature/1-basic-app` branch now adds a **non-modal**, dismissible information notice; this notice is a separate feature from the production fix verified in this incident.
 
-**Recommended next feature:** When and only when the page is in `System` mode and the real browser reports reduced motion, show a compact, accessible **non-modal** explanation near the Motion setting (and optionally a contextual notice on the homepage):
+**The notice appears only when all of these conditions apply:**
 
-> Your device requests reduced motion, so AR Atrium's decorative animations are paused. [Enable animations on this site] [Keep system setting]
+1. The browser reports `window.matchMedia('(prefers-reduced-motion: reduce)').matches === true`.
+2. AR Atrium's saved motion mode is `system`.
+3. The visitor has not previously chosen **Keep system setting**.
 
-- The **Enable** button calls the existing `MotionService.setMode('on')` API; do not directly modify DOM attributes or browser APIs.
-- The **Keep** action should be respected (optionally remember its dismissal) and must never trap navigation.
-- Keep System as the default; **do not silently force animation on all visitors**, because reduced motion may be an intentional accessibility choice.
-- Make the existing Motion selector visible and discoverable on narrow screens without adding duplicate controls.
-- Ensure the notice is accessible, keyboard operable, responsive and suitable in light/dark themes.
-- Never pop up the notice on every page navigation or every refresh.
-- For users who chose On or Off, do not show the notice.
-- Do not alter the Windows setting, native Android settings, or unrelated apps.
+The notice appears on the lock screen, near the existing motion selector, and immediately below the site header after login. It offers two explicit actions:
 
-**Optional UI example (concept, not an applied repository patch):**
+- **Enable animations on this site:** Calls `MotionService.setMode('on')`, which updates Angular state and persists the choice. The notice disappears; the site does not alter Windows accessibility preferences.
+- **Keep system setting:** Leaves motion mode as `system` and stores a separate dismissal flag under `ar-atrium.motion-notice.v1` so the notice stays hidden on later visits in that browser profile. It does not silently enable motion.
 
-```html
-@if (motion.mode() === 'system' && motion.systemReduced()) {
-<p class="motion-explanation">
-  Your device requests reduced motion. AR Atrium animations are paused.
-  <button type="button" (click)="motion.setMode('on')">Enable animations on this site</button>
-</p>
-}
-```
+For `On` or `Off`, or when the browser does not request reduced motion, the notice is hidden. Both actions restore keyboard focus to a page heading after removing the controls. If storage is blocked, in-memory behavior still works, but persistence across reloads is not guaranteed.
 
-Test semantics/focus and style before using it in production. Existing source already has a central motion service, so there is no need for another GSAP policy.
+**Source:** `src/app/shared/motion-notice.ts`, integrated in `src/app/features/lock.ts` and `src/app/features/shell.ts`. Tests: `src/app/shared/motion-notice.spec.ts` and `e2e/motion-notice.spec.ts`. The implementation report is `documentation/motion-notice-review.md`.
+
+**Release distinction:** The original motion override was deployed in commit `30a0bbf` and confirmed working on the affected laptop. The notice is present in feature commit `bd0370f` but remains subject to review, merge and deployment. This document update does not claim that the notice is already live.
 
 ## 6. Regression test plan
 
@@ -315,7 +302,7 @@ await expect(page.locator('html')).toHaveAttribute('data-motion-enabled', 'true'
 await expect(page.locator('app-home')).toHaveAttribute('data-motion', 'active');
 ```
 
-**Additional UX regression after adding a notice:** Confirm the explanation appears only for `System + reduce`, that its Enable button switches to On, persists across reload, respects keyboard focus and theme/mobile layout, and does not reappear after an explicit selection. Measure actual frame/transform changes, not just the status attributes.
+**Notice regression:** Confirm the explanation appears only for `System + reduce` when not dismissed; the Enable action selects On, Keep system setting persists dismissal without enabling motion, focus is restored, and mobile/desktop, dark/light themes remain usable. Measure actual movement, not just the status attributes.
 
 Local checks:
 
@@ -327,7 +314,7 @@ npm run test:browser
 npm run format:check
 ```
 
-Note: These tests were part of earlier reported development validation; this document was authored after the user confirmed live behavior. Creating this document does not rerun the suite or modify the remote repository.
+Note: The described test results come from earlier reported development validation. Updating this document does not independently rerun the test suites.
 
 ## 7. Future troubleshooting checklist
 
@@ -345,6 +332,7 @@ Note: These tests were part of earlier reported development validation; this doc
 
 - Existing project guide: [Animation accessibility and reduced motion](animation-accessibility-and-reduced-motion.md).
 - Existing project audit: [Motion policy audit](motion-policy-audit.md).
+- Motion notice implementation review: [Motion notice review](motion-notice-review.md).
 - MDN: [`prefers-reduced-motion`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/%40media/prefers-reduced-motion).
 - MDN: [`Window: storage event`](https://developer.mozilla.org/en-US/docs/Web/API/Window/storage_event) — explains why a same-tab console `localStorage` write is followed by a reload.
 - AR Atrium source: [`MotionService`](https://github.com/actionanand/ar-atrium/blob/main-github/src/app/core/motion.service.ts), [`MotionPreferenceComponent`](https://github.com/actionanand/ar-atrium/blob/main-github/src/app/shared/motion-preference.ts), [`HomeComponent`](https://github.com/actionanand/ar-atrium/blob/main-github/src/app/features/home.ts), [`motion-policy.spec.ts`](https://github.com/actionanand/ar-atrium/blob/main-github/e2e/motion-policy.spec.ts).
