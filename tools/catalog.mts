@@ -1,4 +1,4 @@
-import { validatePreview } from './preview-validation.mts';
+import { validatePreview, verifyLocalPreview } from './preview-validation.mts';
 import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises';
 import { resolve, relative, basename, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -350,6 +350,7 @@ export async function buildCatalog(root = defaultRoot) {
     const project = validate<Project>('project', await readJson(sourcePath(root, path)), path);
     if (basename(path, '.json') !== project.id)
       throw new Error(`${path}: filename must match project ID ${project.id}`);
+    verifyLocalPreview(project.preview, resolve(root, '..'), project.id);
     projects.push(
       compileProject(
         project,

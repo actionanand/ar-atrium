@@ -1,3 +1,4 @@
+import { readFileSync } from 'node:fs';
 import { test, expect } from '@playwright/test';
 for (const width of [390, 1440])
   for (const theme of ['light', 'dark'] as const) {
@@ -25,8 +26,7 @@ for (const width of [390, 1440])
         await route.fulfill({ body: screenshot, contentType: 'image/png' });
       });
       await page.route('**/data/generated/catalog.json', async (route) => {
-        const response = await route.fetch();
-        const data = await response.json();
+        const data = JSON.parse(readFileSync('public/data/generated/catalog.json', 'utf8'));
         data.projects.find((p: { id: string }) => p.id === 'card-nest').preview = {
           imageUrl: broken ? 'previews/broken.png' : 'previews/test.png',
           imageAlt: 'Synthetic home screen',
@@ -54,12 +54,41 @@ for (const width of [390, 1440])
       );
       await expect(panel.getByAltText('Synthetic home screen')).toHaveCSS('object-fit', 'contain');
       await page.screenshot({ path: info.outputPath('loaded-preview.png') });
+      const expand = panel.getByRole('button', { name: 'Expand screenshot' });
+      await expand.click();
+      const viewer = page.getByRole('dialog', { name: 'Card Nest expanded screenshot' });
+      await expect(viewer).toBeVisible();
+      await expect(viewer.getByRole('button', { name: 'Close screenshot' })).toBeFocused();
+      await viewer.getByRole('button', { name: 'View original size' }).click();
+      await expect(viewer.getByRole('button', { name: 'Fit image' })).toHaveAttribute(
+        'aria-pressed',
+        'true',
+      );
+      await page.screenshot({ path: info.outputPath('expanded-preview.png') });
+      await page.keyboard.press('Escape');
+      await expect(viewer).toHaveCount(0);
+      await expect(expand).toBeFocused();
+      await expand.click();
+      await page.keyboard.press('Tab');
+      expect(await viewer.evaluate((e) => e.contains(document.activeElement))).toBe(true);
+      await viewer.getByRole('button', { name: 'Close screenshot' }).click();
+      await expect(expand).toBeFocused();
+      await expand.click();
+      await page
+        .locator('.cdk-overlay-backdrop')
+        .last()
+        .click({ position: { x: 2, y: 2 } });
+      await expect(viewer).toHaveCount(0);
+      await expect(expand).toBeFocused();
       await page.keyboard.press('Escape');
       await expect(panel).toHaveCount(0);
       await page.unroute('**/previews/test.png');
       await page.route('**/previews/broken.png', (r) => r.fulfill({ status: 404 }));
       broken = true;
       await page.reload();
+      await page.getByRole('button', { name: 'Preview Card Nest', exact: true }).click();
+      await expect(panel).toContainText('Screenshot could not be loaded');
+      await page.getByRole('button', { name: 'Close preview' }).click();
       await page.getByRole('button', { name: 'Preview Card Nest', exact: true }).click();
       await expect(panel).toContainText('Screenshot could not be loaded');
       await page.getByRole('button', { name: 'Close preview' }).click();

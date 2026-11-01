@@ -51,3 +51,9 @@ Capture again when a home screen changes, preserving the asset name or updating 
 Policy Hub now has a real, reviewed public homepage screenshot captured without authentication. The remaining 76 projects lack configured real preview assets. No external accounts were accessed, no private credentials were provided, and no safe public demo was independently established, so no project screenshots or demo URLs were invented. The feature is ready for owner-reviewed assets; production popups retain honest fallbacks until those assets are supplied. The file-by-file implementation report records validation and test artifacts separately.
 
 Policy Hub screenshot source: https://actionanand.github.io/policy-hub/ (public HTTP 200, page title Policy Hub), captured and visually reviewed on 2026-11-02. No demo URL was added.
+
+## Expanded screenshots and local verification
+
+Real image containers grow with the viewport. Use Expand screenshot to open the contained image near full-screen, then View original size for keyboard-scrollable detail. Escape, the backdrop or Close screenshot returns focus to Expand screenshot. Closing the project preview or navigating away disposes the owned image dialog.
+
+Catalogue validation/build now rejects missing local images and symlinks escaping public/, in addition to unsafe paths/extensions. Errors name the affected project and asset. Remote HTTPS image validation remains supported.

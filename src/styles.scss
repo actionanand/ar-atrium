@@ -1284,3 +1284,7 @@ body:has(.mobile-navigation[open]) {
 :root[data-motion-enabled='false'] .project-card:focus-within {
   transform: none;
 }
+
+.preview-visual.has-screenshot {
+  height: clamp(220px, 40dvh, 380px);
+}

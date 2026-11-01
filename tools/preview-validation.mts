@@ -1,3 +1,5 @@
+import { realpathSync, statSync } from 'node:fs';
+import { resolve, relative, isAbsolute } from 'node:path';
 export function validatePreview(preview?: {
   imageUrl?: string;
   demoUrl?: string;
@@ -18,5 +20,30 @@ export function validatePreview(preview?: {
     https(preview.demoUrl);
     if (preview.demoPublic !== true)
       throw new Error('Live demo requires demoPublic: true after owner verification');
+  }
+}
+
+export function verifyLocalPreview(
+  preview: Parameters<typeof validatePreview>[0],
+  publicRoot: string,
+  projectId: string,
+): void {
+  try {
+    validatePreview(preview);
+    const image = preview?.imageUrl;
+    if (!image || image.startsWith('https://')) return;
+    const root = realpathSync(publicRoot);
+    const file = realpathSync(resolve(root, image));
+    const path = relative(root, file);
+    if (path.startsWith('..') || isAbsolute(path) || !statSync(file).isFile())
+      throw new Error('image must be a regular file within public/');
+  } catch (error) {
+    throw new Error(
+      projectId +
+        ': preview.imageUrl ' +
+        JSON.stringify(preview?.imageUrl) +
+        ' — missing or invalid public asset. Add the image under public/ or fix the source project JSON. ' +
+        (error instanceof Error ? error.message : 'Validation failed'),
+    );
   }
 }
