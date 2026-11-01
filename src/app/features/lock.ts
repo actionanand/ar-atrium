@@ -1,3 +1,4 @@
+import { MotionNoticeComponent } from '../shared/motion-notice';
 import { MotionPreferenceComponent } from '../shared/motion-preference';
 import { Component, computed, inject, signal } from '@angular/core';
 import { NgOptimizedImage } from '@angular/common';
@@ -9,7 +10,13 @@ import { ThemeService } from '../core/theme.service';
 
 @Component({
   selector: 'app-lock',
-  imports: [NgOptimizedImage, FormField, RouterLink, MotionPreferenceComponent],
+  imports: [
+    NgOptimizedImage,
+    FormField,
+    RouterLink,
+    MotionPreferenceComponent,
+    MotionNoticeComponent,
+  ],
   template: `
     <main class="lock-page" id="main-content">
       <button
@@ -87,6 +94,7 @@ import { ThemeService } from '../core/theme.service';
               <span class="material-symbols-rounded" aria-hidden="true">lock_open</span>
             </button>
           </form>
+          <app-motion-notice />
           <app-motion-preference />
           <p class="lock-note">
             A personal collection, with a simple browser lock.<br />Public static content remains
