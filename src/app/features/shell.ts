@@ -1,3 +1,4 @@
+import { MotionNoticeComponent } from '../shared/motion-notice';
 import { MotionPreferenceComponent } from '../shared/motion-preference';
 import { Component, inject, DestroyRef } from '@angular/core';
 import { NgOptimizedImage, DOCUMENT } from '@angular/common';
@@ -18,6 +19,7 @@ import { MobileNavigationComponent } from '../shared/mobile-navigation';
     RouterOutlet,
     MobileNavigationComponent,
     MotionPreferenceComponent,
+    MotionNoticeComponent,
   ],
   template: `
     <a class="skip-link" href="#main-content">Skip to content</a>
@@ -63,6 +65,7 @@ import { MobileNavigationComponent } from '../shared/mobile-navigation';
         </div>
       </div>
     </header>
+    <div class="page-wrap"><app-motion-notice /></div>
     <app-mobile-navigation #navigation [groups]="catalog.groups()" (lockRequested)="lock()" />
     <main id="main-content" tabindex="-1">
       @if (catalog.loading()) {
